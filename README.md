@@ -1,4 +1,6 @@
 ## Alice WatchFact Test 
 ![Image of WatchFace](resources/drawables/image.png)
 
-https://snowb.org/
+创建字体: https://snowb.org/
+
+抠图: https://www.remove.bg/zh/upload
