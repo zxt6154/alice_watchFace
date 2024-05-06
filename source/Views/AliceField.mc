@@ -1,6 +1,6 @@
 using Toybox.WatchUi as Ui;
 
-class BWFaceField extends Ui.Drawable {
+class AliceField extends Ui.Drawable {
 	
 	var topY    = 0;
 	var bottomY = 0;

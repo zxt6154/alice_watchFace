@@ -1,0 +1,13 @@
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceViewPosition.mc"; @line = 2; ]
+class AliceViewPosition{
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceViewPosition.mc"; @line = 2; ]
+    <init> {
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceViewPosition.mc"; @line = 2; ]
+    static
+    <init> {
+    }
+}
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceViewPosition.mc"; @line = 2; ]
+<init> {
+}

@@ -4,9 +4,9 @@ using Toybox.ActivityMonitor as ActMon;
 using Toybox.Lang as Lang;
 using Toybox.System as Sys;
 using Toybox.Sensor as Sor;
+using Toybox.ActivityMonitor as Monitor;
 
-class ActivityView extends Ui.Drawable
-{   
+class AliceView extends Ui.Drawable {  
     
     var activityInfo = ActMon.getInfo(); 
     var steps;
@@ -24,7 +24,7 @@ class ActivityView extends Ui.Drawable
 		Drawable.initialize(params);
         steps = convertData(activityInfo.steps);
         stepsGoal = convertData(activityInfo.stepGoal);
-        calories = convertData(activityInfo.calories);
+        calories = convertData(Monitor.getInfo().calories);
         distance = convertDistance(activityInfo.distance);  
         
         if (getHeartRate() == null){heartPuls = "0";}
@@ -38,17 +38,28 @@ class ActivityView extends Ui.Drawable
 	}
     private function getHeartRate() {// initialize it to null
         var heartRate = null;// Get the activity info if possible
-        var info = Activity.getActivityInfo();
-      
-        if (info != null) {
-            heartRate = info.currentHeartRate;
-        } else { // Fallback to `getHeartRateHistory`
-            var latestHeartRateSample = ActivityMonitor.getHeartRateHistory(1, true).next();
-            if (latestHeartRateSample != null) {
-                heartRate = latestHeartRateSample.heartRate;
-            } } // Could still be null if the device doesn't support it
+        var value = Activity.getActivityInfo();
+      	if (value != null){
+					value = value.currentHeartRate;
+				}
+
+        if (value == null){
+            value = getHeartRateIterator();
+            if  ( value != null ){
+                value = value.next();
+                value = value == null ? null : value.data;
+            }
+        }
+        Sys.println("heartbeat => "+value);
+        heartRate = value == null ? "--" : value.format("%d");
         return heartRate;
-  }
+    }
+    function getHeartRateIterator() {
+	    if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getHeartRateHistory)) {
+	        return Toybox.SensorHistory.getHeartRateHistory({:order=>SensorHistory.ORDER_NEWEST_FIRST,:period=>1});
+	    }
+	    return null;
+	}
 	function draw(dc)
 	{
         // Get and show the current time
@@ -191,6 +202,7 @@ class ActivityView extends Ui.Drawable
         }
       return distanceStr;
     }
+
 
 	
 }

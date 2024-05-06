@@ -1,0 +1,1630 @@
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var xinlv as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var calories as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        var foot_step as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
+        var battery_full as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 15; ]
+        class MainBackground extends WatchUi.Drawable{
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 15; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 15; ]
+            static
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 17; ]
+            function initialize() as Void {
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_17_34_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 18 16 ]
+                %tmp.2 = getv ? :Drawable;
+                %tmp.3 = getv function %tmp.2 :initialize;
+                %tmp.4 = newd 0;
+                invoke %tmp.2 %tmp.3(%tmp.4);
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_17_34_stop:
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 21; ]
+            function draw(dc as Graphics.Dc) as Void {
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_21_53_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 22 16 ]
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_22_16_if_stmt:
+                %tmp.2 = lgetv %self;
+                %tmp.4 = const :isVisible;
+                %tmp.5 = canhazplz %tmp.2 %tmp.4;
+                bf %tmp.5 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_22_16_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_22_16_if_true:
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_22_41_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 23 20 ]
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_23_20_if_stmt:
+                %tmp.6 = lgetv %self;
+                %tmp.7 = as %tmp.6 { (interface { var isVisible; }) };
+                %tmp.8 = getv %tmp.7 :isVisible;
+                %tmp.9 = not %tmp.8;
+                bf %tmp.9 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_23_20_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_23_20_if_true:
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_23_41_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 24 24 ]
+                ret ?;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_23_41_stop:
+                goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_23_20_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_23_20_if_end:
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_22_41_stop:
+                goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_22_16_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_22_16_if_end:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 28 16 ]
+                %tmp.10 = lgetv %dc;
+                %tmp.11 = getv function %tmp.10 :setColor;
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :COLOR_DK_GRAY;
+                %tmp.14 = getm $.Toybox.Graphics;
+                %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+                invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 29 16 ]
+                %tmp.16 = lgetv %dc;
+                %tmp.17 = getv function %tmp.16 :fillRectangle;
+                %tmp.18 = 0;
+                %tmp.19 = 0;
+                %tmp.20 = add %tmp.18 %tmp.19;
+                %tmp.21 = 0;
+                %tmp.22 = 0;
+                %tmp.23 = add %tmp.21 %tmp.22;
+                %tmp.24 = 260;
+                %tmp.25 = 0;
+                %tmp.26 = sub %tmp.24 %tmp.25;
+                %tmp.27 = 260;
+                %tmp.28 = 0;
+                %tmp.29 = sub %tmp.27 %tmp.28;
+                invoke %tmp.16 %tmp.17(%tmp.20, %tmp.23, %tmp.26, %tmp.29);
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 30 16 ]
+                %tmp.30 = lgetv %dc;
+                %tmp.31 = getv function %tmp.30 :setColor;
+                %tmp.32 = getm $.Toybox.Graphics;
+                %tmp.33 = getv %tmp.32 :COLOR_TRANSPARENT;
+                %tmp.34 = getm $.Toybox.Graphics;
+                %tmp.35 = getv %tmp.34 :COLOR_DK_GRAY;
+                invoke %tmp.30 %tmp.31(%tmp.33, %tmp.35);
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 32 16 ]
+                %tmp.36 = lgetv %dc;
+                %tmp.37 = getv function %tmp.36 :setColor;
+                %tmp.38 = getm $.Toybox.Graphics;
+                %tmp.39 = getv %tmp.38 :COLOR_DK_GRAY;
+                %tmp.40 = getm $.Toybox.Graphics;
+                %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+                invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 33 16 ]
+                %tmp.42 = lgetv %dc;
+                %tmp.43 = getv function %tmp.42 :fillRectangle;
+                %tmp.44 = 0;
+                %tmp.45 = 0;
+                %tmp.46 = add %tmp.44 %tmp.45;
+                %tmp.47 = 10;
+                %tmp.48 = add %tmp.46 %tmp.47;
+                %tmp.49 = 0;
+                %tmp.50 = add %tmp.48 %tmp.49;
+                %tmp.51 = 0;
+                %tmp.52 = 0;
+                %tmp.53 = add %tmp.51 %tmp.52;
+                %tmp.54 = 0;
+                %tmp.55 = add %tmp.53 %tmp.54;
+                %tmp.56 = 0;
+                %tmp.57 = add %tmp.55 %tmp.56;
+                %tmp.58 = 210;
+                %tmp.59 = 2;
+                %tmp.60 = 0;
+                %tmp.61 = mul %tmp.59 %tmp.60;
+                %tmp.62 = sub %tmp.58 %tmp.61;
+                %tmp.63 = 220;
+                %tmp.64 = 2;
+                %tmp.65 = 0;
+                %tmp.66 = mul %tmp.64 %tmp.65;
+                %tmp.67 = sub %tmp.63 %tmp.66;
+                invoke %tmp.42 %tmp.43(%tmp.50, %tmp.57, %tmp.62, %tmp.67);
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_21_53_stop:
+            }
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; ]
+        var giphy as Symbol;
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 40; ]
+    module Fonts {
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 40; ]
+        <init> {
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        var id_verdana as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
+        var id_verdana_small as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
+        var sgks as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
+        var mgbz as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        var id_font_clock_sec as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
+        var hdr as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
+        var FZSHIGKSK as Symbol;
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 50; ]
+    module JsonData {
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 50; ]
+        <init> {
+        }
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 53; ]
+    module Layouts {
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 53; ]
+        <init> {
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 54; ]
+        function BlackModeLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_54_79_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 55 12 ]
+            [ "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_54_79_start" "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_54_79_stop" ]
+            %rez_cmp_local_custom_drawable_presentView.1 = local;
+            %tmp.4 = getv ? :PresentTimeView;
+            %tmp.5 = newd 1;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "presentView";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.1 = newc %tmp.4 (%tmp.10);
+            lputv %rez_cmp_local_custom_drawable_presentView.1 %tmp.1;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 57 12 ]
+            [ "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_54_79_start" "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_54_79_stop" ]
+            %rez_cmp_local_custom_drawable_aliceView.2 = local;
+            %tmp.14 = getv ? :AliceView;
+            %tmp.15 = newd 1;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "aliceView";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.11 = newc %tmp.14 (%tmp.20);
+            lputv %rez_cmp_local_custom_drawable_aliceView.2 %tmp.11;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 59 12 ]
+            %tmp.21 = newa Array<WatchUi.Drawable> 2;
+            %tmp.23 = lgetv %rez_cmp_local_custom_drawable_presentView.1;
+            %tmp.24 = dup %tmp.21;
+            %tmp.25 = aputv %tmp.24 0 %tmp.23;
+            %tmp.27 = lgetv %rez_cmp_local_custom_drawable_aliceView.2;
+            %tmp.28 = dup %tmp.25;
+            %tmp.29 = aputv %tmp.28 1 %tmp.27;
+            ret %tmp.29;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_54_79_stop:
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 62; ]
+        function NormalModeLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_62_80_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 63 12 ]
+            [ "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_62_80_start" "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_62_80_stop" ]
+            %rez_cmp_local_custom_drawable_presentView.1 = local;
+            %tmp.4 = getv ? :PresentTimeView;
+            %tmp.5 = newd 1;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "presentView";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.1 = newc %tmp.4 (%tmp.10);
+            lputv %rez_cmp_local_custom_drawable_presentView.1 %tmp.1;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 65 12 ]
+            [ "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_62_80_start" "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_62_80_stop" ]
+            %rez_cmp_local_custom_drawable_aliceView.2 = local;
+            %tmp.14 = getv ? :AliceView;
+            %tmp.15 = newd 1;
+            %tmp.17 = const :identifier;
+            %tmp.18 = "aliceView";
+            %tmp.19 = dup %tmp.15;
+            %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+            %tmp.11 = newc %tmp.14 (%tmp.20);
+            lputv %rez_cmp_local_custom_drawable_aliceView.2 %tmp.11;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 67 12 ]
+            %tmp.21 = newa Array<WatchUi.Drawable> 2;
+            %tmp.23 = lgetv %rez_cmp_local_custom_drawable_presentView.1;
+            %tmp.24 = dup %tmp.21;
+            %tmp.25 = aputv %tmp.24 0 %tmp.23;
+            %tmp.27 = lgetv %rez_cmp_local_custom_drawable_aliceView.2;
+            %tmp.28 = dup %tmp.25;
+            %tmp.29 = aputv %tmp.28 1 %tmp.27;
+            ret %tmp.29;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_bin_gen_006_B3992_00_source_Rez_mcgen_62_80_stop:
+        }
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 71; ]
+    module Menus {
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 71; ]
+        <init> {
+        }
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 74; ]
+    module Strings {
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 74; ]
+        <init> {
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 75; @position = 27; initialized = true; ]
+        var AppVersionTitle as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; ]
+        var LayoutTypeTitle as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; ]
+        var WeekDays as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; ]
+        var LAYOUTMODE_BLACK as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; ]
+        var LAYOUTMODE_GRAY as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 80; @position = 27; initialized = true; ]
+        var Months as Symbol;
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 81; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 84; ]
+    module Styles {
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 84; ]
+        <init> {
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 85; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 85; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 86; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 89; ]
+        module system_size__menu_header {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 89; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 90; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 91; @position = 18; ]
+            const height as Number = 81;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 94; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 94; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 95; @position = 18; ]
+            const x as Number = 10;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 96; @position = 18; ]
+            const y as Number = 173;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 99; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 99; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 100; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 103; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 104; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 105; @position = 18; ]
+            const y as Number = 26;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 108; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 109; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__about.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 110; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 111; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 112; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 115; ]
+        module system_icon_light__question {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 115; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 116; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__question.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 117; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 120; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 120; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 121; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 124; ]
+        module prompt_font__title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 124; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 125 18 ]
+                %tmp.30 = getm $.Toybox.Graphics;
+                %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_CENTER;
+                %tmp.32 = getm $.Toybox.Graphics;
+                %tmp.33 = getv %tmp.32 :TEXT_JUSTIFY_VCENTER;
+                %tmp.34 = bitor %tmp.31 %tmp.33;
+                putv self :justification %tmp.34;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 126 18 ]
+                %tmp.35 = getm $.Toybox.Graphics;
+                %tmp.36 = getv %tmp.35 :FONT_XTINY;
+                putv self :font %tmp.36;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 125; @position = 18; ]
+            const justification;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 126; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 129; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 129; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 130; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__discard.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 131; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 132; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 133; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 136; ]
+        module system_size__menu_item {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 136; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 137; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 138; @position = 18; ]
+            const height as Number = 68;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 141; ]
+        module system_color_dark__text {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 141; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 143 18 ]
+                %tmp.37 = getm $.Toybox.Graphics;
+                %tmp.38 = getv %tmp.37 :COLOR_TRANSPARENT;
+                putv self :background %tmp.38;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 142; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 143; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 146; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 147; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__discard.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 148; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 151; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 152; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 153; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 156; ]
+        module prompt_size__title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 156; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 157; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 158; @position = 18; ]
+            const height as Number = 48;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 161; ]
+        module confirmation_font__body {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 161; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 162 18 ]
+                %tmp.39 = getm $.Toybox.Graphics;
+                %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_CENTER;
+                %tmp.41 = getm $.Toybox.Graphics;
+                %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_VCENTER;
+                %tmp.43 = bitor %tmp.40 %tmp.42;
+                putv self :justification %tmp.43;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 163 18 ]
+                %tmp.44 = getm $.Toybox.Graphics;
+                %tmp.45 = getv %tmp.44 :FONT_TINY;
+                putv self :font %tmp.45;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 162; @position = 18; ]
+            const justification;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 163; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 166; ]
+        module system_color_dark__background {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 167; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 168; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 171; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 172; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 173; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 176; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 177; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 178; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 179; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 182; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 182; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 183 18 ]
+                %tmp.46 = getm $.Toybox.WatchUi;
+                %tmp.47 = getv %tmp.46 :KEY_ENTER;
+                putv self :button %tmp.47;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 183; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 186; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 186; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 187 18 ]
+                %tmp.48 = getm $.Toybox.Graphics;
+                %tmp.49 = getv %tmp.48 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.49;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 188 18 ]
+                %tmp.50 = getm $.Toybox.Graphics;
+                %tmp.51 = getv %tmp.50 :FONT_TINY;
+                putv self :font %tmp.51;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 187; @position = 18; ]
+            const justification;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 188; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 191; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 191; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 192; @position = 18; ]
+            const x as Number = 52;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 193; @position = 18; ]
+            const y as Number = 52;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 196; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 197; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 198; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 201; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 202; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 203; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 206; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 207; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 208; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 211; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 211; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 212; @position = 18; ]
+            const x as Number = 227;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 213; @position = 18; ]
+            const y as Number = 53;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 216; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 216; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 217; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 218; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 221; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 221; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 222; @position = 18; ]
+            const x as Number = 1;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 223; @position = 18; ]
+            const y as Number = 109;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 226; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 226; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 227; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 228; @position = 18; ]
+            const height as Number = 208;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 231; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 232; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 233; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 236; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 236; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 237; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 238; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 241; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 241; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 242 18 ]
+                %tmp.52 = getm $.Toybox.WatchUi;
+                %tmp.53 = getv %tmp.52 :KEY_ENTER;
+                putv self :button %tmp.53;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 242; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 245; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 246; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 247; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 250; ]
+        module system_input__action_menu {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 250; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 251 18 ]
+                %tmp.54 = getm $.Toybox.WatchUi;
+                %tmp.55 = getv %tmp.54 :KEY_ENTER;
+                putv self :button %tmp.55;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 251; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 254; ]
+        module system_icon_light__save {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 255; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__save.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 256; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 259; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 259; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 261 18 ]
+                %tmp.56 = getm $.Toybox.Graphics;
+                %tmp.57 = getv %tmp.56 :COLOR_TRANSPARENT;
+                putv self :background %tmp.57;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 260; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 261; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 264; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 265; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 268; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 269; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__warning.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 270; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 273; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 273; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 275 18 ]
+                %tmp.58 = getm $.Toybox.Graphics;
+                %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+                putv self :background %tmp.59;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 274; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 275; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 278; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 279; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 280; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 283; ]
+        module activity_color_light__background {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 284; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 285; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 288; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 289; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 290; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 293; ]
+        module system_size__screen {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 293; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 294; @position = 18; ]
+            const width as Number = 260;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 295; @position = 18; ]
+            const height as Number = 260;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 298; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 298; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 299; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 300; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 303; ]
+        module system_color_light__background {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 303; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 304; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 305; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 308; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 308; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 309; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 310; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 313; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 313; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 314; @position = 18; ]
+            const x as Number = 205;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 315; @position = 18; ]
+            const y as Number = 50;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 318; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 318; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 320 18 ]
+                %tmp.60 = getm $.Toybox.Graphics;
+                %tmp.61 = getv %tmp.60 :COLOR_TRANSPARENT;
+                putv self :background %tmp.61;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 319; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 320; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 323; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 323; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 324 18 ]
+                %tmp.62 = getm $.Toybox.WatchUi;
+                %tmp.63 = getv %tmp.62 :KEY_DOWN;
+                putv self :button %tmp.63;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 324; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 327; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 328; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 329; @position = 18; ]
+            const y as Number = 78;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 332; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 333; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__search.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 334; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 335; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 336; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 339; ]
+        module activity_color_light__text {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 339; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 341 18 ]
+                %tmp.64 = getm $.Toybox.Graphics;
+                %tmp.65 = getv %tmp.64 :COLOR_TRANSPARENT;
+                putv self :background %tmp.65;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 340; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 341; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 344; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 344; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 345; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 346; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 349; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 350; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__save.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 351; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 352; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 353; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 356; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 356; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 357; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 358; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 361; ]
+        module system_icon_light__search {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 361; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 362; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__search.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 363; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 366; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 367; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 368; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 371; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 372; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 373; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 376; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 377; @position = 18; ]
+            const x as Number = 224;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 378; @position = 18; ]
+            const y as Number = 172;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 381; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 382; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 383; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 386; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 386; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 388 18 ]
+                %tmp.66 = getm $.Toybox.Graphics;
+                %tmp.67 = getv %tmp.66 :COLOR_TRANSPARENT;
+                putv self :background %tmp.67;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 387; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 388; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 391; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 391; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 392; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 393; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 396; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 396; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 398 18 ]
+                %tmp.68 = getm $.Toybox.Graphics;
+                %tmp.69 = getv %tmp.68 :COLOR_TRANSPARENT;
+                putv self :background %tmp.69;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 397; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 398; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 401; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 401; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 402; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 403; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 406; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 407; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 408; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 411; ]
+        module prompt_loc__title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 411; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 412; @position = 18; ]
+            const x as Number = 26;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 413; @position = 18; ]
+            const y as Number = 19;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 416; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 417; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 420; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 420; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 422 18 ]
+                %tmp.70 = getm $.Toybox.Graphics;
+                %tmp.71 = getv %tmp.70 :COLOR_TRANSPARENT;
+                putv self :background %tmp.71;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 421; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 422; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 425; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 426; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 427; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 430; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 431; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 432; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 435; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 436; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 437; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 440; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 441; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__cancel.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 442; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 445; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 446; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 447; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 450; ]
+        module system_icon_light__about {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 451; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__about.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 452; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 455; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 456; @position = 18; ]
+            const scaleX as Number = 21;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 457; @position = 18; ]
+            const scaleY as Number = 21;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 458; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 461; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 461; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 462; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 465; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 465; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 466; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 467; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 470; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 470; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 471; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 472; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 475; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 476; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 479; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 480; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 483; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 483; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 484; @position = 18; ]
+            const x as Number = 13;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 485; @position = 18; ]
+            const y as Number = 174;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 486; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 489; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 490; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 491; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 494; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 495; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 496; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 499; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 499; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 500; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 501; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 504; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 504; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 505; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 506; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 509; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 509; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 510; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 511; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 512; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 515; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 516; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_destructive__warning.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 517; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 520; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 521; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 524; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 524; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 525; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__cancel.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 526; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 527; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 528; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 531; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 531; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 532; @position = 18; ]
+            const width as Number = 208;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 533; @position = 18; ]
+            const height as Number = 156;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 536; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 537; @position = 18; ]
+            const x as Number = 224;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 538; @position = 18; ]
+            const y as Number = 50;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 541; ]
+        module system_color_light__text {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 541; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 543 18 ]
+                %tmp.72 = getm $.Toybox.Graphics;
+                %tmp.73 = getv %tmp.72 :COLOR_TRANSPARENT;
+                putv self :background %tmp.73;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 542; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 543; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 546; ]
+        module system_icon_light__check {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 547; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__check.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 548; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 551; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 551; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 552 18 ]
+                %tmp.74 = getm $.Toybox.WatchUi;
+                %tmp.75 = getv %tmp.74 :KEY_DOWN;
+                putv self :button %tmp.75;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 552; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 555; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 555; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 556; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__revert.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 557; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 560; ]
+        module system_size__subwindow {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 560; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 561; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 564; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 565; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 566; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 569; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 570; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__check.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 571; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 572; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 573; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 576; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 576; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 577; @position = 18; ]
+            const x as Number = 13;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 578; @position = 18; ]
+            const y as Number = 174;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 579; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 582; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 583; @position = 18; ]
+            const x as Number = 208;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 584; @position = 18; ]
+            const y as Number = 50;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 587; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 588; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 589; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 592; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 592; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 593; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 596; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 597; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 598; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 601; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 602; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 603; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 606; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 607; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 608; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 611; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 611; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 612; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__revert.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 613; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 614; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 615; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 618; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 618; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 619; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 620; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 623; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 623; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 624; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__question.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 625; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 626; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 627; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 630; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 630; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 631; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__discard.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 632; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 635; ]
+        module device_info {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 635; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 637 18 ]
+                %tmp.76 = getm $.Toybox.System;
+                %tmp.77 = getv %tmp.76 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.77;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 636; @position = 18; ]
+            const screenWidth as Number = 260;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 637; @position = 18; ]
+            const screenShape;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 638; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 639; @position = 18; ]
+            const screenHeight as Number = 260;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 640; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 641; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 644; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 644; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 645; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 646; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 649; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 649; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 650 18 ]
+                %tmp.78 = getm $.Toybox.Graphics;
+                %tmp.79 = getv %tmp.78 :TEXT_JUSTIFY_CENTER;
+                %tmp.80 = getm $.Toybox.Graphics;
+                %tmp.81 = getv %tmp.80 :TEXT_JUSTIFY_VCENTER;
+                %tmp.82 = bitor %tmp.79 %tmp.81;
+                putv self :justification %tmp.82;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 651 18 ]
+                %tmp.83 = getm $.Toybox.Graphics;
+                %tmp.84 = getv %tmp.83 :FONT_TINY;
+                putv self :font %tmp.84;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 650; @position = 18; ]
+            const justification;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 651; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 654; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 654; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 655; @position = 18; ]
+            const scaleX as Float = 0.1539;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 656; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 659; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 659; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 660; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_dark__warning.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 661; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 662; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 663; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 666; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 666; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 667; @position = 18; ]
+            const x as Number = 130;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 668; @position = 18; ]
+            const y as Number = 39;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 669; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 670; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 673; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 673; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 674; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 677; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 677; ]
+            <init> {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" 679 18 ]
+                %tmp.85 = getm $.Toybox.Graphics;
+                %tmp.86 = getv %tmp.85 :COLOR_TRANSPARENT;
+                putv self :background %tmp.86;
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 678; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 679; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 682; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 682; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 683; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 684; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 687; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 687; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 688; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 689; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 692; ]
+        module confirmation_size__body {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 692; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 693; @position = 18; ]
+            const width as Number = 156;
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 694; @position = 18; ]
+            const height as Number = 156;
+        }
+        [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 697; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 697; ]
+            <init> {
+            }
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 698; @position = 18; ]
+            const filename as String = "/Users/alice/Library/Application Support/Garmin/ConnectIQ/Devices/fr255/system_icon_positive__check.svg";
+            [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 699; @position = 18; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
