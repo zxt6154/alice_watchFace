@@ -1,0 +1,13 @@
+<strings>
+    <string id="AppName">BackToTheFuture</string>    
+    <string id="AppVersionTitle">Version</string> 
+    <string id="LayoutTypeTitle">Layout</string>
+    
+    <string id="LAYOUTMODE_GRAY">Gray Background</string>
+    <string id="LAYOUTMODE_BLACK">Black Background</string>
+
+    <!-- <string id="Months">Jan  Feb  Mar  Apr  May  June July Aug  Sept Oct  Nov  Dec  </string>
+    <string id="WeekDays">Sun Mon Tue Wed Thu Fri Sat </string> -->
+    <string id="Months">一月 二月 三月 四月 五月 六月 七月 八月 九月 十月 十一月 十二月</string>
+    <string id="WeekDays">周一 周二 周三 周四 周五 周六 周日 </string>
+</strings>
