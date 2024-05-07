@@ -9,7 +9,7 @@ class PresentTimeView extends Ui.Drawable{
         var timeUtil;
 	function initialize(params){
                 timeUtil = new TimeUtil();
-                Drawable.initialize(params);
+                Drawable.initialize(params)
         }
      
 	function draw(dc)
