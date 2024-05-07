@@ -47,7 +47,7 @@ class PresentTimeView extends Ui.Drawable{
                 }*/
                 var fontMgbz = Ui.loadResource(Rez.Fonts.mgbz);
                 var test = Ui.loadResource(Rez.Fonts.FZSHIGKSK);
-                customDrawText(75, dc, Gfx.COLOR_DK_GREEN, yearMonth, 153, test);
+                customDrawText(75, dc, Gfx.COLOR_WHITE, yearMonth, 153, test);
                 
         // customDrawText(x, dc, Gfx.COLOR_WHITE, "STEPS", top_pozition + 21, stringFont);
                 customDrawText(x-30, dc, Gfx.COLOR_WHITE, timeString, middle_position, font);

@@ -24,11 +24,11 @@ class AliceView extends Ui.Drawable {
 		Drawable.initialize(params);
         steps = convertData(activityInfo.steps);
         stepsGoal = convertData(activityInfo.stepGoal);
-        calories = convertData(Monitor.getInfo().calories);
+        calories = Monitor.getInfo().calories;
         distance = convertDistance(activityInfo.distance);  
         
-        if (getHeartRate() == null){heartPuls = "0";}
-        else if(getHeartRate() == 255){heartPuls = "0";}
+        if (getHeartRate() == null){heartPuls = "-";}
+        else if(getHeartRate() == 255){heartPuls = "-";}
         else{heartPuls = getHeartRate().toString();}
 
         xinlv = Application.loadResource( Rez.Drawables.xinlv);
@@ -77,24 +77,10 @@ class AliceView extends Ui.Drawable {
         var activityData = [steps, stepsGoal, calories, distance];
         var xValues = [stepsX, stepsGoalX, caloriesX, distanceX];
         var stringData = ["ACTIVITY", "STEPS", "GOAL", "CALORIES", "DISTANCE"];
-        // var drawView = new MainView();
-        // var m = drawView.method(:mainDraw);
-        // m.invoke(dc, x, xValues, top_pozition, activityData, stringData, textDim[1], Gfx.COLOR_ORANGE);
-
-        // dc.setColor(Gfx.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
-        //  dc.drawText(
-        //  dc.getWidth() / 2,                      // gets the width of the device and divides by 2
-        //  dc.getHeight() / 2,                     // gets the height of the device and divides by 2
-        //  Graphics.FONT_LARGE,                    // sets the font size
-        //  "Hello World",                          // the String to display
-        // Graphics.TEXT_JUSTIFY_CENTER            // sets the justification for the text
-        //         );
-
-         //customDrawText(x, dc, Gfx.COLOR_YELLOW, yearMonth, bottom_pozition, font);
        
-         dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
+         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
          dc.drawText(212,148, font, heartPuls, Gfx.TEXT_JUSTIFY_CENTER);
-         dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
+         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
          dc.drawText(x+10,caloriesX, font, calories, Gfx.TEXT_JUSTIFY_CENTER);
 
         // var x = ( dev.screenWidth - mySwirl.getWidth() ) / 2;

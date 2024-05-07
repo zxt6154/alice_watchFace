@@ -254,7 +254,7 @@ _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_Pres
         %tmp.157 = 75;
         %tmp.159 = lgetv %dc;
         %tmp.160 = getm $.Toybox.Graphics;
-        %tmp.161 = getv %tmp.160 :COLOR_DK_GREEN;
+        %tmp.161 = getv %tmp.160 :COLOR_WHITE;
         %tmp.163 = lgetv %yearMonth.11;
         %tmp.164 = 153;
         %tmp.166 = lgetv %test.19;
