@@ -8,21 +8,19 @@ import Toybox.Lang;
 class DataPosition extends Ui.Drawable {
 
     var dc;
-    var device_w_h as Array<Number>;
+    var device_w_h = new Array<Number>[2];
+    var cur_heart_beat = new Array<Number>[2];
+    var cur_body_battery = new Array<Number>[2];
+    var cur_device_battery = new Array<Number>[2];
+    var cur_calories = new Array<Number>[2];
+    var cur_foot_step = new Array<Number>[2];
 
-    var cur_heart_beat as Array<Number>;
-    var cur_distance as Array<Number>;
-    var cur_body_battery as Array<Number>;
-    var cur_device_battery as Array<Number>;
-    var cur_calories as Array<Number>;
-    var cur_foot_step as Array<Number>;
-
-    var cur_heart_beat_svg as Array<Number>;
-    var cur_distance_svg as Array<Number>;
-    var cur_body_battery_svg as Array<Number>;
-    var cur_device_battery_svg as Array<Number>;
-    var cur_calories_svg as Array<Number>;
-    var cur_foot_step_svg as Array<Number>;
+    var cur_heart_beat_svg = new Array<Number>[2];
+    var cur_distance_svg = new Array<Number>[2];
+    var cur_body_battery_svg = new Array<Number>[2];
+    var cur_device_battery_svg = new Array<Number>[2];
+    var cur_calories_svg = new Array<Number>[2];
+    var cur_foot_step_svg = new Array<Number>[2];
 
     function initialize(_dc){
         dc = _dc;

@@ -37,25 +37,15 @@ class PresentTimeView extends Ui.Drawable{
                 var x = (dc.getWidth() / 2);
                 var real_middle = dc.getHeight() / 3;
                 var middle_position = (real_middle) - textDim[1] / 2;
-                // Sys.println(dc.getHeight());
                 var top_pozition = (real_middle / 1.5) - textDim[1] ;
                 var bottom_pozition = (real_middle + real_middle / 3);
-        /*        if ( colour == 0 ) {
-                dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_BLACK);
-                }else if (colour == 1) {
-                dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
-                }*/
                 var fontMgbz = Ui.loadResource(Rez.Fonts.mgbz);
                 var test = Ui.loadResource(Rez.Fonts.FZSHIGKSK);
-                customDrawText(75, dc, Gfx.COLOR_WHITE, yearMonth, 153, test);
-                
-        // customDrawText(x, dc, Gfx.COLOR_WHITE, "STEPS", top_pozition + 21, stringFont);
+                var timer1 = new TimePosition(dc);
+                timer1.year_set(yearMonth, test);
                 customDrawText(x-30, dc, Gfx.COLOR_WHITE, timeString, middle_position, font);
 
                 customDrawText(x+x/3 +10, dc, Gfx.COLOR_LT_GRAY, secString, middle_position+20, secFont);
-                //customDrawText(x, dc, Gfx.COLOR_WHITE, "PRESENT  TIME", middle_position + 21, stringFont);
-                // customDrawText(x, dc, Gfx.COLOR_DK_GREEN, yearMonth, bottom_pozition, test);
-                //customDrawText(x, dc, Gfx.COLOR_WHITE, "STEPS", bottom_pozition + 21, stringFont);
 
 	}
 	function currentTime(){

@@ -9,20 +9,23 @@ import Toybox.Lang;
 class TimePosition extends Ui.Drawable{
 
     var dc;
-    var device_w_h as Array<Number>;
+    // as Array<Number> or null;
+    var device_w_h = new Array<Number>[2];
 
-    var cur_year as Array<Number>;
-    var cur_month as Array<Number>;
-    var cur_week as Array<Number>;
-    var cur_day as Array<Number>;
-    var cur_time as Array<Number>;
+    var cur_year = new Array<Number>[2];
+    var cur_month = new Array<Number>[2];
+    var cur_week = new Array<Number>[2];
+    var cur_day = new Array<Number>[2];
+    var cur_time = new Array<Number>[2];
 
     function initialize(_dc){
         dc = _dc;
-        Drawable.initialize(_dc);
+       //Drawable.initialize(_dc);
     }
-    function year_set() {
-        
+    function year_set(yearMonth,test) {
+        cur_year[0] = 75;
+        cur_year[1] = 153;
+        customDrawTime(dc, cur_year[0], cur_year[1], Gfx.COLOR_WHITE, yearMonth,  test);
     }
     function month_set() {
 
@@ -37,8 +40,8 @@ class TimePosition extends Ui.Drawable{
         
     }
     
-    function customDrawTime(dc, x, pozition, colour, data, font){
+    function customDrawTime(dc, x, y, colour, data, font){
         dc.setColor(colour, Gfx.COLOR_BLACK);
-        dc.drawText(x,pozition, font, data, Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(x,y, font, data, Gfx.TEXT_JUSTIFY_CENTER);
     }
 }
