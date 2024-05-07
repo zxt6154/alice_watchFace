@@ -32,6 +32,44 @@ class DataPosition extends Ui.Drawable {
     function draw(dc){
         
     }
+    function heart_beat_set() {
+        
+    }
+    function distance_set() {
+
+    }
+    function body_battery_set() {
+        
+    }
+    function device_battery_set() {
+        
+    }
+    function calories_set() {
+        
+    }
+    function foot_step_set() {
+        
+    }
+    // ----
+        function heart_beat_svg_set() {
+        
+    }
+    function distance_svg_set() {
+
+    }
+    function body_battery_svg_set() {
+        
+    }
+    function device_battery_svg_set() {
+        
+    }
+    function calories_svg_set() {
+        
+    }
+    function foot_step_svg_set() {
+        
+    }
+
 
     function customDrawData(dc, x, pozition, colour, data, font){
         dc.setColor(colour, Gfx.COLOR_BLACK);

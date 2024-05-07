@@ -21,19 +21,19 @@ class TimePosition extends Ui.Drawable{
         dc = _dc;
         Drawable.initialize(_dc);
     }
-    function year_location() {
+    function year_set() {
         
     }
-    function month_location() {
+    function month_set() {
 
     }
-    function week_location() {
+    function week_set() {
         
     }
-    function day_location() {
+    function day_set() {
         
     }
-    function time_location() {
+    function time_set() {
         
     }
     
