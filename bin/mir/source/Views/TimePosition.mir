@@ -38,6 +38,10 @@ class TimePosition extends Ui.Drawable{
         %tmp.12 = 2;
         %tmp.11 = newa Array<Number> %tmp.12;
         putv self :cur_time %tmp.11;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 20 8 ]
+        %tmp.14 = 2;
+        %tmp.13 = newa Array<Number> %tmp.14;
+        putv self :cur_sec %tmp.13;
     }
     [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 9; ]
     static
@@ -57,83 +61,199 @@ class TimePosition extends Ui.Drawable{
     var cur_day;
     [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 19; @position = 8; ]
     var cur_time;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 21; ]
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 20; @position = 8; ]
+    var cur_sec;
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 22; ]
     function initialize(_dc) as Void {
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_21_28_start:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 22 8 ]
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_22_28_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 23 8 ]
         %tmp.2 = lgetv %_dc;
         putv self :dc %tmp.2;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_21_28_stop:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 25 7 ]
+        %tmp.3 = getv self :device_w_h;
+        %tmp.5 = getv ? :dc;
+        %tmp.6 = getv function %tmp.5 :getWidth;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = 0;
+        aputv %tmp.3 %tmp.8 %tmp.7;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 26 7 ]
+        %tmp.9 = getv self :device_w_h;
+        %tmp.11 = getv ? :dc;
+        %tmp.12 = getv function %tmp.11 :getHeight;
+        %tmp.13 = invoke %tmp.11 %tmp.12();
+        %tmp.14 = 1;
+        aputv %tmp.9 %tmp.14 %tmp.13;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_22_28_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 25; ]
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 30; ]
     function year_set(yearMonth, test) {
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_25_38_start:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 26 8 ]
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_30_38_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 31 8 ]
         %tmp.1 = getv self :cur_year;
         %tmp.2 = 75;
         %tmp.3 = 0;
         aputv %tmp.1 %tmp.3 %tmp.2;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 27 8 ]
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 32 8 ]
         %tmp.4 = getv self :cur_year;
         %tmp.5 = 153;
         %tmp.6 = 1;
         aputv %tmp.4 %tmp.6 %tmp.5;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 28 8 ]
-        %tmp.7 = getm $.Toybox.System;
-        %tmp.8 = getv function %tmp.7 :println;
-        %tmp.9 = " ----- => ";
-        %tmp.11 = lgetv %yearMonth;
-        %tmp.12 = add %tmp.9 %tmp.11;
-        invoke %tmp.7 %tmp.8(%tmp.12);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 29 8 ]
-        %tmp.13 = getm $.Toybox.System;
-        %tmp.14 = getv function %tmp.13 :println;
-        %tmp.15 = " ----- => ";
-        %tmp.17 = getv ? :cur_year;
-        %tmp.18 = 0;
-        %tmp.19 = agetv %tmp.17 %tmp.18;
-        %tmp.20 = add %tmp.15 %tmp.19;
-        invoke %tmp.13 %tmp.14(%tmp.20);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 30 8 ]
-        %tmp.21 = self;
-        %tmp.22 = getv function %tmp.21 :customDrawTime;
-        %tmp.24 = getv ? :dc;
-        %tmp.26 = getv ? :cur_year;
-        %tmp.27 = 0;
-        %tmp.28 = agetv %tmp.26 %tmp.27;
-        %tmp.30 = getv ? :cur_year;
-        %tmp.31 = 1;
-        %tmp.32 = agetv %tmp.30 %tmp.31;
-        %tmp.33 = getm $.Toybox.Graphics;
-        %tmp.34 = getv %tmp.33 :COLOR_WHITE;
-        %tmp.36 = lgetv %yearMonth;
-        %tmp.38 = lgetv %test;
-        invoke %tmp.21 %tmp.22(%tmp.24, %tmp.28, %tmp.32, %tmp.34, %tmp.36, %tmp.38);
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_25_38_stop:
-    }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 32; ]
-    function month_set() {
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 33 8 ]
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :customDrawTime;
+        %tmp.10 = getv ? :dc;
+        %tmp.12 = getv ? :cur_year;
+        %tmp.13 = 0;
+        %tmp.14 = agetv %tmp.12 %tmp.13;
+        %tmp.16 = getv ? :cur_year;
+        %tmp.17 = 1;
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        %tmp.19 = getm $.Toybox.Graphics;
+        %tmp.20 = getv %tmp.19 :COLOR_WHITE;
+        %tmp.22 = lgetv %yearMonth;
+        %tmp.24 = lgetv %test;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.14, %tmp.18, %tmp.20, %tmp.22, %tmp.24);
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_30_38_stop:
     }
     [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 35; ]
-    function week_set() {
+    function month_set() {
     }
     [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 38; ]
-    function day_set() {
+    function week_set() {
     }
     [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 41; ]
-    function time_set() {
+    function day_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 45; ]
-    function customDrawTime(dc, x, y, colour, data, font) {
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_45_57_start:
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 44; ]
+    function sec_set(secString, secFont) {
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_44_41_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 45 8 ]
+        [ "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_44_41_start" "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_44_41_stop" ]
+        %x.1 = local;
+        %tmp.2 = getv ? :device_w_h;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        %tmp.5 = 2;
+        %tmp.6 = div %tmp.4 %tmp.5;
+        lputv %x.1 %tmp.6;
 [ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 46 8 ]
+        %tmp.7 = getv self :cur_sec;
+        %tmp.9 = lgetv %x.1;
+        %tmp.11 = lgetv %x.1;
+        %tmp.12 = 3;
+        %tmp.13 = div %tmp.11 %tmp.12;
+        %tmp.14 = add %tmp.9 %tmp.13;
+        %tmp.15 = 10;
+        %tmp.16 = add %tmp.14 %tmp.15;
+        %tmp.17 = 0;
+        aputv %tmp.7 %tmp.17 %tmp.16;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 47 8 ]
+        [ "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_44_41_start" "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_44_41_stop" ]
+        %textDim.2 = local;
+        %tmp.19 = getv ? :dc;
+        %tmp.20 = getv function %tmp.19 :getTextDimensions;
+        %tmp.22 = lgetv %secString;
+        %tmp.24 = lgetv %secFont;
+        %tmp.25 = invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24);
+        lputv %textDim.2 %tmp.25;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 48 8 ]
+        %tmp.26 = getv self :cur_sec;
+        %tmp.28 = getv ? :device_w_h;
+        %tmp.29 = 1;
+        %tmp.30 = agetv %tmp.28 %tmp.29;
+        %tmp.31 = 3;
+        %tmp.32 = div %tmp.30 %tmp.31;
+        %tmp.34 = lgetv %textDim.2;
+        %tmp.35 = 1;
+        %tmp.36 = agetv %tmp.34 %tmp.35;
+        %tmp.37 = 2;
+        %tmp.38 = div %tmp.36 %tmp.37;
+        %tmp.39 = sub %tmp.32 %tmp.38;
+        %tmp.40 = 1;
+        aputv %tmp.26 %tmp.40 %tmp.39;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 49 8 ]
+        %tmp.41 = self;
+        %tmp.42 = getv function %tmp.41 :customDrawTime;
+        %tmp.44 = getv ? :dc;
+        %tmp.46 = getv ? :cur_sec;
+        %tmp.47 = 0;
+        %tmp.48 = agetv %tmp.46 %tmp.47;
+        %tmp.50 = getv ? :cur_sec;
+        %tmp.51 = 1;
+        %tmp.52 = agetv %tmp.50 %tmp.51;
+        %tmp.53 = getm $.Toybox.Graphics;
+        %tmp.54 = getv %tmp.53 :COLOR_DK_GRAY;
+        %tmp.56 = lgetv %secString;
+        %tmp.58 = lgetv %secFont;
+        invoke %tmp.41 %tmp.42(%tmp.44, %tmp.48, %tmp.52, %tmp.54, %tmp.56, %tmp.58);
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_44_41_stop:
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 51; ]
+    function time_set(timeString, font) {
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_51_40_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 52 8 ]
+        %tmp.1 = getv self :cur_time;
+        %tmp.3 = getv ? :device_w_h;
+        %tmp.4 = 0;
+        %tmp.5 = agetv %tmp.3 %tmp.4;
+        %tmp.6 = 2;
+        %tmp.7 = div %tmp.5 %tmp.6;
+        %tmp.8 = 30;
+        %tmp.9 = sub %tmp.7 %tmp.8;
+        %tmp.10 = 0;
+        aputv %tmp.1 %tmp.10 %tmp.9;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 53 8 ]
+        [ "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_51_40_start" "_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_51_40_stop" ]
+        %textDim.1 = local;
+        %tmp.12 = getv ? :dc;
+        %tmp.13 = getv function %tmp.12 :getTextDimensions;
+        %tmp.15 = lgetv %timeString;
+        %tmp.17 = lgetv %font;
+        %tmp.18 = invoke %tmp.12 %tmp.13(%tmp.15, %tmp.17);
+        lputv %textDim.1 %tmp.18;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 54 8 ]
+        %tmp.19 = getv self :cur_time;
+        %tmp.21 = getv ? :device_w_h;
+        %tmp.22 = 1;
+        %tmp.23 = agetv %tmp.21 %tmp.22;
+        %tmp.24 = 3;
+        %tmp.25 = div %tmp.23 %tmp.24;
+        %tmp.27 = lgetv %textDim.1;
+        %tmp.28 = 1;
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        %tmp.30 = 2;
+        %tmp.31 = div %tmp.29 %tmp.30;
+        %tmp.32 = sub %tmp.25 %tmp.31;
+        %tmp.33 = 1;
+        aputv %tmp.19 %tmp.33 %tmp.32;
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 55 8 ]
+        %tmp.34 = self;
+        %tmp.35 = getv function %tmp.34 :customDrawTime;
+        %tmp.37 = getv ? :dc;
+        %tmp.39 = getv ? :cur_time;
+        %tmp.40 = 0;
+        %tmp.41 = agetv %tmp.39 %tmp.40;
+        %tmp.43 = getv ? :cur_time;
+        %tmp.44 = 1;
+        %tmp.45 = agetv %tmp.43 %tmp.44;
+        %tmp.46 = getm $.Toybox.Graphics;
+        %tmp.47 = getv %tmp.46 :COLOR_WHITE;
+        %tmp.49 = lgetv %timeString;
+        %tmp.51 = lgetv %font;
+        invoke %tmp.34 %tmp.35(%tmp.37, %tmp.41, %tmp.45, %tmp.47, %tmp.49, %tmp.51);
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_51_40_stop:
+    }
+    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 58; ]
+    function customDrawTime(dc, x, y, colour, data, font) {
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_58_57_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 59 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.4 = lgetv %colour;
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_BLACK;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 47 8 ]
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" 60 8 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :drawText;
         %tmp.10 = lgetv %x;
@@ -143,7 +263,7 @@ _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_Time
         %tmp.17 = getm $.Toybox.Graphics;
         %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14, %tmp.16, %tmp.18);
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_45_57_stop:
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimePosition_mc_58_57_stop:
     }
 }
 [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc"; @line = 1; ]

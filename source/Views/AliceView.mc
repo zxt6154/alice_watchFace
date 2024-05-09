@@ -5,12 +5,13 @@ using Toybox.Lang as Lang;
 using Toybox.System as Sys;
 using Toybox.Sensor as Sor;
 using Toybox.ActivityMonitor as Monitor;
+using Toybox.SensorHistory as Sh;
 
 class AliceView extends Ui.Drawable {  
     
     var activityInfo = ActMon.getInfo(); 
     var steps;
-    var stepsGoal;
+    var bodyBattery;
     var calories;
     var distance; 
     var distUnits = Sys.getDeviceSettings().distanceUnits; 
@@ -23,19 +24,42 @@ class AliceView extends Ui.Drawable {
 	{
 		Drawable.initialize(params);
         steps = convertData(activityInfo.steps);
-        stepsGoal = convertData(activityInfo.stepGoal);
         calories = Monitor.getInfo().calories;
+
         distance = convertDistance(activityInfo.distance);  
         
         if (getHeartRate() == null){heartPuls = "-";}
         else if(getHeartRate() == 255){heartPuls = "-";}
         else{heartPuls = getHeartRate().toString();}
 
+
+        if (getBodyBattery() == null){bodyBattery = "-";}
+        else{bodyBattery = getBodyBattery().toString();}
+
         xinlv = Application.loadResource( Rez.Drawables.xinlv);
         caloriesSvg = Application.loadResource( Rez.Drawables.calories);
         footStepSvg = Application.loadResource( Rez.Drawables.foot_step);
         batteryFullSvg = Application.loadResource( Rez.Drawables.battery_full);
 	}
+
+    function getBodyBattery() {
+        var bosyBattery = null;// Get the activity info if possible
+        var value = Activity.getActivityInfo();
+      	if (value != null){
+			value = value.currentPower;
+		}
+
+        if (value == null){
+            value = getIterator();
+            if  ( value != null ){
+                value = value.next();
+                value = value == null ? null : value.data;
+            }
+        }
+        Sys.println("bosyBattery => "+value);
+        bosyBattery = value == null ? "--" : value.format("%d");
+        return bosyBattery;
+    }
     private function getHeartRate() {// initialize it to null
         var heartRate = null;// Get the activity info if possible
         var value = Activity.getActivityInfo();
@@ -54,12 +78,24 @@ class AliceView extends Ui.Drawable {
         heartRate = value == null ? "--" : value.format("%d");
         return heartRate;
     }
+
     function getHeartRateIterator() {
 	    if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getHeartRateHistory)) {
 	        return Toybox.SensorHistory.getHeartRateHistory({:order=>SensorHistory.ORDER_NEWEST_FIRST,:period=>1});
 	    }
 	    return null;
 	}
+
+    // Create a method to get the SensorHistoryIterator object
+    function getIterator() {
+        // Check device for SensorHistory compatibility
+        if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getBodyBatteryHistory)) {
+            // Set up the method with parameters
+            return Toybox.SensorHistory.getBodyBatteryHistory({});
+        }
+        return null;
+    }
+
 	function draw(dc)
 	{
         // Get and show the current time
@@ -74,8 +110,8 @@ class AliceView extends Ui.Drawable {
         var distanceX = (dc.getWidth() / 2) + 65;
         var real_middle = dc.getHeight() /2;  
         var top_pozition = (real_middle / 1.5) - textDim[1] ;      
-        var activityData = [steps, stepsGoal, calories, distance];
-        var xValues = [stepsX, stepsGoalX, caloriesX, distanceX];
+       // var activityData = [steps, stepsGoal, calories, distance];
+       // var xValues = [stepsX, stepsGoalX, caloriesX, distanceX];
         var stringData = ["ACTIVITY", "STEPS", "GOAL", "CALORIES", "DISTANCE"];
        
          dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
@@ -126,17 +162,21 @@ class AliceView extends Ui.Drawable {
         };
         dc.drawBitmap2(56, 28, batteryFullSvg, options4);
 
-         var systemStats = System.getSystemStats();
-        // var batteryStr = View.findDrawableById("systemStats") as Text;
-        // batteryStr.setText(systemStats.battery.format("%d") + "%");
+        var systemStats = System.getSystemStats();
         dc.drawText(81, 28, Gfx.FONT_SYSTEM_XTINY, systemStats.battery.format("%d") + "%", Gfx.TEXT_JUSTIFY_LEFT);
+
+     
+         dc.setColor(Gfx.COLOR_PINK, Gfx.COLOR_TRANSPARENT);
+         dc.drawText(57,200, font, steps, Gfx.TEXT_JUSTIFY_CENTER);
+
+         dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);
+         dc.drawText(108,222, font, distance, Gfx.TEXT_JUSTIFY_CENTER);
+
+         dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);
+         dc.drawText(151,23, font, bodyBattery, Gfx.TEXT_JUSTIFY_CENTER);
 	}
 
-    function customDrawText(x, dc, colour, data, pozition, font){
-        dc.setColor(colour, Gfx.COLOR_BLACK);
-        dc.drawText(x,pozition, font, data, Gfx.TEXT_JUSTIFY_CENTER);
-    }
-	
+  
 	function convertData(datas)
 	{
 	    var data = datas.toString();

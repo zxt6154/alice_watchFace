@@ -31,301 +31,325 @@
 <entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureView.mc" id="10" lineNum="32" parent="globals/BackToTheFutureView" pc="268435966" symbol="onUpdate"/>
 <entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureView.mc" id="10" lineNum="33" parent="globals/BackToTheFutureView" pc="268435968" symbol="onUpdate"/>
 <entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureView.mc" id="10" lineNum="34" parent="globals/BackToTheFutureView" pc="268435982" symbol="onUpdate"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="11" lineNum="9" parent="globals/AliceView" pc="268436003" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="11" lineNum="11" parent="globals/AliceView" pc="268436021" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="11" lineNum="16" parent="globals/AliceView" pc="268436044" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="140" parent="globals/AliceView" pc="268436074" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="142" parent="globals/AliceView" pc="268436078" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="143" parent="globals/AliceView" pc="268436091" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="144" parent="globals/AliceView" pc="268436104" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="146" parent="globals/AliceView" pc="268436115" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="148" parent="globals/AliceView" pc="268436146" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="150" parent="globals/AliceView" pc="268436157" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="152" parent="globals/AliceView" pc="268436188" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="154" parent="globals/AliceView" pc="268436199" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="155" parent="globals/AliceView" pc="268436230" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="156" parent="globals/AliceView" pc="268436241" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="160" parent="globals/AliceView" pc="268436247" symbol="convertData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="135" parent="globals/AliceView" pc="268436254" symbol="customDrawText"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="136" parent="globals/AliceView" pc="268436256" symbol="customDrawText"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="137" parent="globals/AliceView" pc="268436275" symbol="customDrawText"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="14" lineNum="57" parent="globals/AliceView" pc="268436301" symbol="getHeartRateIterator"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="14" lineNum="58" parent="globals/AliceView" pc="268436303" symbol="getHeartRateIterator"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="14" lineNum="59" parent="globals/AliceView" pc="268436342" symbol="getHeartRateIterator"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="14" lineNum="61" parent="globals/AliceView" pc="268436393" symbol="getHeartRateIterator"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="63" parent="globals/AliceView" pc="268436395" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="66" parent="globals/AliceView" pc="268436399" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="68" parent="globals/AliceView" pc="268436440" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="69" parent="globals/AliceView" pc="268436463" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="70" parent="globals/AliceView" pc="268436488" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="71" parent="globals/AliceView" pc="268436513" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="72" parent="globals/AliceView" pc="268436544" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="73" parent="globals/AliceView" pc="268436569" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="74" parent="globals/AliceView" pc="268436594" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="75" parent="globals/AliceView" pc="268436619" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="76" parent="globals/AliceView" pc="268436638" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="77" parent="globals/AliceView" pc="268436657" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="78" parent="globals/AliceView" pc="268436729" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="79" parent="globals/AliceView" pc="268436777" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="81" parent="globals/AliceView" pc="268436850" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="82" parent="globals/AliceView" pc="268436872" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="83" parent="globals/AliceView" pc="268436909" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="84" parent="globals/AliceView" pc="268436931" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="90" parent="globals/AliceView" pc="268436968" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="91" parent="globals/AliceView" pc="268436987" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="92" parent="globals/AliceView" pc="268437018" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="93" parent="globals/AliceView" pc="268437043" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="100" parent="globals/AliceView" pc="268437116" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="111" parent="globals/AliceView" pc="268437151" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="118" parent="globals/AliceView" pc="268437224" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="120" parent="globals/AliceView" pc="268437259" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="127" parent="globals/AliceView" pc="268437332" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="129" parent="globals/AliceView" pc="268437364" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="132" parent="globals/AliceView" pc="268437383" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="39" parent="globals/AliceView" pc="268437444" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="40" parent="globals/AliceView" pc="268437448" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="41" parent="globals/AliceView" pc="268437451" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="42" parent="globals/AliceView" pc="268437470" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="43" parent="globals/AliceView" pc="268437477" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="46" parent="globals/AliceView" pc="268437490" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="47" parent="globals/AliceView" pc="268437497" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="48" parent="globals/AliceView" pc="268437510" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="49" parent="globals/AliceView" pc="268437517" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="50" parent="globals/AliceView" pc="268437530" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="53" parent="globals/AliceView" pc="268437557" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="54" parent="globals/AliceView" pc="268437581" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="55" parent="globals/AliceView" pc="268437614" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="164" parent="globals/AliceView" pc="268437617" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="166" parent="globals/AliceView" pc="268437621" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="167" parent="globals/AliceView" pc="268437628" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="169" parent="globals/AliceView" pc="268437645" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="170" parent="globals/AliceView" pc="268437656" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="174" parent="globals/AliceView" pc="268437695" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="179" parent="globals/AliceView" pc="268437723" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="180" parent="globals/AliceView" pc="268437733" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="182" parent="globals/AliceView" pc="268437744" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="186" parent="globals/AliceView" pc="268437777" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="189" parent="globals/AliceView" pc="268437796" symbol="convertDistance"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="22" parent="globals/AliceView" pc="268437799" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="24" parent="globals/AliceView" pc="268437801" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="25" parent="globals/AliceView" pc="268437821" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="26" parent="globals/AliceView" pc="268437854" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="27" parent="globals/AliceView" pc="268437887" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="28" parent="globals/AliceView" pc="268437916" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="30" parent="globals/AliceView" pc="268437949" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="30" parent="globals/AliceView" pc="268437965" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="31" parent="globals/AliceView" pc="268437981" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="31" parent="globals/AliceView" pc="268438001" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="32" parent="globals/AliceView" pc="268438017" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="34" parent="globals/AliceView" pc="268438045" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="35" parent="globals/AliceView" pc="268438094" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="36" parent="globals/AliceView" pc="268438143" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="37" parent="globals/AliceView" pc="268438192" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="19" lineNum="3" parent="globals/AliceField" pc="268438242" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="20" lineNum="10" parent="globals/AliceField" pc="268438261" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="20" lineNum="11" parent="globals/AliceField" pc="268438263" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="20" lineNum="12" parent="globals/AliceField" pc="268438273" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="20" lineNum="13" parent="globals/AliceField" pc="268438283" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="22" lineNum="8" parent="globals/PresentTimeView" pc="268438304" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="23" lineNum="62" parent="globals/PresentTimeView" pc="268438323" symbol="currentTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="23" lineNum="63" parent="globals/PresentTimeView" pc="268438327" symbol="currentTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="23" lineNum="64" parent="globals/PresentTimeView" pc="268438344" symbol="currentTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="23" lineNum="69" parent="globals/PresentTimeView" pc="268438363" symbol="currentTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="23" lineNum="70" parent="globals/PresentTimeView" pc="268438387" symbol="currentTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="24" lineNum="73" parent="globals/PresentTimeView" pc="268438390" symbol="customDrawText"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="24" lineNum="74" parent="globals/PresentTimeView" pc="268438392" symbol="customDrawText"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="24" lineNum="75" parent="globals/PresentTimeView" pc="268438411" symbol="customDrawText"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="25" lineNum="10" parent="globals/PresentTimeView" pc="268438437" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="25" lineNum="11" parent="globals/PresentTimeView" pc="268438439" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="25" lineNum="12" parent="globals/PresentTimeView" pc="268438473" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="15" parent="globals/PresentTimeView" pc="268438494" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="18" parent="globals/PresentTimeView" pc="268438498" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="19" parent="globals/PresentTimeView" pc="268438539" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="20" parent="globals/PresentTimeView" pc="268438580" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="21" parent="globals/PresentTimeView" pc="268438597" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="22" parent="globals/PresentTimeView" pc="268438616" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="23" parent="globals/PresentTimeView" pc="268438640" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="24" parent="globals/PresentTimeView" pc="268438714" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="27" parent="globals/PresentTimeView" pc="268438772" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="28" parent="globals/PresentTimeView" pc="268438813" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="30" parent="globals/PresentTimeView" pc="268438826" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="31" parent="globals/PresentTimeView" pc="268438836" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="34" parent="globals/PresentTimeView" pc="268438951" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="37" parent="globals/PresentTimeView" pc="268438968" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="38" parent="globals/PresentTimeView" pc="268438987" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="39" parent="globals/PresentTimeView" pc="268439006" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="41" parent="globals/PresentTimeView" pc="268439025" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="42" parent="globals/PresentTimeView" pc="268439044" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="48" parent="globals/PresentTimeView" pc="268439057" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="49" parent="globals/PresentTimeView" pc="268439098" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="51" parent="globals/PresentTimeView" pc="268439139" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="52" parent="globals/PresentTimeView" pc="268439169" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="54" parent="globals/PresentTimeView" pc="268439185" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="56" parent="globals/PresentTimeView" pc="268439218" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="27" lineNum="3" parent="globals/BackToTheFutureApp" pc="268439267" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="28" lineNum="10" parent="globals/BackToTheFutureApp" pc="268439286" symbol="onStart"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="29" lineNum="18" parent="globals/BackToTheFutureApp" pc="268439289" symbol="getInitialView"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="29" lineNum="19" parent="globals/BackToTheFutureApp" pc="268439291" symbol="getInitialView"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="30" lineNum="5" parent="globals/BackToTheFutureApp" pc="268439332" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="30" lineNum="6" parent="globals/BackToTheFutureApp" pc="268439334" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="31" lineNum="14" parent="globals/BackToTheFutureApp" pc="268439353" symbol="onStop"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="32" lineNum="7" parent="globals/Rez" pc="268439356" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="4" parent="globals/TimeUtil" pc="268439380" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="24" parent="globals/TimeUtil" pc="268439380" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="25" parent="globals/TimeUtil" pc="268439563" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="27" parent="globals/TimeUtil" pc="268439993" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="29" parent="globals/TimeUtil" pc="268440111" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="30" parent="globals/TimeUtil" pc="268440294" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="32" parent="globals/TimeUtil" pc="268440738" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="33" parent="globals/TimeUtil" pc="268440742" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="35" parent="globals/TimeUtil" pc="268440749" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="36" parent="globals/TimeUtil" pc="268440768" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="37" parent="globals/TimeUtil" pc="268440792" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="38" parent="globals/TimeUtil" pc="268440816" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="40" parent="globals/TimeUtil" pc="268440832" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="41" parent="globals/TimeUtil" pc="268440851" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="42" parent="globals/TimeUtil" pc="268440875" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="43" parent="globals/TimeUtil" pc="268440899" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="45" parent="globals/TimeUtil" pc="268440915" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="46" parent="globals/TimeUtil" pc="268440934" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="47" parent="globals/TimeUtil" pc="268440958" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="48" parent="globals/TimeUtil" pc="268440982" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="51" parent="globals/TimeUtil" pc="268440998" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="52" parent="globals/TimeUtil" pc="268441017" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="54" parent="globals/TimeUtil" pc="268441033" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="55" parent="globals/TimeUtil" pc="268441052" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="57" parent="globals/TimeUtil" pc="268441068" symbol="curTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="8" parent="globals/DataPosition" pc="268441071" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="11" parent="globals/DataPosition" pc="268441089" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="12" parent="globals/DataPosition" pc="268441103" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="13" parent="globals/DataPosition" pc="268441117" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="14" parent="globals/DataPosition" pc="268441131" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="15" parent="globals/DataPosition" pc="268441145" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="16" parent="globals/DataPosition" pc="268441159" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="18" parent="globals/DataPosition" pc="268441173" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="19" parent="globals/DataPosition" pc="268441187" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="20" parent="globals/DataPosition" pc="268441201" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="21" parent="globals/DataPosition" pc="268441215" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="22" parent="globals/DataPosition" pc="268441229" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="23" parent="globals/DataPosition" pc="268441243" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="39" lineNum="72" parent="globals/DataPosition" pc="268441258" symbol="customDrawData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="39" lineNum="73" parent="globals/DataPosition" pc="268441260" symbol="customDrawData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="39" lineNum="74" parent="globals/DataPosition" pc="268441279" symbol="customDrawData"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="45" lineNum="30" parent="globals/DataPosition" pc="268441305" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="50" lineNum="25" parent="globals/DataPosition" pc="268441308" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="50" lineNum="26" parent="globals/DataPosition" pc="268441310" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="50" lineNum="27" parent="globals/DataPosition" pc="268441320" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="52" lineNum="3" parent="globals/DanceDanceAnimationDelegate" pc="268441341" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="53" lineNum="6" parent="globals/DanceDanceAnimationDelegate" pc="268441360" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="53" lineNum="7" parent="globals/DanceDanceAnimationDelegate" pc="268441362" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="53" lineNum="8" parent="globals/DanceDanceAnimationDelegate" pc="268441380" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="12" parent="globals/DanceDanceAnimationDelegate" pc="268441391" symbol="onAnimationEvent"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="13" parent="globals/DanceDanceAnimationDelegate" pc="268441393" symbol="onAnimationEvent"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="14" parent="globals/DanceDanceAnimationDelegate" pc="268441395" symbol="onAnimationEvent"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="15" parent="globals/DanceDanceAnimationDelegate" pc="268441415" symbol="onAnimationEvent"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="16" parent="globals/DanceDanceAnimationDelegate" pc="268441438" symbol="onAnimationEvent"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="17" parent="globals/DanceDanceAnimationDelegate" pc="268441456" symbol="onAnimationEvent"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="9" parent="globals/TimePosition" pc="268441461" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="13" parent="globals/TimePosition" pc="268441479" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="15" parent="globals/TimePosition" pc="268441493" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="16" parent="globals/TimePosition" pc="268441507" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="17" parent="globals/TimePosition" pc="268441521" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="18" parent="globals/TimePosition" pc="268441535" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="19" parent="globals/TimePosition" pc="268441549" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="57" lineNum="45" parent="globals/TimePosition" pc="268441564" symbol="customDrawTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="57" lineNum="46" parent="globals/TimePosition" pc="268441566" symbol="customDrawTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="57" lineNum="47" parent="globals/TimePosition" pc="268441585" symbol="customDrawTime"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="60" lineNum="21" parent="globals/TimePosition" pc="268441611" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="60" lineNum="22" parent="globals/TimePosition" pc="268441613" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="62" lineNum="25" parent="globals/TimePosition" pc="268441624" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="62" lineNum="26" parent="globals/TimePosition" pc="268441626" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="62" lineNum="27" parent="globals/TimePosition" pc="268441645" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="62" lineNum="28" parent="globals/TimePosition" pc="268441664" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="62" lineNum="29" parent="globals/TimePosition" pc="268441688" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="62" lineNum="30" parent="globals/TimePosition" pc="268441724" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="63" lineNum="15" parent="globals/Rez/Drawables/MainBackground" pc="268441782" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="64" lineNum="17" parent="globals/Rez/Drawables/MainBackground" pc="268441801" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="64" lineNum="18" parent="globals/Rez/Drawables/MainBackground" pc="268441803" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="21" parent="globals/Rez/Drawables/MainBackground" pc="268441828" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="22" parent="globals/Rez/Drawables/MainBackground" pc="268441830" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="23" parent="globals/Rez/Drawables/MainBackground" pc="268441841" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="24" parent="globals/Rez/Drawables/MainBackground" pc="268441853" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="28" parent="globals/Rez/Drawables/MainBackground" pc="268441860" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="29" parent="globals/Rez/Drawables/MainBackground" pc="268441882" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="30" parent="globals/Rez/Drawables/MainBackground" pc="268441914" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="32" parent="globals/Rez/Drawables/MainBackground" pc="268441936" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="33" parent="globals/Rez/Drawables/MainBackground" pc="268441958" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="54" parent="globals/Rez/Layouts" pc="268441991" symbol="BlackModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="55" parent="globals/Rez/Layouts" pc="268442003" symbol="BlackModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="57" parent="globals/Rez/Layouts" pc="268442050" symbol="BlackModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="59" parent="globals/Rez/Layouts" pc="268442097" symbol="BlackModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="62" parent="globals/Rez/Layouts" pc="268442124" symbol="NormalModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="63" parent="globals/Rez/Layouts" pc="268442136" symbol="NormalModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="65" parent="globals/Rez/Layouts" pc="268442183" symbol="NormalModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="67" parent="globals/Rez/Layouts" pc="268442230" symbol="NormalModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="11" lineNum="10" parent="globals/AliceView" pc="268436003" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="11" lineNum="12" parent="globals/AliceView" pc="268436021" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="11" lineNum="17" parent="globals/AliceView" pc="268436044" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="180" parent="globals/AliceView" pc="268436074" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="182" parent="globals/AliceView" pc="268436078" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="183" parent="globals/AliceView" pc="268436091" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="184" parent="globals/AliceView" pc="268436104" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="186" parent="globals/AliceView" pc="268436115" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="188" parent="globals/AliceView" pc="268436146" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="190" parent="globals/AliceView" pc="268436157" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="192" parent="globals/AliceView" pc="268436188" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="194" parent="globals/AliceView" pc="268436199" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="195" parent="globals/AliceView" pc="268436230" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="196" parent="globals/AliceView" pc="268436241" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="12" lineNum="200" parent="globals/AliceView" pc="268436247" symbol="convertData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="45" parent="globals/AliceView" pc="268436254" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="46" parent="globals/AliceView" pc="268436258" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="47" parent="globals/AliceView" pc="268436261" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="48" parent="globals/AliceView" pc="268436280" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="49" parent="globals/AliceView" pc="268436287" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="52" parent="globals/AliceView" pc="268436300" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="53" parent="globals/AliceView" pc="268436307" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="54" parent="globals/AliceView" pc="268436320" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="55" parent="globals/AliceView" pc="268436327" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="56" parent="globals/AliceView" pc="268436340" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="59" parent="globals/AliceView" pc="268436367" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="60" parent="globals/AliceView" pc="268436391" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="13" lineNum="61" parent="globals/AliceView" pc="268436424" symbol="getBodyBattery"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="14" lineNum="82" parent="globals/AliceView" pc="268436427" symbol="getHeartRateIterator"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="14" lineNum="83" parent="globals/AliceView" pc="268436429" symbol="getHeartRateIterator"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="14" lineNum="84" parent="globals/AliceView" pc="268436468" symbol="getHeartRateIterator"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="14" lineNum="86" parent="globals/AliceView" pc="268436519" symbol="getHeartRateIterator"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="99" parent="globals/AliceView" pc="268436521" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="102" parent="globals/AliceView" pc="268436525" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="104" parent="globals/AliceView" pc="268436566" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="105" parent="globals/AliceView" pc="268436589" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="106" parent="globals/AliceView" pc="268436614" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="107" parent="globals/AliceView" pc="268436639" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="108" parent="globals/AliceView" pc="268436670" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="109" parent="globals/AliceView" pc="268436695" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="110" parent="globals/AliceView" pc="268436720" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="111" parent="globals/AliceView" pc="268436745" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="112" parent="globals/AliceView" pc="268436764" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="115" parent="globals/AliceView" pc="268436783" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="117" parent="globals/AliceView" pc="268436856" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="118" parent="globals/AliceView" pc="268436878" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="119" parent="globals/AliceView" pc="268436915" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="120" parent="globals/AliceView" pc="268436937" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="126" parent="globals/AliceView" pc="268436974" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="127" parent="globals/AliceView" pc="268436993" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="128" parent="globals/AliceView" pc="268437024" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="129" parent="globals/AliceView" pc="268437049" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="136" parent="globals/AliceView" pc="268437122" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="147" parent="globals/AliceView" pc="268437157" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="154" parent="globals/AliceView" pc="268437230" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="156" parent="globals/AliceView" pc="268437265" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="163" parent="globals/AliceView" pc="268437338" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="165" parent="globals/AliceView" pc="268437370" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="166" parent="globals/AliceView" pc="268437389" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="169" parent="globals/AliceView" pc="268437449" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="170" parent="globals/AliceView" pc="268437471" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="172" parent="globals/AliceView" pc="268437508" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="173" parent="globals/AliceView" pc="268437530" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="175" parent="globals/AliceView" pc="268437567" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="15" lineNum="176" parent="globals/AliceView" pc="268437589" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="63" parent="globals/AliceView" pc="268437627" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="64" parent="globals/AliceView" pc="268437631" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="65" parent="globals/AliceView" pc="268437634" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="66" parent="globals/AliceView" pc="268437653" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="67" parent="globals/AliceView" pc="268437660" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="70" parent="globals/AliceView" pc="268437673" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="71" parent="globals/AliceView" pc="268437680" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="72" parent="globals/AliceView" pc="268437693" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="73" parent="globals/AliceView" pc="268437700" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="74" parent="globals/AliceView" pc="268437713" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="77" parent="globals/AliceView" pc="268437740" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="78" parent="globals/AliceView" pc="268437764" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="16" lineNum="79" parent="globals/AliceView" pc="268437797" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="90" parent="globals/AliceView" pc="268437800" symbol="getIterator"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="92" parent="globals/AliceView" pc="268437802" symbol="getIterator"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="94" parent="globals/AliceView" pc="268437841" symbol="getIterator"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="17" lineNum="96" parent="globals/AliceView" pc="268437866" symbol="getIterator"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="204" parent="globals/AliceView" pc="268437868" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="206" parent="globals/AliceView" pc="268437872" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="207" parent="globals/AliceView" pc="268437879" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="209" parent="globals/AliceView" pc="268437896" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="210" parent="globals/AliceView" pc="268437907" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="214" parent="globals/AliceView" pc="268437946" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="219" parent="globals/AliceView" pc="268437974" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="220" parent="globals/AliceView" pc="268437984" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="222" parent="globals/AliceView" pc="268437995" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="226" parent="globals/AliceView" pc="268438028" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="18" lineNum="229" parent="globals/AliceView" pc="268438047" symbol="convertDistance"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="23" parent="globals/AliceView" pc="268438050" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="25" parent="globals/AliceView" pc="268438052" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="26" parent="globals/AliceView" pc="268438072" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="27" parent="globals/AliceView" pc="268438105" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="29" parent="globals/AliceView" pc="268438134" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="31" parent="globals/AliceView" pc="268438167" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="31" parent="globals/AliceView" pc="268438183" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="32" parent="globals/AliceView" pc="268438199" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="32" parent="globals/AliceView" pc="268438219" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="33" parent="globals/AliceView" pc="268438235" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="36" parent="globals/AliceView" pc="268438263" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="36" parent="globals/AliceView" pc="268438279" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="37" parent="globals/AliceView" pc="268438295" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="39" parent="globals/AliceView" pc="268438323" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="40" parent="globals/AliceView" pc="268438372" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="41" parent="globals/AliceView" pc="268438421" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceView.mc" id="19" lineNum="42" parent="globals/AliceView" pc="268438470" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="20" lineNum="3" parent="globals/AliceField" pc="268438520" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="21" lineNum="10" parent="globals/AliceField" pc="268438539" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="21" lineNum="11" parent="globals/AliceField" pc="268438541" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="21" lineNum="12" parent="globals/AliceField" pc="268438551" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AliceField.mc" id="21" lineNum="13" parent="globals/AliceField" pc="268438561" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="23" lineNum="8" parent="globals/PresentTimeView" pc="268438582" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="24" lineNum="35" parent="globals/PresentTimeView" pc="268438601" symbol="currentTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="24" lineNum="36" parent="globals/PresentTimeView" pc="268438605" symbol="currentTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="24" lineNum="37" parent="globals/PresentTimeView" pc="268438622" symbol="currentTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="24" lineNum="42" parent="globals/PresentTimeView" pc="268438641" symbol="currentTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="24" lineNum="43" parent="globals/PresentTimeView" pc="268438665" symbol="currentTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="25" lineNum="10" parent="globals/PresentTimeView" pc="268438668" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="25" lineNum="11" parent="globals/PresentTimeView" pc="268438670" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="25" lineNum="12" parent="globals/PresentTimeView" pc="268438704" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="15" parent="globals/PresentTimeView" pc="268438725" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="17" parent="globals/PresentTimeView" pc="268438729" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="18" parent="globals/PresentTimeView" pc="268438770" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="19" parent="globals/PresentTimeView" pc="268438811" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="20" parent="globals/PresentTimeView" pc="268438828" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="21" parent="globals/PresentTimeView" pc="268438847" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="22" parent="globals/PresentTimeView" pc="268438871" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="23" parent="globals/PresentTimeView" pc="268438945" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="25" parent="globals/PresentTimeView" pc="268439003" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="26" parent="globals/PresentTimeView" pc="268439044" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="27" parent="globals/PresentTimeView" pc="268439057" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="28" parent="globals/PresentTimeView" pc="268439067" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="29" parent="globals/PresentTimeView" pc="268439182" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="30" parent="globals/PresentTimeView" pc="268439223" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="31" parent="globals/PresentTimeView" pc="268439253" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="32" parent="globals/PresentTimeView" pc="268439269" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/PresentTimeView.mc" id="26" lineNum="33" parent="globals/PresentTimeView" pc="268439285" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="27" lineNum="3" parent="globals/BackToTheFutureApp" pc="268439302" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="28" lineNum="10" parent="globals/BackToTheFutureApp" pc="268439321" symbol="onStart"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="29" lineNum="18" parent="globals/BackToTheFutureApp" pc="268439324" symbol="getInitialView"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="29" lineNum="19" parent="globals/BackToTheFutureApp" pc="268439326" symbol="getInitialView"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="30" lineNum="5" parent="globals/BackToTheFutureApp" pc="268439367" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="30" lineNum="6" parent="globals/BackToTheFutureApp" pc="268439369" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/BackToTheFutureApp.mc" id="31" lineNum="14" parent="globals/BackToTheFutureApp" pc="268439388" symbol="onStop"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="32" lineNum="7" parent="globals/Rez" pc="268439391" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="4" parent="globals/TimeUtil" pc="268439415" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="24" parent="globals/TimeUtil" pc="268439415" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="25" parent="globals/TimeUtil" pc="268439598" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="27" parent="globals/TimeUtil" pc="268440028" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="29" parent="globals/TimeUtil" pc="268440146" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="33" lineNum="30" parent="globals/TimeUtil" pc="268440329" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="32" parent="globals/TimeUtil" pc="268440773" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="33" parent="globals/TimeUtil" pc="268440777" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="35" parent="globals/TimeUtil" pc="268440784" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="36" parent="globals/TimeUtil" pc="268440803" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="37" parent="globals/TimeUtil" pc="268440827" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="38" parent="globals/TimeUtil" pc="268440851" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="40" parent="globals/TimeUtil" pc="268440867" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="41" parent="globals/TimeUtil" pc="268440886" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="42" parent="globals/TimeUtil" pc="268440910" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="43" parent="globals/TimeUtil" pc="268440934" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="45" parent="globals/TimeUtil" pc="268440950" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="46" parent="globals/TimeUtil" pc="268440969" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="47" parent="globals/TimeUtil" pc="268440993" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="48" parent="globals/TimeUtil" pc="268441017" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="51" parent="globals/TimeUtil" pc="268441033" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="52" parent="globals/TimeUtil" pc="268441052" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="54" parent="globals/TimeUtil" pc="268441068" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="55" parent="globals/TimeUtil" pc="268441087" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" id="34" lineNum="57" parent="globals/TimeUtil" pc="268441103" symbol="curTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="8" parent="globals/DataPosition" pc="268441106" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="11" parent="globals/DataPosition" pc="268441124" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="12" parent="globals/DataPosition" pc="268441138" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="13" parent="globals/DataPosition" pc="268441152" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="14" parent="globals/DataPosition" pc="268441166" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="15" parent="globals/DataPosition" pc="268441180" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="16" parent="globals/DataPosition" pc="268441194" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="18" parent="globals/DataPosition" pc="268441208" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="19" parent="globals/DataPosition" pc="268441222" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="20" parent="globals/DataPosition" pc="268441236" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="21" parent="globals/DataPosition" pc="268441250" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="22" parent="globals/DataPosition" pc="268441264" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="36" lineNum="23" parent="globals/DataPosition" pc="268441278" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="39" lineNum="72" parent="globals/DataPosition" pc="268441293" symbol="customDrawData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="39" lineNum="73" parent="globals/DataPosition" pc="268441295" symbol="customDrawData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="39" lineNum="74" parent="globals/DataPosition" pc="268441314" symbol="customDrawData"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="45" lineNum="30" parent="globals/DataPosition" pc="268441340" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="50" lineNum="25" parent="globals/DataPosition" pc="268441343" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="50" lineNum="26" parent="globals/DataPosition" pc="268441345" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" id="50" lineNum="27" parent="globals/DataPosition" pc="268441355" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="52" lineNum="3" parent="globals/DanceDanceAnimationDelegate" pc="268441376" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="53" lineNum="6" parent="globals/DanceDanceAnimationDelegate" pc="268441395" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="53" lineNum="7" parent="globals/DanceDanceAnimationDelegate" pc="268441397" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="53" lineNum="8" parent="globals/DanceDanceAnimationDelegate" pc="268441415" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="12" parent="globals/DanceDanceAnimationDelegate" pc="268441426" symbol="onAnimationEvent"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="13" parent="globals/DanceDanceAnimationDelegate" pc="268441428" symbol="onAnimationEvent"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="14" parent="globals/DanceDanceAnimationDelegate" pc="268441430" symbol="onAnimationEvent"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="15" parent="globals/DanceDanceAnimationDelegate" pc="268441450" symbol="onAnimationEvent"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="16" parent="globals/DanceDanceAnimationDelegate" pc="268441473" symbol="onAnimationEvent"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/DanceDanceAnimationDelegate.mc" id="54" lineNum="17" parent="globals/DanceDanceAnimationDelegate" pc="268441491" symbol="onAnimationEvent"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="9" parent="globals/TimePosition" pc="268441496" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="13" parent="globals/TimePosition" pc="268441514" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="15" parent="globals/TimePosition" pc="268441528" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="16" parent="globals/TimePosition" pc="268441542" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="17" parent="globals/TimePosition" pc="268441556" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="18" parent="globals/TimePosition" pc="268441570" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="19" parent="globals/TimePosition" pc="268441584" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="55" lineNum="20" parent="globals/TimePosition" pc="268441598" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="56" lineNum="51" parent="globals/TimePosition" pc="268441613" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="56" lineNum="52" parent="globals/TimePosition" pc="268441617" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="56" lineNum="53" parent="globals/TimePosition" pc="268441657" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="56" lineNum="54" parent="globals/TimePosition" pc="268441680" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="56" lineNum="55" parent="globals/TimePosition" pc="268441729" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="57" lineNum="58" parent="globals/TimePosition" pc="268441787" symbol="customDrawTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="57" lineNum="59" parent="globals/TimePosition" pc="268441789" symbol="customDrawTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="57" lineNum="60" parent="globals/TimePosition" pc="268441808" symbol="customDrawTime"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="59" lineNum="44" parent="globals/TimePosition" pc="268441834" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="59" lineNum="45" parent="globals/TimePosition" pc="268441838" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="59" lineNum="46" parent="globals/TimePosition" pc="268441860" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="59" lineNum="47" parent="globals/TimePosition" pc="268441891" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="59" lineNum="48" parent="globals/TimePosition" pc="268441914" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="59" lineNum="49" parent="globals/TimePosition" pc="268441963" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="61" lineNum="22" parent="globals/TimePosition" pc="268442021" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="61" lineNum="23" parent="globals/TimePosition" pc="268442023" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="61" lineNum="25" parent="globals/TimePosition" pc="268442033" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="61" lineNum="26" parent="globals/TimePosition" pc="268442064" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="63" lineNum="30" parent="globals/TimePosition" pc="268442096" symbol="year_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="63" lineNum="31" parent="globals/TimePosition" pc="268442098" symbol="year_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="63" lineNum="32" parent="globals/TimePosition" pc="268442117" symbol="year_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimePosition.mc" id="63" lineNum="33" parent="globals/TimePosition" pc="268442136" symbol="year_set"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="64" lineNum="15" parent="globals/Rez/Drawables/MainBackground" pc="268442194" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="17" parent="globals/Rez/Drawables/MainBackground" pc="268442213" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="65" lineNum="18" parent="globals/Rez/Drawables/MainBackground" pc="268442215" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="21" parent="globals/Rez/Drawables/MainBackground" pc="268442240" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="22" parent="globals/Rez/Drawables/MainBackground" pc="268442242" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="23" parent="globals/Rez/Drawables/MainBackground" pc="268442253" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="24" parent="globals/Rez/Drawables/MainBackground" pc="268442265" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="28" parent="globals/Rez/Drawables/MainBackground" pc="268442272" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="29" parent="globals/Rez/Drawables/MainBackground" pc="268442294" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="30" parent="globals/Rez/Drawables/MainBackground" pc="268442326" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="32" parent="globals/Rez/Drawables/MainBackground" pc="268442348" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="66" lineNum="33" parent="globals/Rez/Drawables/MainBackground" pc="268442370" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="54" parent="globals/Rez/Layouts" pc="268442403" symbol="BlackModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="55" parent="globals/Rez/Layouts" pc="268442415" symbol="BlackModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="57" parent="globals/Rez/Layouts" pc="268442462" symbol="BlackModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="59" parent="globals/Rez/Layouts" pc="268442509" symbol="BlackModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="68" lineNum="62" parent="globals/Rez/Layouts" pc="268442536" symbol="NormalModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="68" lineNum="63" parent="globals/Rez/Layouts" pc="268442548" symbol="NormalModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="68" lineNum="65" parent="globals/Rez/Layouts" pc="268442595" symbol="NormalModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="68" lineNum="67" parent="globals/Rez/Layouts" pc="268442642" symbol="NormalModeLayout"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="90" symbol="giphy"/>
+<entry field="true" id="93" symbol="giphy"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="29" method="true" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
-<entry id="26" method="true" symbol="customDrawText"/>
-<entry field="true" id="60" symbol="cur_foot_step_svg"/>
-<entry field="true" id="96" symbol="id_verdana"/>
-<entry field="true" id="102" symbol="LAYOUTMODE_BLACK"/>
+<entry id="30" method="true" symbol="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;"/>
+<entry field="true" id="61" symbol="cur_foot_step_svg"/>
+<entry field="true" id="99" symbol="id_verdana"/>
+<entry field="true" id="105" symbol="LAYOUTMODE_BLACK"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="8391333" symbol="delegate"/>
-<entry id="68" method="true" symbol="distance_set"/>
+<entry id="69" method="true" symbol="distance_set"/>
 <entry id="7" module="true" symbol="globals/Rez/Menus"/>
 <entry id="12" object="true" symbol="BackToTheFutureApp"/>
-<entry field="true" id="36" symbol="properties"/>
-<entry field="true" id="44" symbol="monthArrayZhs"/>
+<entry field="true" id="37" symbol="properties"/>
+<entry field="true" id="45" symbol="monthArrayZhs"/>
 <entry id="8392231" symbol="tintColor"/>
 <entry field="true" id="8388737" symbol="calories"/>
 <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
-<entry field="true" id="39" symbol="timeUtil"/>
-<entry field="true" id="35" symbol="dictionary"/>
-<entry field="true" id="93" symbol="FZSHIGKSK"/>
+<entry field="true" id="40" symbol="timeUtil"/>
+<entry field="true" id="36" symbol="dictionary"/>
+<entry field="true" id="96" symbol="FZSHIGKSK"/>
 <entry field="true" id="22" symbol="batteryFullSvg"/>
-<entry field="true" id="55" symbol="cur_calories_svg"/>
-<entry field="true" id="103" symbol="LAYOUTMODE_GRAY"/>
-<entry id="84" method="true" symbol="week_set"/>
-<entry field="true" id="94" symbol="hdr"/>
+<entry field="true" id="56" symbol="cur_calories_svg"/>
+<entry field="true" id="106" symbol="LAYOUTMODE_GRAY"/>
+<entry id="87" method="true" symbol="week_set"/>
+<entry id="8391839" method="true" symbol="getBodyBatteryHistory"/>
+<entry field="true" id="97" symbol="hdr"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="66" method="true" symbol="device_battery_svg_set"/>
-<entry field="true" id="104" symbol="LayoutTypeTitle"/>
+<entry id="67" method="true" symbol="device_battery_svg_set"/>
+<entry field="true" id="107" symbol="LayoutTypeTitle"/>
 <entry id="13" object="true" symbol="BackToTheFutureView"/>
-<entry id="70" method="true" symbol="foot_step_set"/>
+<entry id="71" method="true" symbol="foot_step_set"/>
+<entry field="true" id="23" symbol="bodyBattery"/>
 <entry field="true" id="27" symbol="distUnits"/>
 <entry id="9" object="true" symbol="AliceField"/>
-<entry field="true" id="100" symbol="AppName"/>
+<entry field="true" id="103" symbol="AppName"/>
+<entry id="32" method="true" symbol="getIterator"/>
 <entry id="15" object="true" symbol="DataPosition"/>
-<entry id="63" method="true" symbol="customDrawData"/>
-<entry id="65" method="true" symbol="device_battery_set"/>
-<entry id="73" method="true" symbol="heart_beat_svg_set"/>
-<entry field="true" id="75" symbol="cur_day"/>
+<entry id="64" method="true" symbol="customDrawData"/>
+<entry id="66" method="true" symbol="device_battery_set"/>
+<entry id="74" method="true" symbol="heart_beat_svg_set"/>
+<entry field="true" id="76" symbol="cur_day"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="8388912" symbol="steps"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
-<entry id="91" method="true" symbol="BlackModeLayout"/>
+<entry id="94" method="true" symbol="BlackModeLayout"/>
 <entry field="true" id="21" symbol="activityInfo"/>
-<entry field="true" id="88" symbol="battery_full"/>
+<entry field="true" id="91" symbol="battery_full"/>
 <entry id="11" object="true" symbol="AliceView"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry field="true" id="31" symbol="heartPuls"/>
-<entry field="true" id="45" symbol="monthDayArray"/>
-<entry id="48" method="true" symbol="body_battery_set"/>
+<entry field="true" id="33" symbol="heartPuls"/>
+<entry field="true" id="46" symbol="monthDayArray"/>
+<entry id="49" method="true" symbol="body_battery_set"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="8389067" symbol="height"/>
-<entry field="true" id="67" symbol="device_w_h"/>
-<entry field="true" id="58" symbol="cur_distance_svg"/>
-<entry id="41" module="true" symbol="Menus"/>
+<entry field="true" id="68" symbol="device_w_h"/>
+<entry field="true" id="59" symbol="cur_distance_svg"/>
+<entry id="42" module="true" symbol="Menus"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-<entry field="true" id="97" symbol="id_verdana_small"/>
-<entry field="true" id="95" symbol="id_font_clock_sec"/>
+<entry field="true" id="100" symbol="id_verdana_small"/>
+<entry field="true" id="98" symbol="id_font_clock_sec"/>
 <entry field="true" id="8389066" symbol="width"/>
 <entry field="true" id="8391300" method="true" symbol="isVisible"/>
 <entry id="8391298" method="true" symbol="play"/>
@@ -333,84 +357,86 @@
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="80" method="true" symbol="customDrawTime"/>
-<entry id="69" method="true" symbol="distance_svg_set"/>
-<entry field="true" id="64" symbol="dc"/>
-<entry field="true" id="77" symbol="cur_time"/>
-<entry id="71" method="true" symbol="foot_step_svg_set"/>
-<entry field="true" id="37" symbol="topY"/>
+<entry id="82" method="true" symbol="customDrawTime"/>
+<entry id="70" method="true" symbol="distance_svg_set"/>
+<entry field="true" id="65" symbol="dc"/>
+<entry field="true" id="79" symbol="cur_time"/>
+<entry id="72" method="true" symbol="foot_step_svg_set"/>
+<entry field="true" id="38" symbol="topY"/>
 <entry id="16" object="true" symbol="PresentTimeView"/>
 <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
 <entry field="true" id="8388911" symbol="distance"/>
 <entry id="10" object="true" symbol="AlicePersonalHealth"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="61" symbol="cur_heart_beat"/>
+<entry field="true" id="62" symbol="cur_heart_beat"/>
 <entry id="8389809" symbol="order"/>
 <entry id="8391314" method="true" symbol="onAnimationEvent"/>
 <entry field="true" id="28" symbol="footStepSvg"/>
-<entry field="true" id="52" symbol="cur_body_battery"/>
-<entry field="true" id="33" symbol="xinlv"/>
+<entry field="true" id="53" symbol="cur_body_battery"/>
+<entry field="true" id="34" symbol="xinlv"/>
 <entry id="8388699" method="true" symbol="stop"/>
-<entry id="25" method="true" symbol="convertDistance"/>
-<entry id="81" method="true" symbol="day_set"/>
-<entry field="true" id="78" symbol="cur_week"/>
-<entry id="87" object="true" symbol="MainBackground"/>
-<entry field="true" id="62" symbol="cur_heart_beat_svg"/>
+<entry id="29" method="true" symbol="getBodyBattery"/>
+<entry id="26" method="true" symbol="convertDistance"/>
+<entry id="83" method="true" symbol="day_set"/>
+<entry field="true" id="80" symbol="cur_week"/>
+<entry id="90" object="true" symbol="MainBackground"/>
+<entry field="true" id="63" symbol="cur_heart_beat_svg"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
-<entry field="true" id="106" symbol="WeekDays"/>
-<entry field="true" id="99" symbol="sgks"/>
+<entry field="true" id="109" symbol="WeekDays"/>
+<entry field="true" id="102" symbol="sgks"/>
 <entry field="true" id="19" symbol="_playing"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="23" symbol="caloriesSvg"/>
-<entry field="true" id="53" symbol="cur_body_battery_svg"/>
-<entry id="85" method="true" symbol="year_set"/>
-<entry field="true" id="34" symbol="bottomY"/>
+<entry field="true" id="24" symbol="caloriesSvg"/>
+<entry field="true" id="54" symbol="cur_body_battery_svg"/>
+<entry id="88" method="true" symbol="year_set"/>
+<entry field="true" id="35" symbol="bottomY"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="86" symbol="LauncherIcon"/>
+<entry field="true" id="89" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="72" method="true" symbol="heart_beat_set"/>
-<entry field="true" id="89" symbol="foot_step"/>
-<entry id="30" method="true" symbol="getHeartRateIterator"/>
-<entry id="38" method="true" symbol="currentTime"/>
+<entry id="73" method="true" symbol="heart_beat_set"/>
+<entry field="true" id="92" symbol="foot_step"/>
+<entry id="31" method="true" symbol="getHeartRateIterator"/>
+<entry id="39" method="true" symbol="currentTime"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="20" symbol="mySwirl"/>
-<entry field="true" id="98" symbol="mgbz"/>
-<entry field="true" id="59" symbol="cur_foot_step"/>
+<entry field="true" id="101" symbol="mgbz"/>
+<entry field="true" id="60" symbol="cur_foot_step"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="42" method="true" symbol="curTime"/>
+<entry id="43" method="true" symbol="curTime"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="17" object="true" symbol="TimePosition"/>
-<entry field="true" id="32" symbol="stepsGoal"/>
-<entry id="83" method="true" symbol="time_set"/>
-<entry field="true" id="76" symbol="cur_month"/>
+<entry id="86" method="true" symbol="time_set"/>
+<entry field="true" id="77" symbol="cur_month"/>
 <entry id="8389808" symbol="period"/>
-<entry id="50" method="true" symbol="calories_set"/>
+<entry id="51" method="true" symbol="calories_set"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="24" method="true" symbol="convertData"/>
+<entry id="25" method="true" symbol="convertData"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="47" symbol="weekArray"/>
-<entry id="51" method="true" symbol="calories_svg_set"/>
+<entry field="true" id="48" symbol="weekArray"/>
+<entry id="85" method="true" symbol="sec_set"/>
+<entry id="52" method="true" symbol="calories_svg_set"/>
 <entry id="8389781" module="true" symbol="SensorHistory"/>
-<entry id="92" method="true" symbol="NormalModeLayout"/>
-<entry field="true" id="74" symbol="_controller"/>
-<entry field="true" id="101" symbol="AppVersionTitle"/>
-<entry id="40" module="true" symbol="Layouts"/>
+<entry id="95" method="true" symbol="NormalModeLayout"/>
+<entry field="true" id="75" symbol="_controller"/>
+<entry field="true" id="104" symbol="AppVersionTitle"/>
+<entry id="41" module="true" symbol="Layouts"/>
 <entry id="18" object="true" symbol="TimeUtil"/>
-<entry field="true" id="54" symbol="cur_calories"/>
-<entry field="true" id="79" symbol="cur_year"/>
-<entry id="49" method="true" symbol="body_battery_svg_set"/>
-<entry field="true" id="57" symbol="cur_device_battery_svg"/>
-<entry field="true" id="105" symbol="Months"/>
+<entry field="true" id="55" symbol="cur_calories"/>
+<entry field="true" id="78" symbol="cur_sec"/>
+<entry field="true" id="81" symbol="cur_year"/>
+<entry id="50" method="true" symbol="body_battery_svg_set"/>
+<entry field="true" id="58" symbol="cur_device_battery_svg"/>
+<entry field="true" id="108" symbol="Months"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
-<entry id="82" method="true" symbol="month_set"/>
+<entry id="84" method="true" symbol="month_set"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="46" symbol="monthDayArrayZhs"/>
-<entry field="true" id="56" symbol="cur_device_battery"/>
-<entry field="true" id="43" symbol="monthArray"/>
+<entry field="true" id="47" symbol="monthDayArrayZhs"/>
+<entry field="true" id="57" symbol="cur_device_battery"/>
+<entry field="true" id="44" symbol="monthArray"/>
 </symbolTable>
 <localVars>
 <entry arg="true" endPc="268435807" name="dc" stackId="1" startPc="268435662"/>
@@ -419,101 +445,89 @@
 <entry arg="true" endPc="268436253" name="datas" stackId="1" startPc="268436074"/>
 <entry endPc="268436252" name="data" stackId="2" startPc="268436078"/>
 <entry endPc="268436252" name="length" stackId="3" startPc="268436078"/>
-<entry arg="true" endPc="268436300" name="x" stackId="1" startPc="268436254"/>
-<entry arg="true" endPc="268436300" name="dc" stackId="2" startPc="268436254"/>
-<entry arg="true" endPc="268436300" name="colour" stackId="3" startPc="268436254"/>
-<entry arg="true" endPc="268436300" name="data" stackId="4" startPc="268436254"/>
-<entry arg="true" endPc="268436300" name="pozition" stackId="5" startPc="268436254"/>
-<entry arg="true" endPc="268436300" name="font" stackId="6" startPc="268436254"/>
-<entry arg="true" endPc="268437443" name="dc" stackId="1" startPc="268436395"/>
-<entry endPc="268437442" name="font" stackId="2" startPc="268436399"/>
-<entry endPc="268437442" name="textDim" stackId="3" startPc="268436399"/>
-<entry endPc="268437442" name="x" stackId="4" startPc="268436399"/>
-<entry endPc="268437442" name="stepsX" stackId="5" startPc="268436399"/>
-<entry endPc="268437442" name="heartPulsX" stackId="6" startPc="268436399"/>
-<entry endPc="268437442" name="stepsGoalX" stackId="7" startPc="268436399"/>
-<entry endPc="268437442" name="caloriesX" stackId="8" startPc="268436399"/>
-<entry endPc="268437442" name="distanceX" stackId="9" startPc="268436399"/>
-<entry endPc="268437442" name="real_middle" stackId="10" startPc="268436399"/>
-<entry endPc="268437442" name="top_pozition" stackId="11" startPc="268436399"/>
-<entry endPc="268437442" name="activityData" stackId="12" startPc="268436399"/>
-<entry endPc="268437442" name="xValues" stackId="13" startPc="268436399"/>
-<entry endPc="268437442" name="stringData" stackId="14" startPc="268436399"/>
-<entry endPc="268437442" name="info" stackId="15" startPc="268436399"/>
-<entry endPc="268437442" name="width" stackId="16" startPc="268436399"/>
-<entry endPc="268437442" name="height" stackId="17" startPc="268436399"/>
-<entry endPc="268437442" name="options" stackId="18" startPc="268436399"/>
-<entry endPc="268437442" name="options3" stackId="19" startPc="268436399"/>
-<entry endPc="268437442" name="options4" stackId="20" startPc="268436399"/>
-<entry endPc="268437442" name="systemStats" stackId="21" startPc="268436399"/>
-<entry endPc="268437616" name="heartRate" stackId="1" startPc="268437448"/>
-<entry endPc="268437616" name="value" stackId="2" startPc="268437448"/>
-<entry arg="true" endPc="268437798" name="distance" stackId="1" startPc="268437617"/>
-<entry endPc="268437798" name="distanceStr" stackId="2" startPc="268437621"/>
-<entry endPc="268437795" name="feetDistance" stackId="3" startPc="268437723"/>
-<entry arg="true" endPc="268438241" name="params" stackId="1" startPc="268437799"/>
-<entry arg="true" endPc="268438303" name="_dictionary" stackId="1" startPc="268438261"/>
-<entry arg="true" endPc="268438303" name="newProperties" stackId="2" startPc="268438261"/>
-<entry endPc="268438389" name="clockTime" stackId="1" startPc="268438327"/>
-<entry endPc="268438389" name="t" stackId="2" startPc="268438327"/>
-<entry endPc="268438389" name="today" stackId="3" startPc="268438327"/>
-<entry arg="true" endPc="268438436" name="x" stackId="1" startPc="268438390"/>
-<entry arg="true" endPc="268438436" name="dc" stackId="2" startPc="268438390"/>
-<entry arg="true" endPc="268438436" name="colour" stackId="3" startPc="268438390"/>
-<entry arg="true" endPc="268438436" name="data" stackId="4" startPc="268438390"/>
-<entry arg="true" endPc="268438436" name="pozition" stackId="5" startPc="268438390"/>
-<entry arg="true" endPc="268438436" name="font" stackId="6" startPc="268438390"/>
-<entry arg="true" endPc="268438493" name="params" stackId="1" startPc="268438437"/>
-<entry arg="true" endPc="268439266" name="dc" stackId="1" startPc="268438494"/>
-<entry endPc="268439265" name="font" stackId="2" startPc="268438498"/>
-<entry endPc="268439265" name="secFont" stackId="3" startPc="268438498"/>
-<entry endPc="268439265" name="clockTime" stackId="4" startPc="268438498"/>
-<entry endPc="268439265" name="now" stackId="5" startPc="268438498"/>
-<entry endPc="268439265" name="date" stackId="6" startPc="268438498"/>
-<entry endPc="268439265" name="timeString" stackId="7" startPc="268438498"/>
-<entry endPc="268439265" name="secString" stackId="8" startPc="268438498"/>
-<entry endPc="268439265" name="months" stackId="9" startPc="268438498"/>
-<entry endPc="268439265" name="today" stackId="10" startPc="268438498"/>
-<entry endPc="268439265" name="day" stackId="11" startPc="268438498"/>
-<entry endPc="268439265" name="yearMonth" stackId="12" startPc="268438498"/>
-<entry endPc="268439265" name="textDim" stackId="13" startPc="268438498"/>
-<entry endPc="268439265" name="x" stackId="14" startPc="268438498"/>
-<entry endPc="268439265" name="real_middle" stackId="15" startPc="268438498"/>
-<entry endPc="268439265" name="middle_position" stackId="16" startPc="268438498"/>
-<entry endPc="268439265" name="top_pozition" stackId="17" startPc="268438498"/>
-<entry endPc="268439265" name="bottom_pozition" stackId="18" startPc="268438498"/>
-<entry endPc="268439265" name="fontMgbz" stackId="19" startPc="268438498"/>
-<entry endPc="268439265" name="test" stackId="20" startPc="268438498"/>
-<entry endPc="268439265" name="timer1" stackId="21" startPc="268438498"/>
-<entry arg="true" endPc="268441070" name="witch" stackId="1" startPc="268440738"/>
-<entry arg="true" endPc="268441070" name="param" stackId="2" startPc="268440738"/>
-<entry endPc="268441070" name="str" stackId="3" startPc="268440742"/>
-<entry arg="true" endPc="268441304" name="dc" stackId="1" startPc="268441258"/>
-<entry arg="true" endPc="268441304" name="x" stackId="2" startPc="268441258"/>
-<entry arg="true" endPc="268441304" name="pozition" stackId="3" startPc="268441258"/>
-<entry arg="true" endPc="268441304" name="colour" stackId="4" startPc="268441258"/>
-<entry arg="true" endPc="268441304" name="data" stackId="5" startPc="268441258"/>
-<entry arg="true" endPc="268441304" name="font" stackId="6" startPc="268441258"/>
-<entry arg="true" endPc="268441340" name="_dc" stackId="1" startPc="268441308"/>
-<entry arg="true" endPc="268441390" name="controller" stackId="1" startPc="268441360"/>
-<entry arg="true" endPc="268441460" name="event" stackId="1" startPc="268441391"/>
-<entry arg="true" endPc="268441460" name="options" stackId="2" startPc="268441391"/>
-<entry arg="true" endPc="268441610" name="dc" stackId="1" startPc="268441564"/>
-<entry arg="true" endPc="268441610" name="x" stackId="2" startPc="268441564"/>
-<entry arg="true" endPc="268441610" name="y" stackId="3" startPc="268441564"/>
-<entry arg="true" endPc="268441610" name="colour" stackId="4" startPc="268441564"/>
-<entry arg="true" endPc="268441610" name="data" stackId="5" startPc="268441564"/>
-<entry arg="true" endPc="268441610" name="font" stackId="6" startPc="268441564"/>
-<entry arg="true" endPc="268441623" name="_dc" stackId="1" startPc="268441611"/>
-<entry arg="true" endPc="268441781" name="yearMonth" stackId="1" startPc="268441624"/>
-<entry arg="true" endPc="268441781" name="test" stackId="2" startPc="268441624"/>
-<entry arg="true" endPc="268441990" name="dc" stackId="1" startPc="268441828"/>
-<entry arg="true" endPc="268442123" name="dc" stackId="1" startPc="268441991"/>
-<entry endPc="268442123" name="rez_cmp_local_custom_drawable_presentView" stackId="2" startPc="268442003"/>
-<entry endPc="268442123" name="rez_cmp_local_custom_drawable_aliceView" stackId="3" startPc="268442003"/>
-<entry arg="true" endPc="268442256" name="dc" stackId="1" startPc="268442124"/>
-<entry endPc="268442256" name="rez_cmp_local_custom_drawable_presentView" stackId="2" startPc="268442136"/>
-<entry endPc="268442256" name="rez_cmp_local_custom_drawable_aliceView" stackId="3" startPc="268442136"/>
+<entry endPc="268436426" name="bosyBattery" stackId="1" startPc="268436258"/>
+<entry endPc="268436426" name="value" stackId="2" startPc="268436258"/>
+<entry arg="true" endPc="268437626" name="dc" stackId="1" startPc="268436521"/>
+<entry endPc="268437625" name="font" stackId="2" startPc="268436525"/>
+<entry endPc="268437625" name="textDim" stackId="3" startPc="268436525"/>
+<entry endPc="268437625" name="x" stackId="4" startPc="268436525"/>
+<entry endPc="268437625" name="stepsX" stackId="5" startPc="268436525"/>
+<entry endPc="268437625" name="heartPulsX" stackId="6" startPc="268436525"/>
+<entry endPc="268437625" name="stepsGoalX" stackId="7" startPc="268436525"/>
+<entry endPc="268437625" name="caloriesX" stackId="8" startPc="268436525"/>
+<entry endPc="268437625" name="distanceX" stackId="9" startPc="268436525"/>
+<entry endPc="268437625" name="real_middle" stackId="10" startPc="268436525"/>
+<entry endPc="268437625" name="top_pozition" stackId="11" startPc="268436525"/>
+<entry endPc="268437625" name="stringData" stackId="12" startPc="268436525"/>
+<entry endPc="268437625" name="info" stackId="13" startPc="268436525"/>
+<entry endPc="268437625" name="width" stackId="14" startPc="268436525"/>
+<entry endPc="268437625" name="height" stackId="15" startPc="268436525"/>
+<entry endPc="268437625" name="options" stackId="16" startPc="268436525"/>
+<entry endPc="268437625" name="options3" stackId="17" startPc="268436525"/>
+<entry endPc="268437625" name="options4" stackId="18" startPc="268436525"/>
+<entry endPc="268437625" name="systemStats" stackId="19" startPc="268436525"/>
+<entry endPc="268437799" name="heartRate" stackId="1" startPc="268437631"/>
+<entry endPc="268437799" name="value" stackId="2" startPc="268437631"/>
+<entry arg="true" endPc="268438049" name="distance" stackId="1" startPc="268437868"/>
+<entry endPc="268438049" name="distanceStr" stackId="2" startPc="268437872"/>
+<entry endPc="268438046" name="feetDistance" stackId="3" startPc="268437974"/>
+<entry arg="true" endPc="268438519" name="params" stackId="1" startPc="268438050"/>
+<entry arg="true" endPc="268438581" name="_dictionary" stackId="1" startPc="268438539"/>
+<entry arg="true" endPc="268438581" name="newProperties" stackId="2" startPc="268438539"/>
+<entry endPc="268438667" name="clockTime" stackId="1" startPc="268438605"/>
+<entry endPc="268438667" name="t" stackId="2" startPc="268438605"/>
+<entry endPc="268438667" name="today" stackId="3" startPc="268438605"/>
+<entry arg="true" endPc="268438724" name="params" stackId="1" startPc="268438668"/>
+<entry arg="true" endPc="268439301" name="dc" stackId="1" startPc="268438725"/>
+<entry endPc="268439300" name="font" stackId="2" startPc="268438729"/>
+<entry endPc="268439300" name="secFont" stackId="3" startPc="268438729"/>
+<entry endPc="268439300" name="clockTime" stackId="4" startPc="268438729"/>
+<entry endPc="268439300" name="now" stackId="5" startPc="268438729"/>
+<entry endPc="268439300" name="date" stackId="6" startPc="268438729"/>
+<entry endPc="268439300" name="timeString" stackId="7" startPc="268438729"/>
+<entry endPc="268439300" name="secString" stackId="8" startPc="268438729"/>
+<entry endPc="268439300" name="months" stackId="9" startPc="268438729"/>
+<entry endPc="268439300" name="today" stackId="10" startPc="268438729"/>
+<entry endPc="268439300" name="day" stackId="11" startPc="268438729"/>
+<entry endPc="268439300" name="yearMonth" stackId="12" startPc="268438729"/>
+<entry endPc="268439300" name="test" stackId="13" startPc="268438729"/>
+<entry endPc="268439300" name="timer1" stackId="14" startPc="268438729"/>
+<entry arg="true" endPc="268441105" name="witch" stackId="1" startPc="268440773"/>
+<entry arg="true" endPc="268441105" name="param" stackId="2" startPc="268440773"/>
+<entry endPc="268441105" name="str" stackId="3" startPc="268440777"/>
+<entry arg="true" endPc="268441339" name="dc" stackId="1" startPc="268441293"/>
+<entry arg="true" endPc="268441339" name="x" stackId="2" startPc="268441293"/>
+<entry arg="true" endPc="268441339" name="pozition" stackId="3" startPc="268441293"/>
+<entry arg="true" endPc="268441339" name="colour" stackId="4" startPc="268441293"/>
+<entry arg="true" endPc="268441339" name="data" stackId="5" startPc="268441293"/>
+<entry arg="true" endPc="268441339" name="font" stackId="6" startPc="268441293"/>
+<entry arg="true" endPc="268441375" name="_dc" stackId="1" startPc="268441343"/>
+<entry arg="true" endPc="268441425" name="controller" stackId="1" startPc="268441395"/>
+<entry arg="true" endPc="268441495" name="event" stackId="1" startPc="268441426"/>
+<entry arg="true" endPc="268441495" name="options" stackId="2" startPc="268441426"/>
+<entry arg="true" endPc="268441786" name="timeString" stackId="1" startPc="268441613"/>
+<entry arg="true" endPc="268441786" name="font" stackId="2" startPc="268441613"/>
+<entry endPc="268441785" name="textDim" stackId="3" startPc="268441617"/>
+<entry arg="true" endPc="268441833" name="dc" stackId="1" startPc="268441787"/>
+<entry arg="true" endPc="268441833" name="x" stackId="2" startPc="268441787"/>
+<entry arg="true" endPc="268441833" name="y" stackId="3" startPc="268441787"/>
+<entry arg="true" endPc="268441833" name="colour" stackId="4" startPc="268441787"/>
+<entry arg="true" endPc="268441833" name="data" stackId="5" startPc="268441787"/>
+<entry arg="true" endPc="268441833" name="font" stackId="6" startPc="268441787"/>
+<entry arg="true" endPc="268442020" name="secString" stackId="1" startPc="268441834"/>
+<entry arg="true" endPc="268442020" name="secFont" stackId="2" startPc="268441834"/>
+<entry endPc="268442019" name="x" stackId="3" startPc="268441838"/>
+<entry endPc="268442019" name="textDim" stackId="4" startPc="268441838"/>
+<entry arg="true" endPc="268442095" name="_dc" stackId="1" startPc="268442021"/>
+<entry arg="true" endPc="268442193" name="yearMonth" stackId="1" startPc="268442096"/>
+<entry arg="true" endPc="268442193" name="test" stackId="2" startPc="268442096"/>
+<entry arg="true" endPc="268442402" name="dc" stackId="1" startPc="268442240"/>
+<entry arg="true" endPc="268442535" name="dc" stackId="1" startPc="268442403"/>
+<entry endPc="268442535" name="rez_cmp_local_custom_drawable_presentView" stackId="2" startPc="268442415"/>
+<entry endPc="268442535" name="rez_cmp_local_custom_drawable_aliceView" stackId="3" startPc="268442415"/>
+<entry arg="true" endPc="268442668" name="dc" stackId="1" startPc="268442536"/>
+<entry endPc="268442668" name="rez_cmp_local_custom_drawable_presentView" stackId="2" startPc="268442548"/>
+<entry endPc="268442668" name="rez_cmp_local_custom_drawable_aliceView" stackId="3" startPc="268442548"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -541,22 +555,22 @@
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/BackToTheFutureView" offset="214" parentId="globals" symbolId="BackToTheFutureView" type="class"/>
 <dataEntry label="globals/AliceView" offset="341" parentId="globals" symbolId="AliceView" type="class"/>
-<dataEntry label="globals/AliceField" offset="524" parentId="globals" symbolId="AliceField" type="class"/>
-<dataEntry label="globals/AlicePersonalHealth" offset="603" parentId="globals" symbolId="AlicePersonalHealth" type="class"/>
-<dataEntry label="globals/PresentTimeView" offset="650" parentId="globals" symbolId="PresentTimeView" type="class"/>
+<dataEntry label="globals/AliceField" offset="532" parentId="globals" symbolId="AliceField" type="class"/>
+<dataEntry label="globals/AlicePersonalHealth" offset="611" parentId="globals" symbolId="AlicePersonalHealth" type="class"/>
+<dataEntry label="globals/PresentTimeView" offset="658" parentId="globals" symbolId="PresentTimeView" type="class"/>
 <dataEntry label="globals/BackToTheFutureApp" offset="729" parentId="globals" symbolId="BackToTheFutureApp" type="class"/>
 <dataEntry label="globals/Rez" offset="800" parentId="globals" symbolId="Rez" type="module"/>
 <dataEntry label="globals/TimeUtil" offset="879" parentId="globals" symbolId="TimeUtil" type="class"/>
 <dataEntry label="globals/DataPosition" offset="974" parentId="globals" symbolId="DataPosition" type="class"/>
 <dataEntry label="globals/DanceDanceAnimationDelegate" offset="1237" parentId="globals" symbolId="DanceDanceAnimationDelegate" type="class"/>
 <dataEntry label="globals/TimePosition" offset="1300" parentId="globals" symbolId="TimePosition" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="1451" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1538" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="1585" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="1616" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1703" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="1790" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry label="globals/Rez/Drawables/MainBackground" offset="1821" parentId="Drawables" symbolId="MainBackground" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1467" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1554" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1601" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1632" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1719" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1806" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Drawables/MainBackground" offset="1837" parentId="Drawables" symbolId="MainBackground" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="BackToTheFutureView" startPc="268435460">
@@ -598,37 +612,34 @@
 <param id="datas"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436300" name="customDrawText" parent="AliceView" startPc="268436254">
-<param id="x"/>
-<param id="dc"/>
-<param id="colour"/>
-<param id="data"/>
-<param id="pozition"/>
-<param id="font"/>
+<functionEntry accessMode="public" endPc="268436426" name="getBodyBattery" parent="AliceView" startPc="268436254">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436394" name="getHeartRateIterator" parent="AliceView" startPc="268436301">
+<functionEntry accessMode="public" endPc="268436520" name="getHeartRateIterator" parent="AliceView" startPc="268436427">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437443" name="draw" parent="AliceView" startPc="268436395">
+<functionEntry accessMode="public" endPc="268437626" name="draw" parent="AliceView" startPc="268436521">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="private" endPc="268437616" name="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;" parent="AliceView" startPc="268437444">
+<functionEntry accessMode="private" endPc="268437799" name="&lt;globals/AliceView/&lt;&gt;getHeartRate&gt;" parent="AliceView" startPc="268437627">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437798" name="convertDistance" parent="AliceView" startPc="268437617">
+<functionEntry accessMode="public" endPc="268437867" name="getIterator" parent="AliceView" startPc="268437800">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438049" name="convertDistance" parent="AliceView" startPc="268437868">
 <param id="distance"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438241" name="initialize" parent="AliceView" startPc="268437799">
+<functionEntry accessMode="public" endPc="268438519" name="initialize" parent="AliceView" startPc="268438050">
 <param id="params"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438260" name="&lt;init&gt;" parent="AliceField" startPc="268438242">
+<functionEntry accessMode="public" endPc="268438538" name="&lt;init&gt;" parent="AliceField" startPc="268438520">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438303" name="initialize" parent="AliceField" startPc="268438261">
+<functionEntry accessMode="public" endPc="268438581" name="initialize" parent="AliceField" startPc="268438539">
 <param id="_dictionary"/>
 <param id="newProperties"/>
 <documentation/>
@@ -639,53 +650,44 @@
 <functionEntry accessMode="public" name="initialize" parent="AlicePersonalHealth">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438322" name="&lt;init&gt;" parent="PresentTimeView" startPc="268438304">
+<functionEntry accessMode="public" endPc="268438600" name="&lt;init&gt;" parent="PresentTimeView" startPc="268438582">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438389" name="currentTime" parent="PresentTimeView" startPc="268438323">
+<functionEntry accessMode="public" endPc="268438667" name="currentTime" parent="PresentTimeView" startPc="268438601">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438436" name="customDrawText" parent="PresentTimeView" startPc="268438390">
-<param id="x"/>
-<param id="dc"/>
-<param id="colour"/>
-<param id="data"/>
-<param id="pozition"/>
-<param id="font"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268438493" name="initialize" parent="PresentTimeView" startPc="268438437">
+<functionEntry accessMode="public" endPc="268438724" name="initialize" parent="PresentTimeView" startPc="268438668">
 <param id="params"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439266" name="draw" parent="PresentTimeView" startPc="268438494">
+<functionEntry accessMode="public" endPc="268439301" name="draw" parent="PresentTimeView" startPc="268438725">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439285" name="&lt;init&gt;" parent="BackToTheFutureApp" startPc="268439267">
+<functionEntry accessMode="public" endPc="268439320" name="&lt;init&gt;" parent="BackToTheFutureApp" startPc="268439302">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439288" name="onStart" parent="BackToTheFutureApp" startPc="268439286">
+<functionEntry accessMode="public" endPc="268439323" name="onStart" parent="BackToTheFutureApp" startPc="268439321">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439331" name="getInitialView" parent="BackToTheFutureApp" startPc="268439289">
+<functionEntry accessMode="public" endPc="268439366" name="getInitialView" parent="BackToTheFutureApp" startPc="268439324">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439352" name="initialize" parent="BackToTheFutureApp" startPc="268439332">
+<functionEntry accessMode="public" endPc="268439387" name="initialize" parent="BackToTheFutureApp" startPc="268439367">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439355" name="onStop" parent="BackToTheFutureApp" startPc="268439353">
+<functionEntry accessMode="public" endPc="268439390" name="onStop" parent="BackToTheFutureApp" startPc="268439388">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439379" name="&lt;init&gt;" parent="Rez" startPc="268439356">
+<functionEntry accessMode="public" endPc="268439414" name="&lt;init&gt;" parent="Rez" startPc="268439391">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440737" name="&lt;init&gt;" parent="TimeUtil" startPc="268439380">
+<functionEntry accessMode="public" endPc="268440772" name="&lt;init&gt;" parent="TimeUtil" startPc="268439415">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441070" name="curTime" parent="TimeUtil" startPc="268440738">
+<functionEntry accessMode="public" endPc="268441105" name="curTime" parent="TimeUtil" startPc="268440773">
 <param id="witch"/>
 <param id="param"/>
 <documentation/>
@@ -693,7 +695,7 @@
 <functionEntry accessMode="public" name="initialize" parent="TimeUtil">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441257" name="&lt;init&gt;" parent="DataPosition" startPc="268441071">
+<functionEntry accessMode="public" endPc="268441292" name="&lt;init&gt;" parent="DataPosition" startPc="268441106">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="distance_set" parent="DataPosition">
@@ -702,7 +704,7 @@
 <functionEntry accessMode="public" name="body_battery_set" parent="DataPosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441304" name="customDrawData" parent="DataPosition" startPc="268441258">
+<functionEntry accessMode="public" endPc="268441339" name="customDrawData" parent="DataPosition" startPc="268441293">
 <param id="dc"/>
 <param id="x"/>
 <param id="pozition"/>
@@ -726,7 +728,7 @@
 <functionEntry accessMode="public" name="body_battery_svg_set" parent="DataPosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441307" name="draw" parent="DataPosition" startPc="268441305">
+<functionEntry accessMode="public" endPc="268441342" name="draw" parent="DataPosition" startPc="268441340">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -742,32 +744,34 @@
 <functionEntry accessMode="public" name="device_battery_set" parent="DataPosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441340" name="initialize" parent="DataPosition" startPc="268441308">
+<functionEntry accessMode="public" endPc="268441375" name="initialize" parent="DataPosition" startPc="268441343">
 <param id="_dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="foot_step_svg_set" parent="DataPosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441359" name="&lt;init&gt;" parent="DanceDanceAnimationDelegate" startPc="268441341">
+<functionEntry accessMode="public" endPc="268441394" name="&lt;init&gt;" parent="DanceDanceAnimationDelegate" startPc="268441376">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441390" name="initialize" parent="DanceDanceAnimationDelegate" startPc="268441360">
+<functionEntry accessMode="public" endPc="268441425" name="initialize" parent="DanceDanceAnimationDelegate" startPc="268441395">
 <param id="controller"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441460" name="onAnimationEvent" parent="DanceDanceAnimationDelegate" startPc="268441391">
+<functionEntry accessMode="public" endPc="268441495" name="onAnimationEvent" parent="DanceDanceAnimationDelegate" startPc="268441426">
 <param id="event"/>
 <param id="options"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441563" name="&lt;init&gt;" parent="TimePosition" startPc="268441461">
+<functionEntry accessMode="public" endPc="268441612" name="&lt;init&gt;" parent="TimePosition" startPc="268441496">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="time_set" parent="TimePosition">
+<functionEntry accessMode="public" endPc="268441786" name="time_set" parent="TimePosition" startPc="268441613">
+<param id="timeString"/>
+<param id="font"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441610" name="customDrawTime" parent="TimePosition" startPc="268441564">
+<functionEntry accessMode="public" endPc="268441833" name="customDrawTime" parent="TimePosition" startPc="268441787">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
@@ -779,17 +783,22 @@
 <functionEntry accessMode="public" name="month_set" parent="TimePosition">
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" endPc="268442020" name="sec_set" parent="TimePosition" startPc="268441834">
+<param id="secString"/>
+<param id="secFont"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="day_set" parent="TimePosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441623" name="initialize" parent="TimePosition" startPc="268441611">
+<functionEntry accessMode="public" endPc="268442095" name="initialize" parent="TimePosition" startPc="268442021">
 <param id="_dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="week_set" parent="TimePosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441781" name="year_set" parent="TimePosition" startPc="268441624">
+<functionEntry accessMode="public" endPc="268442193" name="year_set" parent="TimePosition" startPc="268442096">
 <param id="yearMonth"/>
 <param id="test"/>
 <documentation/>
@@ -812,21 +821,21 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441800" name="&lt;init&gt;" parent="MainBackground" startPc="268441782">
+<functionEntry accessMode="public" endPc="268442212" name="&lt;init&gt;" parent="MainBackground" startPc="268442194">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441827" name="initialize" parent="MainBackground" startPc="268441801">
+<functionEntry accessMode="public" endPc="268442239" name="initialize" parent="MainBackground" startPc="268442213">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441990" name="draw" parent="MainBackground" startPc="268441828">
+<functionEntry accessMode="public" endPc="268442402" name="draw" parent="MainBackground" startPc="268442240">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442123" name="BlackModeLayout" parent="Layouts" startPc="268441991">
+<functionEntry accessMode="public" endPc="268442535" name="BlackModeLayout" parent="Layouts" startPc="268442403">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442256" name="NormalModeLayout" parent="Layouts" startPc="268442124">
+<functionEntry accessMode="public" endPc="268442668" name="NormalModeLayout" parent="Layouts" startPc="268442536">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
