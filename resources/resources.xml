@@ -2,7 +2,7 @@
     <fonts>
         <font id="id_verdana" filename="fonts/verdana.fnt" filter="ABCDDEFGHIJKLMNOPQRSTUVWXYZ " />
         <font id="id_verdana_small" filename="fonts/verdana_small.fnt" filter="ABCDEFGHIJKLMNOPQRSTUVWXYZ " />
-        <font id="sgks" filename="fonts/sgks.fnt" filter="0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.% " />
+        <font id="sgks" filename="fonts/HMS.fnt" antialias="true" />
         <font id="mgbz" filename="fonts/mgbz.fnt" filter="0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.% " />
         <font id="id_font_clock_sec" filename="fonts/Time_Clock.fnt" filter="0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.% " />
         <font id="hdr" filename="fonts/hdr.fnt" filter="0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.% " />

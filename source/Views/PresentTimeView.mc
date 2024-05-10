@@ -19,7 +19,7 @@ class PresentTimeView extends Ui.Drawable{
                 var clockTime = Sys.getClockTime();
                 var now = Time.now();
                 var date = Calendar.info(now, Time.FORMAT_LONG);
-                var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
+                var timeString = Lang.format("$1$$2$$3$", [clockTime.hour, ":",clockTime.min.format("%02d")]);
                 var secString = Lang.format("$1$", [clockTime.sec.format("%02d")]);
 
                 var months = Ui.loadResource(Rez.Strings.Months);

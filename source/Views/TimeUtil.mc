@@ -33,18 +33,12 @@ class TimeUtil{
         var str = "err";
          
         if(witch.equals("monthArray")) {
-            Sys.println("monthArray witch => " + witch);
-            Sys.println("monthArray param => " + param);
             str = monthArray[param];
         }
         if(witch.equals("weekArray")) {
-            Sys.println("weekArray witch => " + witch);
-            Sys.println("weekArray param => " + param);
             str = weekArray[param];
         }
         if(witch.equals("monthDayArray")) {
-            Sys.println("monthDayArray witch => " + witch);
-            Sys.println("monthDayArray param => " + param);
             str = monthDayArray[param];
         }
 

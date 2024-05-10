@@ -356,126 +356,84 @@ _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_Time
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_35_8_if_true:
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_35_39_start:
 [ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 36 12 ]
-        %tmp.6 = getm $.Toybox.System;
-        %tmp.7 = getv function %tmp.6 :println;
-        %tmp.8 = "monthArray witch => ";
-        %tmp.10 = lgetv %witch;
-        %tmp.11 = add %tmp.8 %tmp.10;
-        invoke %tmp.6 %tmp.7(%tmp.11);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 37 12 ]
-        %tmp.12 = getm $.Toybox.System;
-        %tmp.13 = getv function %tmp.12 :println;
-        %tmp.14 = "monthArray param => ";
-        %tmp.16 = lgetv %param;
-        %tmp.17 = add %tmp.14 %tmp.16;
-        invoke %tmp.12 %tmp.13(%tmp.17);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 38 12 ]
-        %tmp.19 = getv ? :monthArray;
-        %tmp.21 = lgetv %param;
-        %tmp.22 = agetv %tmp.19 %tmp.21;
-        lputv %str.1 %tmp.22;
+        %tmp.7 = getv ? :monthArray;
+        %tmp.9 = lgetv %param;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        lputv %str.1 %tmp.10;
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_35_39_stop:
         goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_35_8_if_end;
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_35_8_if_end:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 40 8 ]
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_40_8_if_stmt:
-        %tmp.23 = lgetv %witch;
-        %tmp.24 = getv function %tmp.23 :equals;
-        %tmp.25 = "weekArray";
-        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
-        bf %tmp.26 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_40_8_if_end;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_40_8_if_true:
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_40_38_start:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 41 12 ]
-        %tmp.27 = getm $.Toybox.System;
-        %tmp.28 = getv function %tmp.27 :println;
-        %tmp.29 = "weekArray witch => ";
-        %tmp.31 = lgetv %witch;
-        %tmp.32 = add %tmp.29 %tmp.31;
-        invoke %tmp.27 %tmp.28(%tmp.32);
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 38 8 ]
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_38_8_if_stmt:
+        %tmp.11 = lgetv %witch;
+        %tmp.12 = getv function %tmp.11 :equals;
+        %tmp.13 = "weekArray";
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        bf %tmp.14 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_38_8_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_38_8_if_true:
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_38_38_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 39 12 ]
+        %tmp.16 = getv ? :weekArray;
+        %tmp.18 = lgetv %param;
+        %tmp.19 = agetv %tmp.16 %tmp.18;
+        lputv %str.1 %tmp.19;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_38_38_stop:
+        goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_38_8_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_38_8_if_end:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 41 8 ]
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_41_8_if_stmt:
+        %tmp.20 = lgetv %witch;
+        %tmp.21 = getv function %tmp.20 :equals;
+        %tmp.22 = "monthDayArray";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        bf %tmp.23 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_41_8_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_41_8_if_true:
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_41_42_start:
 [ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 42 12 ]
-        %tmp.33 = getm $.Toybox.System;
-        %tmp.34 = getv function %tmp.33 :println;
-        %tmp.35 = "weekArray param => ";
-        %tmp.37 = lgetv %param;
-        %tmp.38 = add %tmp.35 %tmp.37;
-        invoke %tmp.33 %tmp.34(%tmp.38);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 43 12 ]
-        %tmp.40 = getv ? :weekArray;
-        %tmp.42 = lgetv %param;
-        %tmp.43 = agetv %tmp.40 %tmp.42;
-        lputv %str.1 %tmp.43;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_40_38_stop:
-        goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_40_8_if_end;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_40_8_if_end:
+        %tmp.25 = getv ? :monthDayArray;
+        %tmp.27 = lgetv %param;
+        %tmp.28 = agetv %tmp.25 %tmp.27;
+        lputv %str.1 %tmp.28;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_41_42_stop:
+        goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_41_8_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_41_8_if_end:
 [ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 45 8 ]
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_45_8_if_stmt:
-        %tmp.44 = lgetv %witch;
-        %tmp.45 = getv function %tmp.44 :equals;
-        %tmp.46 = "monthDayArray";
-        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
-        bf %tmp.47 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_45_8_if_end;
+        %tmp.29 = lgetv %witch;
+        %tmp.30 = getv function %tmp.29 :equals;
+        %tmp.31 = "monthArrayZhs";
+        %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
+        bf %tmp.32 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_45_8_if_end;
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_45_8_if_true:
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_45_42_start:
 [ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 46 12 ]
-        %tmp.48 = getm $.Toybox.System;
-        %tmp.49 = getv function %tmp.48 :println;
-        %tmp.50 = "monthDayArray witch => ";
-        %tmp.52 = lgetv %witch;
-        %tmp.53 = add %tmp.50 %tmp.52;
-        invoke %tmp.48 %tmp.49(%tmp.53);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 47 12 ]
-        %tmp.54 = getm $.Toybox.System;
-        %tmp.55 = getv function %tmp.54 :println;
-        %tmp.56 = "monthDayArray param => ";
-        %tmp.58 = lgetv %param;
-        %tmp.59 = add %tmp.56 %tmp.58;
-        invoke %tmp.54 %tmp.55(%tmp.59);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 48 12 ]
-        %tmp.61 = getv ? :monthDayArray;
-        %tmp.63 = lgetv %param;
-        %tmp.64 = agetv %tmp.61 %tmp.63;
-        lputv %str.1 %tmp.64;
+        %tmp.34 = getv ? :monthArrayZhs;
+        %tmp.36 = lgetv %param;
+        %tmp.37 = agetv %tmp.34 %tmp.36;
+        lputv %str.1 %tmp.37;
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_45_42_stop:
         goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_45_8_if_end;
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_45_8_if_end:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 48 8 ]
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_48_8_if_stmt:
+        %tmp.38 = lgetv %witch;
+        %tmp.39 = getv function %tmp.38 :equals;
+        %tmp.40 = "monthDayArrayZhs";
+        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+        bf %tmp.41 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_48_8_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_48_8_if_true:
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_48_45_start:
+[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 49 12 ]
+        %tmp.43 = getv ? :monthDayArrayZhs;
+        %tmp.45 = lgetv %param;
+        %tmp.46 = agetv %tmp.43 %tmp.45;
+        lputv %str.1 %tmp.46;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_48_45_stop:
+        goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_48_8_if_end;
+_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_48_8_if_end:
 [ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 51 8 ]
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_51_8_if_stmt:
-        %tmp.65 = lgetv %witch;
-        %tmp.66 = getv function %tmp.65 :equals;
-        %tmp.67 = "monthArrayZhs";
-        %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
-        bf %tmp.68 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_51_8_if_end;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_51_8_if_true:
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_51_42_start:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 52 12 ]
-        %tmp.70 = getv ? :monthArrayZhs;
-        %tmp.72 = lgetv %param;
-        %tmp.73 = agetv %tmp.70 %tmp.72;
-        lputv %str.1 %tmp.73;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_51_42_stop:
-        goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_51_8_if_end;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_51_8_if_end:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 54 8 ]
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_54_8_if_stmt:
-        %tmp.74 = lgetv %witch;
-        %tmp.75 = getv function %tmp.74 :equals;
-        %tmp.76 = "monthDayArrayZhs";
-        %tmp.77 = invoke %tmp.74 %tmp.75(%tmp.76);
-        bf %tmp.77 @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_54_8_if_end;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_54_8_if_true:
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_54_45_start:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 55 12 ]
-        %tmp.79 = getv ? :monthDayArrayZhs;
-        %tmp.81 = lgetv %param;
-        %tmp.82 = agetv %tmp.79 %tmp.81;
-        lputv %str.1 %tmp.82;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_54_45_stop:
-        goto @_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_54_8_if_end;
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_54_8_if_end:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/TimeUtil.mc" 57 8 ]
-        %tmp.84 = lgetv %str.1;
-        ret %tmp.84;
+        %tmp.48 = lgetv %str.1;
+        ret %tmp.48;
 _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_TimeUtil_mc_32_35_stop:
     }
 }
