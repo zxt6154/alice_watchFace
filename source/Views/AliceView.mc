@@ -7,6 +7,7 @@ using Toybox.Sensor as Sor;
 using Toybox.ActivityMonitor as Monitor;
 using Toybox.SensorHistory as Sh;
 
+//页面展示
 class AliceView extends Ui.Drawable {  
     
     var activityInfo = ActMon.getInfo(); 
