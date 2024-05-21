@@ -1,0 +1,45 @@
+<svg height="729" node-id="1" sillyvg="true" template-height="729" template-width="516" version="1.1" viewBox="0 0 516 729" width="516"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs node-id="40">
+        <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" node-id="4" spreadMethod="pad" x1="112.0086" x2="245.3114" y1="358.6386" y2="358.6386">
+            <stop offset="0" stop-color="#d57a8d"/>
+            <stop offset="0.1743" stop-color="#dd9aa2"/>
+            <stop offset="0.422" stop-color="#e8c0bd"/>
+            <stop offset="0.6505" stop-color="#efdccf"/>
+            <stop offset="0.8504" stop-color="#f3eddb"/>
+            <stop offset="1" stop-color="#f5f3df"/>
+        </linearGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" node-id="11" spreadMethod="pad" x1="110.0086" x2="247.3114" y1="358.6386" y2="358.6386">
+            <stop offset="0" stop-color="#d57a8d"/>
+            <stop offset="0.1743" stop-color="#dd9aa2"/>
+            <stop offset="0.422" stop-color="#e8c0bd"/>
+            <stop offset="0.6505" stop-color="#efdccf"/>
+            <stop offset="0.8504" stop-color="#f3eddb"/>
+            <stop offset="1" stop-color="#f5f3df"/>
+        </linearGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_3_" node-id="21" spreadMethod="pad" x1="313.2021" x2="432.455" y1="278.2966" y2="278.2966">
+            <stop offset="0" stop-color="#d57a8d"/>
+            <stop offset="0.1743" stop-color="#dd9aa2"/>
+            <stop offset="0.422" stop-color="#e8c0bd"/>
+            <stop offset="0.6505" stop-color="#efdccf"/>
+            <stop offset="0.8504" stop-color="#f3eddb"/>
+            <stop offset="1" stop-color="#f5f3df"/>
+        </linearGradient>
+        <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_4_" node-id="31" spreadMethod="pad" x1="318.5492" x2="450.7137" y1="376.7667" y2="376.7667">
+            <stop offset="0" stop-color="#d57a8d"/>
+            <stop offset="0.1743" stop-color="#dd9aa2"/>
+            <stop offset="0.422" stop-color="#e8c0bd"/>
+            <stop offset="0.6505" stop-color="#efdccf"/>
+            <stop offset="0.8504" stop-color="#f3eddb"/>
+            <stop offset="1" stop-color="#f5f3df"/>
+        </linearGradient>
+    </defs>
+    <path d="M 221.30 296.40 L 212.60 342.10 L 245.30 375.20 L 199.10 381.10 L 177.80 422.40 L 157.90 380.30 L 112.00 372.70 L 145.90 340.90 L 138.90 294.90 L 179.70 317.30 Z" fill="url(#SVGID_1_)" fill-rule="nonzero" node-id="99" stroke="url(#SVGID_2_)" stroke-linecap="round" stroke-width="4" target-height="127.5" target-width="133.3" target-x="112" target-y="294.9"/>
+    <g node-id="115">
+        <g node-id="117">
+            <path d="M 314.20 310.50 C 355.10 292.50 394.60 271.50 432.50 247.90 C 433.60 247.20 432.60 245.50 431.50 246.20 C 393.60 269.80 354.10 290.80 313.20 308.80 C 312.00 309.30 313.00 311.00 314.20 310.50 L 314.20 310.50 Z" fill="url(#SVGID_3_)" fill-rule="nonzero" group-id="1,3" node-id="105" stroke="none" target-height="65.5" target-width="121.600006" target-x="312" target-y="245.5"/>
+        </g>
+    </g>
+    <path d="M 318.80 376.30 C 362.50 383.50 407.10 382.80 450.50 374.20 C 451.80 373.90 451.20 372.00 450.00 372.30 C 407.00 380.80 362.70 381.50 319.40 374.40 C 318.10 374.20 317.50 376.10 318.80 376.30 L 318.80 376.30 Z" fill="url(#SVGID_4_)" fill-rule="nonzero" group-id="2,4" node-id="113" stroke="none" target-height="11.5" target-width="134.29999" target-x="317.5" target-y="372"/>
+</svg>
