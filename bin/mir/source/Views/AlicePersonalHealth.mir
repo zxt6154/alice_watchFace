@@ -1,25 +1,25 @@
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 1; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 2; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 2; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 3; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 3; ]
 using Toybox.ActivityMonitor as :ActMon;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 4; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 4; ]
 using Toybox.Lang as :Lang;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 5; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 5; ]
 using Toybox.System as :Sys;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 6; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 6; ]
 using Toybox.Sensor as :Sor;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 8; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 8; ]
 class AlicePersonalHealth{
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 8; ]
     static
     <init> {
     }
 }
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/AlicePersonalHealth.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AlicePersonalHealth.mc"; @line = 1; ]
 <init> {
 }

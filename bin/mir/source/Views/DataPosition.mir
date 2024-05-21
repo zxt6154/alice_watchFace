@@ -1,161 +1,161 @@
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 1; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 2; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 2; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 3; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 3; ]
 using Toybox.System as :Sys;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 4; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 4; ]
 using Toybox.Time.Gregorian as :Calendar;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 5; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 5; ]
 using Toybox.Application as :App;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 6; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 6; ]
 import Toybox.Lang;
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 8; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 8; ]
 class DataPosition extends Ui.Drawable{
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 8; ]
     <init> {
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 11 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 11 8 ]
         %tmp.2 = 2;
         %tmp.1 = newa Array<Number> %tmp.2;
         putv self :device_w_h %tmp.1;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 12 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 12 8 ]
         %tmp.4 = 2;
         %tmp.3 = newa Array<Number> %tmp.4;
         putv self :cur_heart_beat %tmp.3;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 13 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 13 8 ]
         %tmp.6 = 2;
         %tmp.5 = newa Array<Number> %tmp.6;
         putv self :cur_body_battery %tmp.5;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 14 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 14 8 ]
         %tmp.8 = 2;
         %tmp.7 = newa Array<Number> %tmp.8;
         putv self :cur_device_battery %tmp.7;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 15 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 15 8 ]
         %tmp.10 = 2;
         %tmp.9 = newa Array<Number> %tmp.10;
         putv self :cur_calories %tmp.9;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 16 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 16 8 ]
         %tmp.12 = 2;
         %tmp.11 = newa Array<Number> %tmp.12;
         putv self :cur_foot_step %tmp.11;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 18 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 18 8 ]
         %tmp.14 = 2;
         %tmp.13 = newa Array<Number> %tmp.14;
         putv self :cur_heart_beat_svg %tmp.13;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 19 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 19 8 ]
         %tmp.16 = 2;
         %tmp.15 = newa Array<Number> %tmp.16;
         putv self :cur_distance_svg %tmp.15;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 20 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 20 8 ]
         %tmp.18 = 2;
         %tmp.17 = newa Array<Number> %tmp.18;
         putv self :cur_body_battery_svg %tmp.17;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 21 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 21 8 ]
         %tmp.20 = 2;
         %tmp.19 = newa Array<Number> %tmp.20;
         putv self :cur_device_battery_svg %tmp.19;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 22 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 22 8 ]
         %tmp.22 = 2;
         %tmp.21 = newa Array<Number> %tmp.22;
         putv self :cur_calories_svg %tmp.21;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 23 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 23 8 ]
         %tmp.24 = 2;
         %tmp.23 = newa Array<Number> %tmp.24;
         putv self :cur_foot_step_svg %tmp.23;
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 10; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 10; @position = 8; ]
     var dc;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 11; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 11; @position = 8; ]
     var device_w_h;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 12; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 12; @position = 8; ]
     var cur_heart_beat;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 13; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 13; @position = 8; ]
     var cur_body_battery;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 14; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 14; @position = 8; ]
     var cur_device_battery;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 15; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 15; @position = 8; ]
     var cur_calories;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 16; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 16; @position = 8; ]
     var cur_foot_step;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 18; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 18; @position = 8; ]
     var cur_heart_beat_svg;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 19; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 19; @position = 8; ]
     var cur_distance_svg;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 20; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 20; @position = 8; ]
     var cur_body_battery_svg;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 21; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 21; @position = 8; ]
     var cur_device_battery_svg;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 22; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 22; @position = 8; ]
     var cur_calories_svg;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 23; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 23; @position = 8; ]
     var cur_foot_step_svg;
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 25; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 25; ]
     function initialize(_dc) as Void {
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_DataPosition_mc_25_28_start:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 26 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_DataPosition_mc_25_28_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 26 8 ]
         %tmp.2 = lgetv %_dc;
         putv self :dc %tmp.2;
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 27 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 27 8 ]
         %tmp.4 = getv ? :Drawable;
         %tmp.5 = getv function %tmp.4 :initialize;
         %tmp.7 = lgetv %_dc;
         invoke %tmp.4 %tmp.5(%tmp.7);
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_DataPosition_mc_25_28_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_DataPosition_mc_25_28_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 30; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 30; ]
     function draw(dc) {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 33; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 33; ]
     function heart_beat_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 36; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 36; ]
     function distance_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 39; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 39; ]
     function body_battery_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 42; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 42; ]
     function device_battery_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 45; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 45; ]
     function calories_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 48; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 48; ]
     function foot_step_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 52; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 52; ]
     function heart_beat_svg_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 55; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 55; ]
     function distance_svg_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 58; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 58; ]
     function body_battery_svg_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 61; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 61; ]
     function device_battery_svg_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 64; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 64; ]
     function calories_svg_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 67; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 67; ]
     function foot_step_svg_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 72; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 72; ]
     function customDrawData(dc, x, pozition, colour, data, font) {
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_DataPosition_mc_72_64_start:
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 73 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_DataPosition_mc_72_64_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 73 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.4 = lgetv %colour;
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_BLACK;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc" 74 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc" 74 8 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :drawText;
         %tmp.10 = lgetv %x;
@@ -165,9 +165,9 @@ _Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_Data
         %tmp.17 = getm $.Toybox.Graphics;
         %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14, %tmp.16, %tmp.18);
-_Users_alice_vscode_workspace_Garmin_BackToTheFuture_WatchFace_source_Views_DataPosition_mc_72_64_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_DataPosition_mc_72_64_stop:
     }
 }
-[ @file = "/Users/alice/vscode/workspace/Garmin_BackToTheFuture_WatchFace/source/Views/DataPosition.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/DataPosition.mc"; @line = 1; ]
 <init> {
 }
