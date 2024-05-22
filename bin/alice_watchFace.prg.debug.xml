@@ -3,34 +3,34 @@
 <manifest filename="/Users/alice/vscode/workspace/alice_watchFace/manifest.xml"/>
 <pcToLineNum>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="1" lineNum="9" parent="globals/BackToTheFutureView" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="2" lineNum="37" parent="globals/BackToTheFutureView" pc="268435479" symbol="play"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="2" lineNum="38" parent="globals/BackToTheFutureView" pc="268435481" symbol="play"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="2" lineNum="39" parent="globals/BackToTheFutureView" pc="268435493" symbol="play"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="2" lineNum="41" parent="globals/BackToTheFutureView" pc="268435553" symbol="play"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="3" lineNum="65" parent="globals/BackToTheFutureView" pc="268435567" symbol="onExitSleep"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="3" lineNum="66" parent="globals/BackToTheFutureView" pc="268435569" symbol="onExitSleep"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="4" lineNum="52" parent="globals/BackToTheFutureView" pc="268435586" symbol="onShow"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="4" lineNum="53" parent="globals/BackToTheFutureView" pc="268435588" symbol="onShow"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="4" lineNum="54" parent="globals/BackToTheFutureView" pc="268435600" symbol="onShow"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="5" lineNum="45" parent="globals/BackToTheFutureView" pc="268435617" symbol="stop"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="5" lineNum="46" parent="globals/BackToTheFutureView" pc="268435619" symbol="stop"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="5" lineNum="47" parent="globals/BackToTheFutureView" pc="268435630" symbol="stop"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="5" lineNum="48" parent="globals/BackToTheFutureView" pc="268435648" symbol="stop"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="2" lineNum="34" parent="globals/BackToTheFutureView" pc="268435479" symbol="play"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="2" lineNum="35" parent="globals/BackToTheFutureView" pc="268435481" symbol="play"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="2" lineNum="36" parent="globals/BackToTheFutureView" pc="268435493" symbol="play"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="2" lineNum="38" parent="globals/BackToTheFutureView" pc="268435553" symbol="play"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="3" lineNum="62" parent="globals/BackToTheFutureView" pc="268435567" symbol="onExitSleep"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="3" lineNum="63" parent="globals/BackToTheFutureView" pc="268435569" symbol="onExitSleep"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="4" lineNum="49" parent="globals/BackToTheFutureView" pc="268435586" symbol="onShow"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="4" lineNum="50" parent="globals/BackToTheFutureView" pc="268435588" symbol="onShow"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="4" lineNum="51" parent="globals/BackToTheFutureView" pc="268435600" symbol="onShow"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="5" lineNum="42" parent="globals/BackToTheFutureView" pc="268435617" symbol="stop"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="5" lineNum="43" parent="globals/BackToTheFutureView" pc="268435619" symbol="stop"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="5" lineNum="44" parent="globals/BackToTheFutureView" pc="268435630" symbol="stop"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="5" lineNum="45" parent="globals/BackToTheFutureView" pc="268435648" symbol="stop"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="18" parent="globals/BackToTheFutureView" pc="268435662" symbol="onLayout"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="19" parent="globals/BackToTheFutureView" pc="268435666" symbol="onLayout"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="20" parent="globals/BackToTheFutureView" pc="268435697" symbol="onLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="22" parent="globals/BackToTheFutureView" pc="268435708" symbol="onLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="23" parent="globals/BackToTheFutureView" pc="268435752" symbol="onLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="25" parent="globals/BackToTheFutureView" pc="268435763" symbol="onLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="7" lineNum="70" parent="globals/BackToTheFutureView" pc="268435808" symbol="onEnterSleep"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="7" lineNum="71" parent="globals/BackToTheFutureView" pc="268435810" symbol="onEnterSleep"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="21" parent="globals/BackToTheFutureView" pc="268435708" symbol="onLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="22" parent="globals/BackToTheFutureView" pc="268435752" symbol="onLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="6" lineNum="23" parent="globals/BackToTheFutureView" pc="268435763" symbol="onLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="7" lineNum="67" parent="globals/BackToTheFutureView" pc="268435808" symbol="onEnterSleep"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="7" lineNum="68" parent="globals/BackToTheFutureView" pc="268435810" symbol="onEnterSleep"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="8" lineNum="12" parent="globals/BackToTheFutureView" pc="268435827" symbol="initialize"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="8" lineNum="13" parent="globals/BackToTheFutureView" pc="268435829" symbol="initialize"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="8" lineNum="14" parent="globals/BackToTheFutureView" pc="268435921" symbol="initialize"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="8" lineNum="15" parent="globals/BackToTheFutureView" pc="268435947" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="10" lineNum="32" parent="globals/BackToTheFutureView" pc="268435966" symbol="onUpdate"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="10" lineNum="33" parent="globals/BackToTheFutureView" pc="268435968" symbol="onUpdate"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="10" lineNum="34" parent="globals/BackToTheFutureView" pc="268435982" symbol="onUpdate"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="10" lineNum="29" parent="globals/BackToTheFutureView" pc="268435966" symbol="onUpdate"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="10" lineNum="30" parent="globals/BackToTheFutureView" pc="268435968" symbol="onUpdate"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" id="10" lineNum="31" parent="globals/BackToTheFutureView" pc="268435982" symbol="onUpdate"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" id="11" lineNum="11" parent="globals/AliceView" pc="268436003" symbol="&lt;init&gt;"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" id="11" lineNum="13" parent="globals/AliceView" pc="268436021" symbol="&lt;init&gt;"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" id="12" lineNum="16" parent="globals/AliceView" pc="268436045" symbol="initialize"/>
@@ -128,23 +128,23 @@
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="47" lineNum="31" parent="globals/AliceBodyDeviceData" pc="268439245" symbol="&lt;init&gt;"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="47" lineNum="13" parent="globals/AliceBodyDeviceData" pc="268439245" symbol="&lt;init&gt;"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="47" lineNum="33" parent="globals/AliceBodyDeviceData" pc="268439268" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="149" parent="globals/AliceBodyDeviceData" pc="268439292" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="151" parent="globals/AliceBodyDeviceData" pc="268439296" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="152" parent="globals/AliceBodyDeviceData" pc="268439331" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="153" parent="globals/AliceBodyDeviceData" pc="268439347" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="154" parent="globals/AliceBodyDeviceData" pc="268439391" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="156" parent="globals/AliceBodyDeviceData" pc="268439428" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="157" parent="globals/AliceBodyDeviceData" pc="268439449" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="159" parent="globals/AliceBodyDeviceData" pc="268439459" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="160" parent="globals/AliceBodyDeviceData" pc="268439504" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="161" parent="globals/AliceBodyDeviceData" pc="268439538" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="162" parent="globals/AliceBodyDeviceData" pc="268439559" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="163" parent="globals/AliceBodyDeviceData" pc="268439605" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="164" parent="globals/AliceBodyDeviceData" pc="268439626" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="167" parent="globals/AliceBodyDeviceData" pc="268439639" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="169" parent="globals/AliceBodyDeviceData" pc="268439646" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="170" parent="globals/AliceBodyDeviceData" pc="268439667" symbol="weatherLocal"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="173" parent="globals/AliceBodyDeviceData" pc="268439677" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="145" parent="globals/AliceBodyDeviceData" pc="268439292" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="147" parent="globals/AliceBodyDeviceData" pc="268439296" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="148" parent="globals/AliceBodyDeviceData" pc="268439331" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="149" parent="globals/AliceBodyDeviceData" pc="268439347" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="150" parent="globals/AliceBodyDeviceData" pc="268439391" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="152" parent="globals/AliceBodyDeviceData" pc="268439428" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="153" parent="globals/AliceBodyDeviceData" pc="268439449" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="155" parent="globals/AliceBodyDeviceData" pc="268439459" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="156" parent="globals/AliceBodyDeviceData" pc="268439504" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="157" parent="globals/AliceBodyDeviceData" pc="268439538" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="158" parent="globals/AliceBodyDeviceData" pc="268439559" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="159" parent="globals/AliceBodyDeviceData" pc="268439605" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="160" parent="globals/AliceBodyDeviceData" pc="268439626" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="163" parent="globals/AliceBodyDeviceData" pc="268439639" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="165" parent="globals/AliceBodyDeviceData" pc="268439646" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="166" parent="globals/AliceBodyDeviceData" pc="268439667" symbol="weatherLocal"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="48" lineNum="169" parent="globals/AliceBodyDeviceData" pc="268439677" symbol="weatherLocal"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="49" lineNum="77" parent="globals/AliceBodyDeviceData" pc="268439697" symbol="getHeartRateIterator"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="49" lineNum="78" parent="globals/AliceBodyDeviceData" pc="268439699" symbol="getHeartRateIterator"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="49" lineNum="79" parent="globals/AliceBodyDeviceData" pc="268439738" symbol="getHeartRateIterator"/>
@@ -183,116 +183,112 @@
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="53" lineNum="53" parent="globals/AliceBodyDeviceData" pc="268440192" symbol="heartPulsCur"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="53" lineNum="54" parent="globals/AliceBodyDeviceData" pc="268440212" symbol="heartPulsCur"/>
 <entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="53" lineNum="57" parent="globals/AliceBodyDeviceData" pc="268440228" symbol="heartPulsCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="54" lineNum="114" parent="globals/AliceBodyDeviceData" pc="268440263" symbol="getIterator"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="54" lineNum="116" parent="globals/AliceBodyDeviceData" pc="268440265" symbol="getIterator"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="54" lineNum="118" parent="globals/AliceBodyDeviceData" pc="268440304" symbol="getIterator"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="54" lineNum="120" parent="globals/AliceBodyDeviceData" pc="268440329" symbol="getIterator"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="124" parent="globals/AliceBodyDeviceData" pc="268440331" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="125" parent="globals/AliceBodyDeviceData" pc="268440335" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="126" parent="globals/AliceBodyDeviceData" pc="268440374" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="127" parent="globals/AliceBodyDeviceData" pc="268440393" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="128" parent="globals/AliceBodyDeviceData" pc="268440412" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="129" parent="globals/AliceBodyDeviceData" pc="268440436" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="130" parent="globals/AliceBodyDeviceData" pc="268440452" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="131" parent="globals/AliceBodyDeviceData" pc="268440476" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="133" parent="globals/AliceBodyDeviceData" pc="268440490" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="134" parent="globals/AliceBodyDeviceData" pc="268440507" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="135" parent="globals/AliceBodyDeviceData" pc="268440547" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="137" parent="globals/AliceBodyDeviceData" pc="268440574" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="140" parent="globals/AliceBodyDeviceData" pc="268440614" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="140" parent="globals/AliceBodyDeviceData" pc="268440631" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="141" parent="globals/AliceBodyDeviceData" pc="268440641" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="142" parent="globals/AliceBodyDeviceData" pc="268440704" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="143" parent="globals/AliceBodyDeviceData" pc="268440728" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="144" parent="globals/AliceBodyDeviceData" pc="268440773" symbol="caloriesActCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="180" parent="globals/AliceBodyDeviceData" pc="268440814" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="183" parent="globals/AliceBodyDeviceData" pc="268440818" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="184" parent="globals/AliceBodyDeviceData" pc="268440825" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="185" parent="globals/AliceBodyDeviceData" pc="268440841" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="187" parent="globals/AliceBodyDeviceData" pc="268440860" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="188" parent="globals/AliceBodyDeviceData" pc="268440889" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="189" parent="globals/AliceBodyDeviceData" pc="268440899" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="191" parent="globals/AliceBodyDeviceData" pc="268440912" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="192" parent="globals/AliceBodyDeviceData" pc="268440935" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="193" parent="globals/AliceBodyDeviceData" pc="268440946" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="194" parent="globals/AliceBodyDeviceData" pc="268440953" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="196" parent="globals/AliceBodyDeviceData" pc="268440966" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="197" parent="globals/AliceBodyDeviceData" pc="268440994" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="198" parent="globals/AliceBodyDeviceData" pc="268441011" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="199" parent="globals/AliceBodyDeviceData" pc="268441033" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="202" parent="globals/AliceBodyDeviceData" pc="268441058" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="204" parent="globals/AliceBodyDeviceData" pc="268441068" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="205" parent="globals/AliceBodyDeviceData" pc="268441091" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="206" parent="globals/AliceBodyDeviceData" pc="268441102" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="207" parent="globals/AliceBodyDeviceData" pc="268441109" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="209" parent="globals/AliceBodyDeviceData" pc="268441122" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="210" parent="globals/AliceBodyDeviceData" pc="268441150" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="211" parent="globals/AliceBodyDeviceData" pc="268441167" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="212" parent="globals/AliceBodyDeviceData" pc="268441189" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="215" parent="globals/AliceBodyDeviceData" pc="268441214" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="218" parent="globals/AliceBodyDeviceData" pc="268441224" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="219" parent="globals/AliceBodyDeviceData" pc="268441245" symbol="temperatureCur"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="35" parent="globals/AliceBodyDeviceData" pc="268441262" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="36" parent="globals/AliceBodyDeviceData" pc="268441264" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="37" parent="globals/AliceBodyDeviceData" pc="268441292" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="38" parent="globals/AliceBodyDeviceData" pc="268441320" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="39" parent="globals/AliceBodyDeviceData" pc="268441348" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="41" parent="globals/AliceBodyDeviceData" pc="268441403" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="42" parent="globals/AliceBodyDeviceData" pc="268441431" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="43" parent="globals/AliceBodyDeviceData" pc="268441443" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="44" parent="globals/AliceBodyDeviceData" pc="268441455" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="45" parent="globals/AliceBodyDeviceData" pc="268441467" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="46" parent="globals/AliceBodyDeviceData" pc="268441479" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="9" parent="globals/TimePosition" pc="268441492" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="13" parent="globals/TimePosition" pc="268441510" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="15" parent="globals/TimePosition" pc="268441524" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="16" parent="globals/TimePosition" pc="268441538" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="17" parent="globals/TimePosition" pc="268441552" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="18" parent="globals/TimePosition" pc="268441566" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="19" parent="globals/TimePosition" pc="268441580" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="20" parent="globals/TimePosition" pc="268441594" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="51" parent="globals/TimePosition" pc="268441609" symbol="time_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="52" parent="globals/TimePosition" pc="268441613" symbol="time_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="53" parent="globals/TimePosition" pc="268441653" symbol="time_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="54" parent="globals/TimePosition" pc="268441676" symbol="time_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="55" parent="globals/TimePosition" pc="268441725" symbol="time_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="60" lineNum="58" parent="globals/TimePosition" pc="268441783" symbol="customDrawTime"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="60" lineNum="59" parent="globals/TimePosition" pc="268441785" symbol="customDrawTime"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="60" lineNum="60" parent="globals/TimePosition" pc="268441804" symbol="customDrawTime"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="44" parent="globals/TimePosition" pc="268441830" symbol="sec_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="45" parent="globals/TimePosition" pc="268441834" symbol="sec_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="46" parent="globals/TimePosition" pc="268441856" symbol="sec_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="47" parent="globals/TimePosition" pc="268441887" symbol="sec_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="48" parent="globals/TimePosition" pc="268441910" symbol="sec_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="49" parent="globals/TimePosition" pc="268441959" symbol="sec_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="64" lineNum="22" parent="globals/TimePosition" pc="268442017" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="64" lineNum="23" parent="globals/TimePosition" pc="268442019" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="64" lineNum="25" parent="globals/TimePosition" pc="268442029" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="64" lineNum="26" parent="globals/TimePosition" pc="268442060" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="66" lineNum="30" parent="globals/TimePosition" pc="268442092" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="66" lineNum="31" parent="globals/TimePosition" pc="268442094" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="66" lineNum="32" parent="globals/TimePosition" pc="268442113" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="66" lineNum="33" parent="globals/TimePosition" pc="268442132" symbol="year_set"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="15" parent="globals/Rez/Drawables/MainBackground" pc="268442190" symbol="&lt;init&gt;"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="68" lineNum="17" parent="globals/Rez/Drawables/MainBackground" pc="268442209" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="68" lineNum="18" parent="globals/Rez/Drawables/MainBackground" pc="268442211" symbol="initialize"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="21" parent="globals/Rez/Drawables/MainBackground" pc="268442236" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="22" parent="globals/Rez/Drawables/MainBackground" pc="268442238" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="23" parent="globals/Rez/Drawables/MainBackground" pc="268442249" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="24" parent="globals/Rez/Drawables/MainBackground" pc="268442261" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="28" parent="globals/Rez/Drawables/MainBackground" pc="268442268" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="29" parent="globals/Rez/Drawables/MainBackground" pc="268442290" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="30" parent="globals/Rez/Drawables/MainBackground" pc="268442322" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="32" parent="globals/Rez/Drawables/MainBackground" pc="268442344" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="33" parent="globals/Rez/Drawables/MainBackground" pc="268442366" symbol="draw"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="70" lineNum="54" parent="globals/Rez/Layouts" pc="268442399" symbol="BlackModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="70" lineNum="55" parent="globals/Rez/Layouts" pc="268442411" symbol="BlackModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="70" lineNum="57" parent="globals/Rez/Layouts" pc="268442458" symbol="BlackModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="70" lineNum="59" parent="globals/Rez/Layouts" pc="268442505" symbol="BlackModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="71" lineNum="62" parent="globals/Rez/Layouts" pc="268442532" symbol="NormalModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="71" lineNum="63" parent="globals/Rez/Layouts" pc="268442544" symbol="NormalModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="71" lineNum="65" parent="globals/Rez/Layouts" pc="268442591" symbol="NormalModeLayout"/>
-<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="71" lineNum="67" parent="globals/Rez/Layouts" pc="268442638" symbol="NormalModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="54" lineNum="114" parent="globals/AliceBodyDeviceData" pc="268440257" symbol="getIterator"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="54" lineNum="116" parent="globals/AliceBodyDeviceData" pc="268440259" symbol="getIterator"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="54" lineNum="118" parent="globals/AliceBodyDeviceData" pc="268440298" symbol="getIterator"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="54" lineNum="120" parent="globals/AliceBodyDeviceData" pc="268440323" symbol="getIterator"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="124" parent="globals/AliceBodyDeviceData" pc="268440325" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="125" parent="globals/AliceBodyDeviceData" pc="268440329" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="126" parent="globals/AliceBodyDeviceData" pc="268440368" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="127" parent="globals/AliceBodyDeviceData" pc="268440387" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="128" parent="globals/AliceBodyDeviceData" pc="268440406" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="129" parent="globals/AliceBodyDeviceData" pc="268440430" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="130" parent="globals/AliceBodyDeviceData" pc="268440446" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="132" parent="globals/AliceBodyDeviceData" pc="268440460" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="133" parent="globals/AliceBodyDeviceData" pc="268440477" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="135" parent="globals/AliceBodyDeviceData" pc="268440520" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="138" parent="globals/AliceBodyDeviceData" pc="268440560" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="138" parent="globals/AliceBodyDeviceData" pc="268440577" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="139" parent="globals/AliceBodyDeviceData" pc="268440587" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="55" lineNum="140" parent="globals/AliceBodyDeviceData" pc="268440650" symbol="caloriesActCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="176" parent="globals/AliceBodyDeviceData" pc="268440685" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="179" parent="globals/AliceBodyDeviceData" pc="268440689" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="180" parent="globals/AliceBodyDeviceData" pc="268440696" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="181" parent="globals/AliceBodyDeviceData" pc="268440712" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="183" parent="globals/AliceBodyDeviceData" pc="268440731" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="184" parent="globals/AliceBodyDeviceData" pc="268440760" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="185" parent="globals/AliceBodyDeviceData" pc="268440770" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="187" parent="globals/AliceBodyDeviceData" pc="268440783" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="188" parent="globals/AliceBodyDeviceData" pc="268440806" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="189" parent="globals/AliceBodyDeviceData" pc="268440817" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="190" parent="globals/AliceBodyDeviceData" pc="268440824" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="192" parent="globals/AliceBodyDeviceData" pc="268440837" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="193" parent="globals/AliceBodyDeviceData" pc="268440865" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="194" parent="globals/AliceBodyDeviceData" pc="268440882" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="195" parent="globals/AliceBodyDeviceData" pc="268440904" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="198" parent="globals/AliceBodyDeviceData" pc="268440929" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="200" parent="globals/AliceBodyDeviceData" pc="268440939" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="201" parent="globals/AliceBodyDeviceData" pc="268440962" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="202" parent="globals/AliceBodyDeviceData" pc="268440973" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="203" parent="globals/AliceBodyDeviceData" pc="268440980" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="205" parent="globals/AliceBodyDeviceData" pc="268440993" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="206" parent="globals/AliceBodyDeviceData" pc="268441021" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="207" parent="globals/AliceBodyDeviceData" pc="268441038" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="208" parent="globals/AliceBodyDeviceData" pc="268441060" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="211" parent="globals/AliceBodyDeviceData" pc="268441085" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="214" parent="globals/AliceBodyDeviceData" pc="268441095" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="56" lineNum="215" parent="globals/AliceBodyDeviceData" pc="268441116" symbol="temperatureCur"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="35" parent="globals/AliceBodyDeviceData" pc="268441127" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="36" parent="globals/AliceBodyDeviceData" pc="268441129" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="37" parent="globals/AliceBodyDeviceData" pc="268441151" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="38" parent="globals/AliceBodyDeviceData" pc="268441173" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="39" parent="globals/AliceBodyDeviceData" pc="268441195" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="41" parent="globals/AliceBodyDeviceData" pc="268441244" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="42" parent="globals/AliceBodyDeviceData" pc="268441266" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="43" parent="globals/AliceBodyDeviceData" pc="268441278" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="44" parent="globals/AliceBodyDeviceData" pc="268441290" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="45" parent="globals/AliceBodyDeviceData" pc="268441302" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" id="57" lineNum="46" parent="globals/AliceBodyDeviceData" pc="268441314" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="9" parent="globals/TimePosition" pc="268441327" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="13" parent="globals/TimePosition" pc="268441345" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="15" parent="globals/TimePosition" pc="268441359" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="16" parent="globals/TimePosition" pc="268441373" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="17" parent="globals/TimePosition" pc="268441387" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="18" parent="globals/TimePosition" pc="268441401" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="19" parent="globals/TimePosition" pc="268441415" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="58" lineNum="20" parent="globals/TimePosition" pc="268441429" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="51" parent="globals/TimePosition" pc="268441444" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="52" parent="globals/TimePosition" pc="268441448" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="53" parent="globals/TimePosition" pc="268441488" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="54" parent="globals/TimePosition" pc="268441511" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="59" lineNum="55" parent="globals/TimePosition" pc="268441560" symbol="time_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="60" lineNum="58" parent="globals/TimePosition" pc="268441618" symbol="customDrawTime"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="60" lineNum="59" parent="globals/TimePosition" pc="268441620" symbol="customDrawTime"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="60" lineNum="60" parent="globals/TimePosition" pc="268441639" symbol="customDrawTime"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="44" parent="globals/TimePosition" pc="268441665" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="45" parent="globals/TimePosition" pc="268441669" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="46" parent="globals/TimePosition" pc="268441691" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="47" parent="globals/TimePosition" pc="268441722" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="48" parent="globals/TimePosition" pc="268441745" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="62" lineNum="49" parent="globals/TimePosition" pc="268441794" symbol="sec_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="64" lineNum="22" parent="globals/TimePosition" pc="268441852" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="64" lineNum="23" parent="globals/TimePosition" pc="268441854" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="64" lineNum="25" parent="globals/TimePosition" pc="268441864" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="64" lineNum="26" parent="globals/TimePosition" pc="268441895" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="66" lineNum="30" parent="globals/TimePosition" pc="268441927" symbol="year_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="66" lineNum="31" parent="globals/TimePosition" pc="268441929" symbol="year_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="66" lineNum="32" parent="globals/TimePosition" pc="268441948" symbol="year_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" id="66" lineNum="33" parent="globals/TimePosition" pc="268441967" symbol="year_set"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="67" lineNum="15" parent="globals/Rez/Drawables/MainBackground" pc="268442025" symbol="&lt;init&gt;"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="68" lineNum="17" parent="globals/Rez/Drawables/MainBackground" pc="268442044" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="68" lineNum="18" parent="globals/Rez/Drawables/MainBackground" pc="268442046" symbol="initialize"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="21" parent="globals/Rez/Drawables/MainBackground" pc="268442071" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="22" parent="globals/Rez/Drawables/MainBackground" pc="268442073" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="23" parent="globals/Rez/Drawables/MainBackground" pc="268442084" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="24" parent="globals/Rez/Drawables/MainBackground" pc="268442096" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="28" parent="globals/Rez/Drawables/MainBackground" pc="268442103" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="29" parent="globals/Rez/Drawables/MainBackground" pc="268442125" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="30" parent="globals/Rez/Drawables/MainBackground" pc="268442157" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="32" parent="globals/Rez/Drawables/MainBackground" pc="268442179" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="69" lineNum="33" parent="globals/Rez/Drawables/MainBackground" pc="268442201" symbol="draw"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="70" lineNum="54" parent="globals/Rez/Layouts" pc="268442234" symbol="BlackModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="70" lineNum="55" parent="globals/Rez/Layouts" pc="268442246" symbol="BlackModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="70" lineNum="57" parent="globals/Rez/Layouts" pc="268442293" symbol="BlackModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="70" lineNum="59" parent="globals/Rez/Layouts" pc="268442340" symbol="BlackModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="71" lineNum="62" parent="globals/Rez/Layouts" pc="268442367" symbol="NormalModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="71" lineNum="63" parent="globals/Rez/Layouts" pc="268442379" symbol="NormalModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="71" lineNum="65" parent="globals/Rez/Layouts" pc="268442426" symbol="NormalModeLayout"/>
+<entry filename="/Users/alice/vscode/workspace/alice_watchFace/bin/gen/006-B3992-00/source/Rez.mcgen" id="71" lineNum="67" parent="globals/Rez/Layouts" pc="268442473" symbol="NormalModeLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="100" symbol="giphy"/>
@@ -487,41 +483,41 @@
 <entry endPc="268439939" name="value" stackId="2" startPc="268439795"/>
 <entry endPc="268440088" name="heartRate" stackId="1" startPc="268439944"/>
 <entry endPc="268440088" name="value" stackId="2" startPc="268439944"/>
-<entry endPc="268440812" name="today" stackId="1" startPc="268440335"/>
-<entry endPc="268440812" name="profile" stackId="2" startPc="268440335"/>
-<entry endPc="268440812" name="age" stackId="3" startPc="268440335"/>
-<entry endPc="268440812" name="weight" stackId="4" startPc="268440335"/>
-<entry endPc="268440812" name="restCalories" stackId="5" startPc="268440335"/>
-<entry endPc="268440812" name="adj" stackId="6" startPc="268440335"/>
-<entry endPc="268441260" name="TempMetric" stackId="1" startPc="268440818"/>
-<entry endPc="268441260" name="temp" stackId="2" startPc="268440818"/>
-<entry endPc="268441260" name="units" stackId="3" startPc="268440818"/>
-<entry endPc="268441260" name="minTemp" stackId="4" startPc="268440818"/>
-<entry endPc="268441260" name="maxTemp" stackId="5" startPc="268440818"/>
-<entry endPc="268441260" name="weather" stackId="6" startPc="268440818"/>
-<entry arg="true" endPc="268441782" name="timeString" stackId="1" startPc="268441609"/>
-<entry arg="true" endPc="268441782" name="font" stackId="2" startPc="268441609"/>
-<entry endPc="268441781" name="textDim" stackId="3" startPc="268441613"/>
-<entry arg="true" endPc="268441829" name="dc" stackId="1" startPc="268441783"/>
-<entry arg="true" endPc="268441829" name="x" stackId="2" startPc="268441783"/>
-<entry arg="true" endPc="268441829" name="y" stackId="3" startPc="268441783"/>
-<entry arg="true" endPc="268441829" name="colour" stackId="4" startPc="268441783"/>
-<entry arg="true" endPc="268441829" name="data" stackId="5" startPc="268441783"/>
-<entry arg="true" endPc="268441829" name="font" stackId="6" startPc="268441783"/>
-<entry arg="true" endPc="268442016" name="secString" stackId="1" startPc="268441830"/>
-<entry arg="true" endPc="268442016" name="secFont" stackId="2" startPc="268441830"/>
-<entry endPc="268442015" name="x" stackId="3" startPc="268441834"/>
-<entry endPc="268442015" name="textDim" stackId="4" startPc="268441834"/>
-<entry arg="true" endPc="268442091" name="_dc" stackId="1" startPc="268442017"/>
-<entry arg="true" endPc="268442189" name="yearMonth" stackId="1" startPc="268442092"/>
-<entry arg="true" endPc="268442189" name="test" stackId="2" startPc="268442092"/>
-<entry arg="true" endPc="268442398" name="dc" stackId="1" startPc="268442236"/>
-<entry arg="true" endPc="268442531" name="dc" stackId="1" startPc="268442399"/>
-<entry endPc="268442531" name="rez_cmp_local_custom_drawable_presentView" stackId="2" startPc="268442411"/>
-<entry endPc="268442531" name="rez_cmp_local_custom_drawable_aliceView" stackId="3" startPc="268442411"/>
-<entry arg="true" endPc="268442664" name="dc" stackId="1" startPc="268442532"/>
-<entry endPc="268442664" name="rez_cmp_local_custom_drawable_presentView" stackId="2" startPc="268442544"/>
-<entry endPc="268442664" name="rez_cmp_local_custom_drawable_aliceView" stackId="3" startPc="268442544"/>
+<entry endPc="268440683" name="today" stackId="1" startPc="268440329"/>
+<entry endPc="268440683" name="profile" stackId="2" startPc="268440329"/>
+<entry endPc="268440683" name="age" stackId="3" startPc="268440329"/>
+<entry endPc="268440683" name="weight" stackId="4" startPc="268440329"/>
+<entry endPc="268440683" name="restCalories" stackId="5" startPc="268440329"/>
+<entry endPc="268440683" name="adj" stackId="6" startPc="268440329"/>
+<entry endPc="268441125" name="TempMetric" stackId="1" startPc="268440689"/>
+<entry endPc="268441125" name="temp" stackId="2" startPc="268440689"/>
+<entry endPc="268441125" name="units" stackId="3" startPc="268440689"/>
+<entry endPc="268441125" name="minTemp" stackId="4" startPc="268440689"/>
+<entry endPc="268441125" name="maxTemp" stackId="5" startPc="268440689"/>
+<entry endPc="268441125" name="weather" stackId="6" startPc="268440689"/>
+<entry arg="true" endPc="268441617" name="timeString" stackId="1" startPc="268441444"/>
+<entry arg="true" endPc="268441617" name="font" stackId="2" startPc="268441444"/>
+<entry endPc="268441616" name="textDim" stackId="3" startPc="268441448"/>
+<entry arg="true" endPc="268441664" name="dc" stackId="1" startPc="268441618"/>
+<entry arg="true" endPc="268441664" name="x" stackId="2" startPc="268441618"/>
+<entry arg="true" endPc="268441664" name="y" stackId="3" startPc="268441618"/>
+<entry arg="true" endPc="268441664" name="colour" stackId="4" startPc="268441618"/>
+<entry arg="true" endPc="268441664" name="data" stackId="5" startPc="268441618"/>
+<entry arg="true" endPc="268441664" name="font" stackId="6" startPc="268441618"/>
+<entry arg="true" endPc="268441851" name="secString" stackId="1" startPc="268441665"/>
+<entry arg="true" endPc="268441851" name="secFont" stackId="2" startPc="268441665"/>
+<entry endPc="268441850" name="x" stackId="3" startPc="268441669"/>
+<entry endPc="268441850" name="textDim" stackId="4" startPc="268441669"/>
+<entry arg="true" endPc="268441926" name="_dc" stackId="1" startPc="268441852"/>
+<entry arg="true" endPc="268442024" name="yearMonth" stackId="1" startPc="268441927"/>
+<entry arg="true" endPc="268442024" name="test" stackId="2" startPc="268441927"/>
+<entry arg="true" endPc="268442233" name="dc" stackId="1" startPc="268442071"/>
+<entry arg="true" endPc="268442366" name="dc" stackId="1" startPc="268442234"/>
+<entry endPc="268442366" name="rez_cmp_local_custom_drawable_presentView" stackId="2" startPc="268442246"/>
+<entry endPc="268442366" name="rez_cmp_local_custom_drawable_aliceView" stackId="3" startPc="268442246"/>
+<entry arg="true" endPc="268442499" name="dc" stackId="1" startPc="268442367"/>
+<entry endPc="268442499" name="rez_cmp_local_custom_drawable_presentView" stackId="2" startPc="268442379"/>
+<entry endPc="268442499" name="rez_cmp_local_custom_drawable_aliceView" stackId="3" startPc="268442379"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -744,30 +740,30 @@
 <functionEntry accessMode="public" endPc="268440157" name="bodyBatteryCur" parent="AliceBodyDeviceData" startPc="268440089">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440262" name="heartPulsCur" parent="AliceBodyDeviceData" startPc="268440158">
+<functionEntry accessMode="public" endPc="268440256" name="heartPulsCur" parent="AliceBodyDeviceData" startPc="268440158">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440330" name="getIterator" parent="AliceBodyDeviceData" startPc="268440263">
+<functionEntry accessMode="public" endPc="268440324" name="getIterator" parent="AliceBodyDeviceData" startPc="268440257">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440813" name="caloriesActCur" parent="AliceBodyDeviceData" startPc="268440331">
+<functionEntry accessMode="public" endPc="268440684" name="caloriesActCur" parent="AliceBodyDeviceData" startPc="268440325">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441261" name="temperatureCur" parent="AliceBodyDeviceData" startPc="268440814">
+<functionEntry accessMode="public" endPc="268441126" name="temperatureCur" parent="AliceBodyDeviceData" startPc="268440685">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441491" name="initialize" parent="AliceBodyDeviceData" startPc="268441262">
+<functionEntry accessMode="public" endPc="268441326" name="initialize" parent="AliceBodyDeviceData" startPc="268441127">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441608" name="&lt;init&gt;" parent="TimePosition" startPc="268441492">
+<functionEntry accessMode="public" endPc="268441443" name="&lt;init&gt;" parent="TimePosition" startPc="268441327">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441782" name="time_set" parent="TimePosition" startPc="268441609">
+<functionEntry accessMode="public" endPc="268441617" name="time_set" parent="TimePosition" startPc="268441444">
 <param id="timeString"/>
 <param id="font"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441829" name="customDrawTime" parent="TimePosition" startPc="268441783">
+<functionEntry accessMode="public" endPc="268441664" name="customDrawTime" parent="TimePosition" startPc="268441618">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
@@ -779,7 +775,7 @@
 <functionEntry accessMode="public" name="month_set" parent="TimePosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442016" name="sec_set" parent="TimePosition" startPc="268441830">
+<functionEntry accessMode="public" endPc="268441851" name="sec_set" parent="TimePosition" startPc="268441665">
 <param id="secString"/>
 <param id="secFont"/>
 <documentation/>
@@ -787,14 +783,14 @@
 <functionEntry accessMode="public" name="day_set" parent="TimePosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442091" name="initialize" parent="TimePosition" startPc="268442017">
+<functionEntry accessMode="public" endPc="268441926" name="initialize" parent="TimePosition" startPc="268441852">
 <param id="_dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="week_set" parent="TimePosition">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442189" name="year_set" parent="TimePosition" startPc="268442092">
+<functionEntry accessMode="public" endPc="268442024" name="year_set" parent="TimePosition" startPc="268441927">
 <param id="yearMonth"/>
 <param id="test"/>
 <documentation/>
@@ -817,21 +813,21 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442208" name="&lt;init&gt;" parent="MainBackground" startPc="268442190">
+<functionEntry accessMode="public" endPc="268442043" name="&lt;init&gt;" parent="MainBackground" startPc="268442025">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442235" name="initialize" parent="MainBackground" startPc="268442209">
+<functionEntry accessMode="public" endPc="268442070" name="initialize" parent="MainBackground" startPc="268442044">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442398" name="draw" parent="MainBackground" startPc="268442236">
+<functionEntry accessMode="public" endPc="268442233" name="draw" parent="MainBackground" startPc="268442071">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442531" name="BlackModeLayout" parent="Layouts" startPc="268442399">
+<functionEntry accessMode="public" endPc="268442366" name="BlackModeLayout" parent="Layouts" startPc="268442234">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268442664" name="NormalModeLayout" parent="Layouts" startPc="268442532">
+<functionEntry accessMode="public" endPc="268442499" name="NormalModeLayout" parent="Layouts" startPc="268442367">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

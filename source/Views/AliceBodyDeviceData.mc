@@ -33,12 +33,12 @@ class AliceBodyDeviceData {
      var curCondition = CurWeather.getCurrentConditions();
      //初始化的时候将活动信息传参
      function initialize() {
-          steps = "step: " + activityInfo.steps;
-          calories = "calories: " + activityInfo.calories;
-          distance = "distance: " + activityInfo.distance;
-          device_battery = "db: " + Sys.getSystemStats().battery.format("%d") + "%";
+          steps = activityInfo.steps;
+          calories = activityInfo.calories;
+          distance = activityInfo.distance;
+          device_battery = Sys.getSystemStats().battery.format("%d") + "%";
           //distUnits = Sys.getDeviceSettings().distanceUnits; 
-          cur_weather = "weather: " + curCondition.condition;
+          cur_weather = curCondition.condition;
           heartPulsCur();
           bodyBatteryCur();
           caloriesActCur();
@@ -54,7 +54,7 @@ class AliceBodyDeviceData {
           heartPuls = "-";
           }
         else{
-          heartPuls = "heartPuls: " + getHeartRate().toString();
+          heartPuls = getHeartRate().toString();
           }
     }
     private function getHeartRate() {// initialize it to null
@@ -127,21 +127,17 @@ class AliceBodyDeviceData {
         var age = today.year - profile.birthYear;
         Sys.println("age => "+age);
         var weight = profile.weight / 1000.0;
-        Sys.println("weight => "+weight);
         var restCalories=0, adj=0.5;
 
         if (profile.gender == UserProfile.GENDER_MALE) {
             restCalories = 5.2 - 6.116*age + 7.628*profile.height + 12.2*weight;
-            Sys.println("restCalories => "+restCalories);
         } else {// female
             restCalories = -197.6 - 6.116*age + 7.628*profile.height + 12.2*weight;
         }
 
         if(today.hour>=18){ adj=0; }
         restCalories = Math.round(((today.hour*60+today.min) * restCalories / 1440 ) - adj).toNumber();
-        Sys.println("restCalories2 => "+restCalories);
-        Sys.println("calories => "+ActivityMonitor.getInfo().calories);
-        calories_act ="act_c: " + (ActivityMonitor.getInfo().calories - restCalories);
+        calories_act =ActivityMonitor.getInfo().calories - restCalories;
        
     }
 
@@ -216,6 +212,6 @@ class AliceBodyDeviceData {
 				}
 		    }
         temp=temp.format("%d")+units;
-        cur_temperature = "temp: "+temp;
+        cur_temperature = temp;
     }
 }

@@ -17,16 +17,13 @@ class BackToTheFutureView extends Ui.WatchFace {
     // Load your resources here
     function onLayout(dc) {
     	var layoutMode = App.getApp().getProperty("LayoutType");
-    	if (layoutMode == 0)
-    	{
+    	if (layoutMode == 0){
             setLayout(Rez.Layouts.NormalModeLayout(dc));     
-        } else if (layoutMode == 1)
-        {
+        } else if (layoutMode == 1){
             setLayout(Rez.Layouts.BlackModeLayout(dc));     
         }
     }
 
-   
     var _playing = false;
     // Update the view
     function onUpdate(dc) {  
