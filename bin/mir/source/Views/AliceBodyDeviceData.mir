@@ -22,12 +22,12 @@ using Toybox.Time.Gregorian;
 class AliceBodyDeviceData{
     [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 13; ]
     <init> {
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 28 9 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 29 9 ]
         %tmp.1 = getm $.Toybox.ActivityMonitor;
         %tmp.2 = getv function %tmp.1 :getInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :activityInfo %tmp.3;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 30 9 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 31 9 ]
         %tmp.4 = getm $.Toybox.Weather;
         %tmp.5 = getv function %tmp.4 :getCurrentConditions;
         %tmp.6 = invoke %tmp.4 %tmp.5();
@@ -51,34 +51,36 @@ class AliceBodyDeviceData{
     var distance;
     [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 25; @position = 9; ]
     var cur_weather;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 27; @position = 9; ]
-    var heartPuls;
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 26; @position = 9; ]
+    var cur_local;
     [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 28; @position = 9; ]
+    var heartPuls;
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 29; @position = 9; ]
     var activityInfo;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 30; @position = 9; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 31; @position = 9; ]
     var curCondition;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 32; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 33; ]
     function initialize() as Void {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_32_27_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 33 10 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_33_27_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 34 10 ]
         %tmp.1 = "step: ";
         %tmp.3 = getv ? :activityInfo;
         %tmp.4 = getv %tmp.3 :steps;
         %tmp.5 = add %tmp.1 %tmp.4;
         putv self :steps %tmp.5;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 34 10 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 35 10 ]
         %tmp.6 = "calories: ";
         %tmp.8 = getv ? :activityInfo;
         %tmp.9 = getv %tmp.8 :calories;
         %tmp.10 = add %tmp.6 %tmp.9;
         putv self :calories %tmp.10;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 35 10 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 36 10 ]
         %tmp.11 = "distance: ";
         %tmp.13 = getv ? :activityInfo;
         %tmp.14 = getv %tmp.13 :distance;
         %tmp.15 = add %tmp.11 %tmp.14;
         putv self :distance %tmp.15;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 36 10 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 37 10 ]
         %tmp.16 = "db: ";
         %tmp.17 = getm $.Toybox.System;
         %tmp.18 = getv function %tmp.17 :getSystemStats;
@@ -91,63 +93,67 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.25 = "%";
         %tmp.26 = add %tmp.24 %tmp.25;
         putv self :device_battery %tmp.26;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 38 10 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 39 10 ]
         %tmp.27 = "weather: ";
         %tmp.29 = getv ? :curCondition;
         %tmp.30 = getv %tmp.29 :condition;
         %tmp.31 = add %tmp.27 %tmp.30;
         putv self :cur_weather %tmp.31;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 39 10 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 40 10 ]
         %tmp.32 = self;
         %tmp.33 = getv function %tmp.32 :heartPuls_cur;
         invoke %tmp.32 %tmp.33();
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 40 10 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 41 10 ]
         %tmp.34 = self;
         %tmp.35 = getv function %tmp.34 :body_battery_cur;
         invoke %tmp.34 %tmp.35();
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 41 10 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 42 10 ]
         %tmp.36 = self;
         %tmp.37 = getv function %tmp.36 :calories_act_cur;
         invoke %tmp.36 %tmp.37();
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_32_27_stop:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 43 10 ]
+        %tmp.38 = self;
+        %tmp.39 = getv function %tmp.38 :weatherLocal;
+        invoke %tmp.38 %tmp.39();
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_33_27_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 44; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 46; ]
     function heartPuls_cur() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_44_29_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 45 7 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_45_7_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_46_29_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 47 7 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_47_7_if_stmt:
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getHeartRate;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = null;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_45_7_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_45_7_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_45_34_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 46 10 ]
+        bf %tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_47_7_if_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_47_7_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_47_34_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 48 10 ]
         %tmp.6 = "-";
         putv self :heartPuls %tmp.6;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_45_34_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_45_7_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_45_7_if_false:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 48 13 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_48_13_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_47_34_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_47_7_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_47_7_if_false:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 50 13 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_13_if_stmt:
         %tmp.7 = self;
         %tmp.8 = getv function %tmp.7 :getHeartRate;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = 255;
         %tmp.11 = eq %tmp.9 %tmp.10;
-        bf %tmp.11 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_48_13_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_48_13_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_48_38_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 49 10 ]
+        bf %tmp.11 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_13_if_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_13_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_38_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 51 10 ]
         %tmp.12 = "-";
         putv self :heartPuls %tmp.12;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_48_38_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_48_13_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_48_13_if_false:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_12_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 52 10 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_38_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_13_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_13_if_false:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_53_12_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 54 10 ]
         %tmp.13 = "heartPuls: ";
         %tmp.14 = self;
         %tmp.15 = getv function %tmp.14 :getHeartRate;
@@ -156,131 +162,131 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.18 = invoke %tmp.16 %tmp.17();
         %tmp.19 = add %tmp.13 %tmp.18;
         putv self :heartPuls %tmp.19;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_12_stop:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_48_13_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_45_7_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_44_29_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_53_12_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_13_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_47_7_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_46_29_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 55; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 57; ]
     private
     function getHeartRate() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_55_36_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 56 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_55_36_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_55_36_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_57_36_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 58 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_57_36_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_57_36_stop" ]
         %heartRate.1 = local;
         %tmp.1 = null;
         lputv %heartRate.1 %tmp.1;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 57 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_55_36_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_55_36_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 59 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_57_36_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_57_36_stop" ]
         %value.2 = local;
         %tmp.3 = getv ? :Activity;
         %tmp.4 = getv function %tmp.3 :getActivityInfo;
         %tmp.5 = invoke %tmp.3 %tmp.4();
         lputv %value.2 %tmp.5;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 58 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_58_8_if_stmt:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 60 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_60_8_if_stmt:
         %tmp.7 = lgetv %value.2;
         %tmp.8 = null;
         %tmp.9 = ne %tmp.7 %tmp.8;
-        bf %tmp.9 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_58_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_58_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_58_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 59 12 ]
+        bf %tmp.9 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_60_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_60_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_60_26_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 61 12 ]
         %tmp.10 = lgetv %value.2;
         %tmp.11 = as %tmp.10 { (!Null) };
         %tmp.12 = getv %tmp.11 :currentHeartRate;
         lputv %value.2 %tmp.12;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_58_26_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_58_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_58_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 62 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_62_8_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_60_26_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_60_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_60_8_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 64 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_stmt:
         %tmp.14 = lgetv %value.2;
         %tmp.15 = null;
         %tmp.16 = eq %tmp.14 %tmp.15;
-        bf %tmp.16 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_62_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_62_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_62_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 63 12 ]
+        bf %tmp.16 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_26_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 65 12 ]
         %tmp.17 = self;
         %tmp.18 = getv function %tmp.17 :getHeartRateIterator;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         lputv %value.2 %tmp.19;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 64 12 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_12_if_stmt:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 66 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_12_if_stmt:
         %tmp.21 = lgetv %value.2;
         %tmp.22 = null;
         %tmp.23 = ne %tmp.21 %tmp.22;
-        bf %tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_12_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_33_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 65 16 ]
+        bf %tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_12_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_33_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 67 16 ]
         %tmp.24 = lgetv %value.2;
         %tmp.25 = as %tmp.24 { (!Null) };
         %tmp.26 = getv function %tmp.25 :next;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         lputv %value.2 %tmp.27;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 66 16 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_begin:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 68 16 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_begin:
         %tmp.29 = lgetv %value.2;
         %tmp.30 = null;
         %tmp.31 = eq %tmp.29 %tmp.30;
-        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_true:
+        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_true:
         %tmp.32 = null;
         push %tmp.32;
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_false:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_false:
         %tmp.33 = lgetv %value.2;
         %tmp.34 = as %tmp.33 { (!Null) };
         %tmp.35 = getv %tmp.34 :data;
         push %tmp.35;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_end:
-        %tmp.36 = phi [%tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_begin] [%tmp.32 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_true] [%tmp.35 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_false] [%tmp.36 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_24_end];
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_end:
+        %tmp.36 = phi [%tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_begin] [%tmp.32 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_true] [%tmp.35 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_false] [%tmp.36 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_24_end];
         lputv %value.2 %tmp.36;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_33_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_12_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_62_26_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_62_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_62_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 69 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_begin:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_33_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_66_12_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_26_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 71 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_begin:
         %tmp.38 = lgetv %value.2;
         %tmp.39 = null;
         %tmp.40 = eq %tmp.38 %tmp.39;
-        bf %tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_true:
+        bf %tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_true:
         %tmp.41 = "--";
         push %tmp.41;
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_false:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_false:
         %tmp.42 = lgetv %value.2;
         %tmp.43 = as %tmp.42 { (!Null) };
         %tmp.44 = getv function %tmp.43 :format;
         %tmp.45 = "%d";
         %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
         push %tmp.46;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_end:
-        %tmp.47 = phi [%tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_begin] [%tmp.41 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_true] [%tmp.46 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_false] [%tmp.47 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_69_20_end];
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_end:
+        %tmp.47 = phi [%tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_begin] [%tmp.41 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_true] [%tmp.46 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_false] [%tmp.47 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_71_20_end];
         lputv %heartRate.1 %tmp.47;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 70 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 72 8 ]
         %tmp.49 = lgetv %heartRate.1;
         ret %tmp.49;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_55_36_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_57_36_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 72; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 74; ]
     function getHeartRateIterator() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_36_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 73 5 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_5_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_9_begin:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_74_36_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 75 5 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_5_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_9_begin:
         %tmp.2 = getv ? :Toybox;
         %tmp.4 = const :SensorHistory;
         %tmp.5 = canhazplz %tmp.2 %tmp.4;
         %tmp.6 = dup %tmp.5;
-        bf %tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_40_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_40_true:
+        bf %tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_40_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_40_true:
         %tmp.8 = getv ? :Toybox;
         %tmp.9 = as %tmp.8 { (interface { var SensorHistory; }) };
         %tmp.10 = getv %tmp.9 :SensorHistory;
@@ -288,12 +294,12 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.13 = canhazplz %tmp.10 %tmp.12;
         %tmp.14 = and %tmp.5 %tmp.13;
         push %tmp.14;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_40_end:
-        %tmp.15 = phi [%tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_9_begin] [%tmp.14 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_40_true] [%tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_40_end];
-        bf %tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_5_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_89_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 74 9 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_40_end:
+        %tmp.15 = phi [%tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_9_begin] [%tmp.14 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_40_true] [%tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_40_end];
+        bf %tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_5_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_5_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_89_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 76 9 ]
         %tmp.16 = getm $.Toybox.SensorHistory;
         %tmp.17 = getv function %tmp.16 :getHeartRateHistory;
         %tmp.18 = newd 2;
@@ -308,35 +314,35 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.30 = aputv %tmp.29 %tmp.27 %tmp.28;
         %tmp.31 = invoke %tmp.16 %tmp.17(%tmp.30);
         ret %tmp.31;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_89_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_73_5_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 76 5 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_89_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_5_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_5_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 78 5 ]
         %tmp.32 = null;
         ret %tmp.32;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_36_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_74_36_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 80; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 82; ]
     function body_battery_cur() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_80_32_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 81 7 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_81_7_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_82_32_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 83 7 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_7_if_stmt:
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getBodyBattery;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = null;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_81_7_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_81_7_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_81_36_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 82 10 ]
+        bf %tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_7_if_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_7_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_36_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 84 10 ]
         %tmp.6 = "-";
         putv self :body_battery %tmp.6;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_81_36_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_81_7_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_81_7_if_false:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_12_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 84 10 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_36_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_7_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_7_if_false:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_85_12_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 86 10 ]
         %tmp.7 = "bb: ";
         %tmp.8 = self;
         %tmp.9 = getv function %tmp.8 :getBodyBattery;
@@ -345,136 +351,129 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.12 = invoke %tmp.10 %tmp.11();
         %tmp.13 = add %tmp.7 %tmp.12;
         putv self :body_battery %tmp.13;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_12_stop:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_81_7_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_80_32_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_85_12_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_83_7_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_82_32_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 91; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 93; ]
     function getBodyBattery() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_91_30_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 92 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_91_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_91_30_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_93_30_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 94 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_93_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_93_30_stop" ]
         %bosyBattery.1 = local;
         %tmp.1 = null;
         lputv %bosyBattery.1 %tmp.1;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 93 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_91_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_91_30_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 95 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_93_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_93_30_stop" ]
         %value.2 = local;
         %tmp.3 = getv ? :Activity;
         %tmp.4 = getv function %tmp.3 :getActivityInfo;
         %tmp.5 = invoke %tmp.3 %tmp.4();
         lputv %value.2 %tmp.5;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 94 7 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_94_7_if_stmt:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 96 7 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_96_7_if_stmt:
         %tmp.7 = lgetv %value.2;
         %tmp.8 = null;
         %tmp.9 = ne %tmp.7 %tmp.8;
-        bf %tmp.9 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_94_7_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_94_7_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_94_25_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 95 3 ]
+        bf %tmp.9 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_96_7_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_96_7_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_96_25_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 97 3 ]
         %tmp.10 = lgetv %value.2;
         %tmp.11 = as %tmp.10 { (!Null) };
         %tmp.12 = getv %tmp.11 :currentPower;
         lputv %value.2 %tmp.12;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_94_25_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_94_7_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_94_7_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 98 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_98_8_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_96_25_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_96_7_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_96_7_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 100 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_8_if_stmt:
         %tmp.14 = lgetv %value.2;
         %tmp.15 = null;
         %tmp.16 = eq %tmp.14 %tmp.15;
-        bf %tmp.16 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_98_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_98_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_98_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 99 12 ]
+        bf %tmp.16 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_26_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 101 12 ]
         %tmp.17 = self;
         %tmp.18 = getv function %tmp.17 :getIterator;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         lputv %value.2 %tmp.19;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 100 12 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_12_if_stmt:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 102 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_12_if_stmt:
         %tmp.21 = lgetv %value.2;
         %tmp.22 = null;
         %tmp.23 = ne %tmp.21 %tmp.22;
-        bf %tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_12_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_33_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 101 16 ]
+        bf %tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_12_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_33_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 103 16 ]
         %tmp.24 = lgetv %value.2;
         %tmp.25 = as %tmp.24 { (!Null) };
         %tmp.26 = getv function %tmp.25 :next;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         lputv %value.2 %tmp.27;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 102 16 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_begin:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 104 16 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_begin:
         %tmp.29 = lgetv %value.2;
         %tmp.30 = null;
         %tmp.31 = eq %tmp.29 %tmp.30;
-        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_true:
+        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_true:
         %tmp.32 = null;
         push %tmp.32;
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_false:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_false:
         %tmp.33 = lgetv %value.2;
         %tmp.34 = as %tmp.33 { (!Null) };
         %tmp.35 = getv %tmp.34 :data;
         push %tmp.35;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_end:
-        %tmp.36 = phi [%tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_begin] [%tmp.32 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_true] [%tmp.35 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_false] [%tmp.36 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_24_end];
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_end:
+        %tmp.36 = phi [%tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_begin] [%tmp.32 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_true] [%tmp.35 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_false] [%tmp.36 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_24_end];
         lputv %value.2 %tmp.36;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_33_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_12_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_98_26_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_98_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_98_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 105 8 ]
-        %tmp.37 = getm $.Toybox.System;
-        %tmp.38 = getv function %tmp.37 :println;
-        %tmp.39 = "bosyBattery => ";
-        %tmp.41 = lgetv %value.2;
-        %tmp.42 = add %tmp.39 %tmp.41;
-        invoke %tmp.37 %tmp.38(%tmp.42);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 106 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_begin:
-        %tmp.44 = lgetv %value.2;
-        %tmp.45 = null;
-        %tmp.46 = eq %tmp.44 %tmp.45;
-        bf %tmp.46 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_true:
-        %tmp.47 = "--";
-        push %tmp.47;
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_false:
-        %tmp.48 = lgetv %value.2;
-        %tmp.49 = as %tmp.48 { (!Null) };
-        %tmp.50 = getv function %tmp.49 :format;
-        %tmp.51 = "%d";
-        %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
-        push %tmp.52;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_end:
-        %tmp.53 = phi [%tmp.46 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_begin] [%tmp.47 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_true] [%tmp.52 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_false] [%tmp.53 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_22_end];
-        lputv %bosyBattery.1 %tmp.53;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_33_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_102_12_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_26_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_8_if_end:
 [ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 107 8 ]
-        %tmp.55 = lgetv %bosyBattery.1;
-        ret %tmp.55;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_91_30_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_begin:
+        %tmp.38 = lgetv %value.2;
+        %tmp.39 = null;
+        %tmp.40 = eq %tmp.38 %tmp.39;
+        bf %tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_true:
+        %tmp.41 = "--";
+        push %tmp.41;
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_false:
+        %tmp.42 = lgetv %value.2;
+        %tmp.43 = as %tmp.42 { (!Null) };
+        %tmp.44 = getv function %tmp.43 :format;
+        %tmp.45 = "%d";
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        push %tmp.46;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_end:
+        %tmp.47 = phi [%tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_begin] [%tmp.41 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_true] [%tmp.46 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_false] [%tmp.47 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_107_22_end];
+        lputv %bosyBattery.1 %tmp.47;
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 108 8 ]
+        %tmp.49 = lgetv %bosyBattery.1;
+        ret %tmp.49;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_93_30_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 110; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 111; ]
     function getIterator() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_110_27_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 112 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_8_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_12_begin:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_27_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 113 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_8_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_12_begin:
         %tmp.2 = getv ? :Toybox;
         %tmp.4 = const :SensorHistory;
         %tmp.5 = canhazplz %tmp.2 %tmp.4;
         %tmp.6 = dup %tmp.5;
-        bf %tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_43_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_43_true:
+        bf %tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_43_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_43_true:
         %tmp.8 = getv ? :Toybox;
         %tmp.9 = as %tmp.8 { (interface { var SensorHistory; }) };
         %tmp.10 = getv %tmp.9 :SensorHistory;
@@ -482,30 +481,30 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.13 = canhazplz %tmp.10 %tmp.12;
         %tmp.14 = and %tmp.5 %tmp.13;
         push %tmp.14;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_43_end:
-        %tmp.15 = phi [%tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_12_begin] [%tmp.14 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_43_true] [%tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_43_end];
-        bf %tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_94_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 114 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_43_end:
+        %tmp.15 = phi [%tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_12_begin] [%tmp.14 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_43_true] [%tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_43_end];
+        bf %tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_94_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 115 12 ]
         %tmp.16 = getm $.Toybox.SensorHistory;
         %tmp.17 = getv function %tmp.16 :getBodyBatteryHistory;
         %tmp.18 = newd 0;
         %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
         ret %tmp.19;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_94_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_112_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 116 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_94_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_113_8_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 117 8 ]
         %tmp.20 = null;
         ret %tmp.20;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_110_27_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_27_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 120; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 121; ]
     function calories_act_cur() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 121 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 122 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_stop" ]
         %today.1 = local;
         %tmp.1 = getm $.Toybox.Time.Gregorian;
         %tmp.2 = getv function %tmp.1 :info;
@@ -516,15 +515,15 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.9 = getv %tmp.8 :FORMAT_MEDIUM;
         %tmp.10 = invoke %tmp.1 %tmp.2(%tmp.6, %tmp.9);
         lputv %today.1 %tmp.10;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 122 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 123 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_stop" ]
         %profile.2 = local;
         %tmp.12 = getv ? :UserProfile;
         %tmp.13 = getv function %tmp.12 :getProfile;
         %tmp.14 = invoke %tmp.12 %tmp.13();
         lputv %profile.2 %tmp.14;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 123 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 124 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_stop" ]
         %age.3 = local;
         %tmp.15 = lgetv %today.1;
         %tmp.16 = getv %tmp.15 :year;
@@ -532,48 +531,48 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.18 = getv %tmp.17 :birthYear;
         %tmp.19 = sub %tmp.16 %tmp.18;
         lputv %age.3 %tmp.19;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 124 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 125 8 ]
         %tmp.20 = getm $.Toybox.System;
         %tmp.21 = getv function %tmp.20 :println;
         %tmp.22 = "age => ";
         %tmp.24 = lgetv %age.3;
         %tmp.25 = add %tmp.22 %tmp.24;
         invoke %tmp.20 %tmp.21(%tmp.25);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 125 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 126 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_stop" ]
         %weight.4 = local;
         %tmp.26 = lgetv %profile.2;
         %tmp.27 = getv %tmp.26 :weight;
         %tmp.28 = 1000.0;
         %tmp.29 = div %tmp.27 %tmp.28;
         lputv %weight.4 %tmp.29;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 126 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 127 8 ]
         %tmp.30 = getm $.Toybox.System;
         %tmp.31 = getv function %tmp.30 :println;
         %tmp.32 = "weight => ";
         %tmp.34 = lgetv %weight.4;
         %tmp.35 = add %tmp.32 %tmp.34;
         invoke %tmp.30 %tmp.31(%tmp.35);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 127 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 128 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_stop" ]
         %restCalories.5 = local;
         %tmp.36 = 0;
         lputv %restCalories.5 %tmp.36;
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_stop" ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_stop" ]
         %adj.6 = local;
         %tmp.37 = 0.5;
         lputv %adj.6 %tmp.37;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 129 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_129_8_if_stmt:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 130 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_130_8_if_stmt:
         %tmp.38 = lgetv %profile.2;
         %tmp.39 = getv %tmp.38 :gender;
         %tmp.41 = getv ? :UserProfile;
         %tmp.42 = getv %tmp.41 :GENDER_MALE;
         %tmp.43 = eq %tmp.39 %tmp.42;
-        bf %tmp.43 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_129_8_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_129_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_129_55_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 130 12 ]
+        bf %tmp.43 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_130_8_if_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_130_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_130_55_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 131 12 ]
         %tmp.44 = 5.2;
         %tmp.45 = 6.116;
         %tmp.47 = lgetv %age.3;
@@ -589,18 +588,18 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.58 = mul %tmp.55 %tmp.57;
         %tmp.59 = add %tmp.54 %tmp.58;
         lputv %restCalories.5 %tmp.59;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 131 12 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 132 12 ]
         %tmp.60 = getm $.Toybox.System;
         %tmp.61 = getv function %tmp.60 :println;
         %tmp.62 = "restCalories => ";
         %tmp.64 = lgetv %restCalories.5;
         %tmp.65 = add %tmp.62 %tmp.64;
         invoke %tmp.60 %tmp.61(%tmp.65);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_129_55_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_129_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_129_8_if_false:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_15_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 133 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_130_55_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_130_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_130_8_if_false:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_133_15_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 134 12 ]
         %tmp.66 = -197.6;
         %tmp.67 = 6.116;
         %tmp.69 = lgetv %age.3;
@@ -616,24 +615,24 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.80 = mul %tmp.77 %tmp.79;
         %tmp.81 = add %tmp.76 %tmp.80;
         lputv %restCalories.5 %tmp.81;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_15_stop:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_129_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 136 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_136_8_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_133_15_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_130_8_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 137 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_137_8_if_stmt:
         %tmp.82 = lgetv %today.1;
         %tmp.83 = getv %tmp.82 :hour;
         %tmp.84 = 18;
         %tmp.85 = gte %tmp.83 %tmp.84;
-        bf %tmp.85 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_136_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_136_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_136_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 136 28 ]
+        bf %tmp.85 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_137_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_137_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_137_26_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 137 28 ]
         %tmp.86 = 0;
         lputv %adj.6 %tmp.86;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_136_26_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_136_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_136_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 137 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_137_26_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_137_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_137_8_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 138 8 ]
         %tmp.88 = getv ? :Math;
         %tmp.89 = getv function %tmp.88 :round;
         %tmp.90 = lgetv %today.1;
@@ -653,14 +652,14 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.106 = getv function %tmp.105 :toNumber;
         %tmp.107 = invoke %tmp.105 %tmp.106();
         lputv %restCalories.5 %tmp.107;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 138 10 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 139 8 ]
         %tmp.108 = getm $.Toybox.System;
         %tmp.109 = getv function %tmp.108 :println;
         %tmp.110 = "restCalories2 => ";
         %tmp.112 = lgetv %restCalories.5;
         %tmp.113 = add %tmp.110 %tmp.112;
         invoke %tmp.108 %tmp.109(%tmp.113);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 139 11 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 140 8 ]
         %tmp.114 = getm $.Toybox.System;
         %tmp.115 = getv function %tmp.114 :println;
         %tmp.116 = "calories => ";
@@ -670,7 +669,7 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.121 = getv %tmp.120 :calories;
         %tmp.122 = add %tmp.116 %tmp.121;
         invoke %tmp.114 %tmp.115(%tmp.122);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 140 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 141 8 ]
         %tmp.123 = "act_c: ";
         %tmp.125 = getv ? :ActivityMonitor;
         %tmp.126 = getv function %tmp.125 :getInfo;
@@ -680,7 +679,206 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.131 = sub %tmp.128 %tmp.130;
         %tmp.132 = add %tmp.123 %tmp.131;
         putv self :calories_act %tmp.132;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_120_33_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_121_32_stop:
+    }
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 146; ]
+    function weatherLocal() {
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_146_28_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 148 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_8_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_11_begin:
+        %tmp.2 = getv ? :curCondition;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        %tmp.5 = dup %tmp.4;
+        bf %tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_34_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_34_true:
+        %tmp.7 = getv ? :curCondition;
+        %tmp.8 = as %tmp.7 { (!Null) };
+        %tmp.9 = getv %tmp.8 :observationLocationName;
+        %tmp.10 = null;
+        %tmp.11 = ne %tmp.9 %tmp.10;
+        %tmp.12 = and %tmp.4 %tmp.11;
+        push %tmp.12;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_34_end:
+        %tmp.13 = phi [%tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_11_begin] [%tmp.12 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_34_true] [%tmp.13 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_34_end];
+        bf %tmp.13 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_78_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 149 12 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_78_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_78_stop" ]
+        %location.1 = local;
+        %tmp.15 = getv ? :curCondition;
+        %tmp.16 = as %tmp.15 { (!Null) };
+        %tmp.17 = getv %tmp.16 :observationLocationName;
+        lputv %location.1 %tmp.17;
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 150 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_12_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_16_begin:
+        %tmp.18 = lgetv %location.1;
+        %tmp.19 = getv function %tmp.18 :length;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.21 = 15;
+        %tmp.22 = gt %tmp.20 %tmp.21;
+        %tmp.23 = dup %tmp.22;
+        bf %tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_41_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_41_true:
+        %tmp.24 = lgetv %location.1;
+        %tmp.25 = getv function %tmp.24 :find;
+        %tmp.26 = ",";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        %tmp.28 = null;
+        %tmp.29 = ne %tmp.27 %tmp.28;
+        %tmp.30 = and %tmp.22 %tmp.29;
+        push %tmp.30;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_41_end:
+        %tmp.31 = phi [%tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_16_begin] [%tmp.30 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_41_true] [%tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_41_end];
+        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_12_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_66_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 151 16 ]
+        %tmp.32 = lgetv %location.1;
+        %tmp.33 = getv function %tmp.32 :substring;
+        %tmp.34 = 0;
+        %tmp.35 = lgetv %location.1;
+        %tmp.36 = getv function %tmp.35 :find;
+        %tmp.37 = ",";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        %tmp.39 = invoke %tmp.32 %tmp.33(%tmp.34, %tmp.38);
+        lputv %location.1 %tmp.39;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_66_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_150_12_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 153 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_153_12_if_stmt:
+        %tmp.40 = lgetv %location.1;
+        %tmp.41 = getv function %tmp.40 :find;
+        %tmp.42 = "ocation[";
+        %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
+        %tmp.44 = null;
+        %tmp.45 = ne %tmp.43 %tmp.44;
+        bf %tmp.45 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_153_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_153_12_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_153_48_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 154 16 ]
+        %tmp.46 = "null";
+        lputv %location.1 %tmp.46;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_153_48_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_153_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_153_12_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 156 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_12_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_16_begin:
+        %tmp.47 = lgetv %location.1;
+        %tmp.48 = getv function %tmp.47 :find;
+        %tmp.49 = "null";
+        %tmp.50 = invoke %tmp.47 %tmp.48(%tmp.49);
+        %tmp.51 = null;
+        %tmp.52 = ne %tmp.50 %tmp.51;
+        %tmp.53 = dup %tmp.52;
+        bf %tmp.53 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_48_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_48_true:
+        %tmp.54 = lgetv %location.1;
+        %tmp.55 = getv function %tmp.54 :find;
+        %tmp.56 = ",";
+        %tmp.57 = invoke %tmp.54 %tmp.55(%tmp.56);
+        %tmp.58 = null;
+        %tmp.59 = ne %tmp.57 %tmp.58;
+        %tmp.60 = and %tmp.52 %tmp.59;
+        push %tmp.60;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_48_end:
+        %tmp.61 = phi [%tmp.53 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_16_begin] [%tmp.60 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_48_true] [%tmp.61 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_48_end];
+        bf %tmp.61 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_12_if_false;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_12_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_74_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 157 16 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_74_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_74_stop" ]
+        %location2.2 = local;
+        %tmp.62 = lgetv %location.1;
+        %tmp.63 = getv function %tmp.62 :substring;
+        %tmp.64 = 0;
+        %tmp.65 = lgetv %location.1;
+        %tmp.66 = getv function %tmp.65 :find;
+        %tmp.67 = ",";
+        %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
+        %tmp.69 = invoke %tmp.62 %tmp.63(%tmp.64, %tmp.68);
+        lputv %location2.2 %tmp.69;
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 158 16 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_158_16_if_stmt:
+        %tmp.70 = lgetv %location2.2;
+        %tmp.71 = getv function %tmp.70 :find;
+        %tmp.72 = "null";
+        %tmp.73 = invoke %tmp.70 %tmp.71(%tmp.72);
+        %tmp.74 = null;
+        %tmp.75 = ne %tmp.73 %tmp.74;
+        bf %tmp.75 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_158_16_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_158_16_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_158_50_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 159 20 ]
+        %tmp.76 = lgetv %location.1;
+        %tmp.77 = getv function %tmp.76 :substring;
+        %tmp.78 = lgetv %location.1;
+        %tmp.79 = getv function %tmp.78 :find;
+        %tmp.80 = ",";
+        %tmp.81 = invoke %tmp.78 %tmp.79(%tmp.80);
+        %tmp.82 = 2;
+        %tmp.83 = add %tmp.81 %tmp.82;
+        %tmp.84 = lgetv %location.1;
+        %tmp.85 = getv function %tmp.84 :length;
+        %tmp.86 = invoke %tmp.84 %tmp.85();
+        %tmp.87 = invoke %tmp.76 %tmp.77(%tmp.83, %tmp.86);
+        lputv %location2.2 %tmp.87;
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 160 20 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_160_20_if_stmt:
+        %tmp.88 = lgetv %location2.2;
+        %tmp.89 = getv function %tmp.88 :find;
+        %tmp.90 = "null";
+        %tmp.91 = invoke %tmp.88 %tmp.89(%tmp.90);
+        %tmp.92 = null;
+        %tmp.93 = ne %tmp.91 %tmp.92;
+        bf %tmp.93 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_160_20_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_160_20_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_160_53_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 161 24 ]
+        %tmp.94 = "";
+        lputv %location2.2 %tmp.94;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_160_53_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_160_20_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_160_20_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_158_50_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_158_16_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_158_16_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 164 5 ]
+        %tmp.96 = lgetv %location2.2;
+        lputv %location.1 %tmp.96;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_74_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_12_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_12_if_false:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 166 9 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_166_9_if_stmt:
+        %tmp.97 = lgetv %location.1;
+        %tmp.98 = getv function %tmp.97 :find;
+        %tmp.99 = "null";
+        %tmp.100 = invoke %tmp.97 %tmp.98(%tmp.99);
+        %tmp.101 = null;
+        %tmp.102 = ne %tmp.100 %tmp.101;
+        bf %tmp.102 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_166_9_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_166_9_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_166_42_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 167 5 ]
+        %tmp.103 = "";
+        lputv %location.1 %tmp.103;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_166_42_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_166_9_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_166_9_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_156_12_if_end:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 170 4 ]
+        %tmp.105 = lgetv %location.1;
+        putv self :cur_local %tmp.105;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_78_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_148_8_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_146_28_stop:
     }
 }
 [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 1; ]

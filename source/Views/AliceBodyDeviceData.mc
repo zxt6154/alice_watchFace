@@ -23,6 +23,7 @@ class AliceBodyDeviceData {
      var calories_act;
      var distance;
      var cur_weather;
+     var cur_local;
      //心率
      var heartPuls;
      var activityInfo = ActMon.getInfo();
@@ -39,6 +40,7 @@ class AliceBodyDeviceData {
           heartPuls_cur();
           body_battery_cur();
           calories_act_cur();
+          weatherLocal();
      }
 
     function heartPuls_cur() {
@@ -116,7 +118,7 @@ class AliceBodyDeviceData {
     }
 
 
-     function calories_act_cur() {
+    function calories_act_cur() {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);		
         var profile = UserProfile.getProfile();
         var age = today.year - profile.birthYear;
@@ -138,7 +140,36 @@ class AliceBodyDeviceData {
         Sys.println("calories => "+ActivityMonitor.getInfo().calories);
         calories_act ="act_c: " + (ActivityMonitor.getInfo().calories - restCalories);
        
-     }
+    }
+
+
+    function weatherLocal() {
+    
+        if(curCondition!=null and curCondition.observationLocationName!=null) {
+            var location = curCondition.observationLocationName;
+            if (location.length()>15 and location.find(",")!=null){
+                location = location.substring(0,location.find(","));
+            }
+            if (location.find("location[")!=null){
+                location="null";
+            }				
+            if (location.find("null")!=null and location.find(",")!=null) {
+                var location2 = location.substring(0,location.find(","));
+                if (location2.find("null")!=null) {
+                    location2 = location.substring(location.find(",")+2,location.length());
+                    if (location2.find("null")!=null){
+                        location2 = "";
+						}
+					}
+					location = location2;
+				}
+				else if (location.find("null")!=null) {
+					location = "";
+				}
+
+				cur_local = "location: "+location;
+			}
+    }
 
     
 }

@@ -125,7 +125,7 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_st
         %tmp.62 = getm $.Toybox.Graphics;
         %tmp.63 = getv %tmp.62 :FONT_SYSTEM_XTINY;
         %tmp.65 = getv ? :bodyDeviceData;
-        %tmp.66 = getv %tmp.65 :distance;
+        %tmp.66 = getv %tmp.65 :cur_local;
         %tmp.67 = getm $.Toybox.Graphics;
         %tmp.68 = getv %tmp.67 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.58 %tmp.59(%tmp.60, %tmp.61, %tmp.63, %tmp.66, %tmp.68);
