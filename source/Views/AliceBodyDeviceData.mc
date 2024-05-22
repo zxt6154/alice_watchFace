@@ -24,6 +24,8 @@ class AliceBodyDeviceData {
      var distance;
      var cur_weather;
      var cur_local;
+     var cur_temperature;
+
      //心率
      var heartPuls;
      var activityInfo = ActMon.getInfo();
@@ -37,13 +39,14 @@ class AliceBodyDeviceData {
           device_battery = "db: " + Sys.getSystemStats().battery.format("%d") + "%";
           //distUnits = Sys.getDeviceSettings().distanceUnits; 
           cur_weather = "weather: " + curCondition.condition;
-          heartPuls_cur();
-          body_battery_cur();
-          calories_act_cur();
+          heartPulsCur();
+          bodyBatteryCur();
+          caloriesActCur();
           weatherLocal();
+          temperatureCur();
      }
 
-    function heartPuls_cur() {
+    function heartPulsCur() {
        if (getHeartRate() == null){
           heartPuls = "-";
           }
@@ -79,7 +82,7 @@ class AliceBodyDeviceData {
 	}
 
 
-    function body_battery_cur() {
+    function bodyBatteryCur() {
        if (getBodyBattery() == null){
           body_battery = "-";
        }else{
@@ -118,7 +121,7 @@ class AliceBodyDeviceData {
     }
 
 
-    function calories_act_cur() {
+    function caloriesActCur() {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);		
         var profile = UserProfile.getProfile();
         var age = today.year - profile.birthYear;
@@ -172,4 +175,47 @@ class AliceBodyDeviceData {
     }
 
     
+
+
+    function temperatureCur() {
+
+       // var TempMetric = System.getDeviceSettings().temperatureUnits;
+        var TempMetric  = System.UNIT_METRIC;
+		var temp=null, units = "", minTemp=null, maxTemp=null;
+		var weather = Weather.getCurrentConditions();
+        // /Sys.println();
+	    if ((weather.lowTemperature!=null) and (weather.highTemperature!=null)){ // and weather.lowTemperature instanceof Number ;  and weather.highTemperature instanceof Number
+			minTemp = weather.lowTemperature;
+			maxTemp = weather.highTemperature;
+		}
+    	if (weather!=null and (weather.feelsLikeTemperature!=null)) { //feels like ;  and weather.feelsLikeTemperature instanceof Number
+                if (TempMetric == System.UNIT_METRIC) { //Celsius or Storage.getValue(16)==true
+                    units = "°C";
+                    temp = weather.feelsLikeTemperature;
+                }	else {
+                    temp = (weather.feelsLikeTemperature * 9/5) + 32; 
+                    if (minTemp!=null and maxTemp!=null){
+                        minTemp = (minTemp* 9/5) + 32;
+                        maxTemp = (maxTemp* 9/5) + 32;
+                    }
+                    //temp = Lang.format("$1$", [temp.format("%d")] );
+                    units = "°F";
+                }				
+		    } else if(weather!=null and (weather.temperature!=null)) {  // real temperature ;  and weather.temperature instanceof Number
+				if (TempMetric == System.UNIT_METRIC ) { //Celsius or Storage.getValue(16)==true
+					units = "°C";
+					temp = weather.temperature;
+				}	else {
+					temp = (weather.temperature * 9/5) + 32; 
+					if (minTemp!=null and maxTemp!=null){
+						minTemp = (minTemp* 9/5) + 32;
+						maxTemp = (maxTemp* 9/5) + 32;
+					}
+					//temp = Lang.format("$1$", [temp.format("%d")] );
+					units = "°F";
+				}
+		    }
+        temp=temp.format("%d")+units;
+        cur_temperature = "temp: "+temp;
+    }
 }

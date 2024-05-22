@@ -41,6 +41,10 @@ class AliceView extends Ui.Drawable {
         //cur_weather
        dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
        dc.drawText(60,47, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.calories_act, Gfx.TEXT_JUSTIFY_CENTER);
+
+       //cur_temp
+       dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+       dc.drawText(118,53, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.cur_temperature, Gfx.TEXT_JUSTIFY_CENTER);
 	}
 
 }

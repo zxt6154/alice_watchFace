@@ -189,6 +189,26 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_st
         %tmp.118 = getm $.Toybox.Graphics;
         %tmp.119 = getv %tmp.118 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.109 %tmp.110(%tmp.111, %tmp.112, %tmp.114, %tmp.117, %tmp.119);
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 46 7 ]
+        %tmp.120 = lgetv %dc;
+        %tmp.121 = getv function %tmp.120 :setColor;
+        %tmp.122 = getm $.Toybox.Graphics;
+        %tmp.123 = getv %tmp.122 :COLOR_YELLOW;
+        %tmp.124 = getm $.Toybox.Graphics;
+        %tmp.125 = getv %tmp.124 :COLOR_TRANSPARENT;
+        invoke %tmp.120 %tmp.121(%tmp.123, %tmp.125);
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 47 7 ]
+        %tmp.126 = lgetv %dc;
+        %tmp.127 = getv function %tmp.126 :drawText;
+        %tmp.128 = 118;
+        %tmp.129 = 53;
+        %tmp.130 = getm $.Toybox.Graphics;
+        %tmp.131 = getv %tmp.130 :FONT_SYSTEM_XTINY;
+        %tmp.133 = getv ? :bodyDeviceData;
+        %tmp.134 = getv %tmp.133 :cur_temperature;
+        %tmp.135 = getm $.Toybox.Graphics;
+        %tmp.136 = getv %tmp.135 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.126 %tmp.127(%tmp.128, %tmp.129, %tmp.131, %tmp.134, %tmp.136);
 _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_stop:
     }
 }
