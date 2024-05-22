@@ -5,6 +5,9 @@ using Toybox.Lang as Lang;
 using Toybox.System as Sys;
 using Toybox.Sensor as Sor;
 using Toybox.SensorHistory as Sh;
+using Toybox.Weather as CurWeather;
+using Toybox.Position as Pos;
+using Toybox.Time.Gregorian;
 
 //个人检测数据 心率｜热量｜身体电量｜步数｜...
 class AliceBodyDeviceData {
@@ -19,21 +22,23 @@ class AliceBodyDeviceData {
      //卡路里
      var calories_act;
      var distance;
-     var distUnits;
+     var cur_weather;
      //心率
      var heartPuls;
      var activityInfo = ActMon.getInfo();
-
-
+     
+     var curCondition = CurWeather.getCurrentConditions();
      //初始化的时候将活动信息传参
      function initialize() {
           steps = "step: " + activityInfo.steps;
           calories = "calories: " + activityInfo.calories;
           distance = "distance: " + activityInfo.distance;
           device_battery = "db: " + Sys.getSystemStats().battery.format("%d") + "%";
-          distUnits = Sys.getDeviceSettings().distanceUnits; 
+          //distUnits = Sys.getDeviceSettings().distanceUnits; 
+          cur_weather = "weather: " + curCondition.condition;
           heartPuls_cur();
           body_battery_cur();
+          calories_act_cur();
      }
 
     function heartPuls_cur() {
@@ -114,7 +119,22 @@ class AliceBodyDeviceData {
 
 
      function calories_act_cur() {
-       return null;    
+        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);		
+        var profile = UserProfile.getProfile();
+        var age = today.year - profile.birthYear;
+        var weight = profile.weight / 1000.0;
+        var restCalories=0, adj=0.5;
+
+        if (profile.gender == UserProfile.GENDER_MALE) {
+            restCalories = 5.2 - 6.116*age + 7.628*profile.height + 12.2*weight;
+        } else {// female
+            restCalories = -197.6 - 6.116*age + 7.628*profile.height + 12.2*weight;
+        }
+
+        if(today.hour>=18){ adj=0; }
+        restCalories = Math.round(((today.hour*60+today.min) * restCalories / 1440 ) - adj).toNumber();
+        calories ="act_c: " + (ActivityMonitor.getInfo().calories - restCalories);
+       
      }
 
     
