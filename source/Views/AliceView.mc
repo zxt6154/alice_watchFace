@@ -21,7 +21,7 @@ class AliceView extends Ui.Drawable {
 	function draw(dc){
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         dc.drawText(212,148, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.device_battery, Gfx.TEXT_JUSTIFY_CENTER);
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+        dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_TRANSPARENT);
         dc.drawText(69, 121, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.calories, Gfx.TEXT_JUSTIFY_LEFT);
      
         dc.setColor(Gfx.COLOR_PINK, Gfx.COLOR_TRANSPARENT);
@@ -39,8 +39,8 @@ class AliceView extends Ui.Drawable {
 
         
         //cur_weather
-       // dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
-       // dc.drawText(132,193, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.cur_weather, Gfx.TEXT_JUSTIFY_CENTER);
+       dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+       dc.drawText(60,47, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.calories_act, Gfx.TEXT_JUSTIFY_CENTER);
 	}
 
 }

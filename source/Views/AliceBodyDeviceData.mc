@@ -66,7 +66,6 @@ class AliceBodyDeviceData {
                 value = value == null ? null : value.data;
             }
         }
-        Sys.println("heartbeat => "+value);
         heartRate = value == null ? "--" : value.format("%d");
         return heartRate;
     }
@@ -103,7 +102,6 @@ class AliceBodyDeviceData {
                 value = value == null ? null : value.data;
             }
         }
-        Sys.println("bosyBattery => "+value);
         bosyBattery = value == null ? "--" : value.format("%d");
         return bosyBattery;
     }
@@ -122,18 +120,23 @@ class AliceBodyDeviceData {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);		
         var profile = UserProfile.getProfile();
         var age = today.year - profile.birthYear;
+        Sys.println("age => "+age);
         var weight = profile.weight / 1000.0;
+        Sys.println("weight => "+weight);
         var restCalories=0, adj=0.5;
 
         if (profile.gender == UserProfile.GENDER_MALE) {
             restCalories = 5.2 - 6.116*age + 7.628*profile.height + 12.2*weight;
+            Sys.println("restCalories => "+restCalories);
         } else {// female
             restCalories = -197.6 - 6.116*age + 7.628*profile.height + 12.2*weight;
         }
 
         if(today.hour>=18){ adj=0; }
         restCalories = Math.round(((today.hour*60+today.min) * restCalories / 1440 ) - adj).toNumber();
-        calories ="act_c: " + (ActivityMonitor.getInfo().calories - restCalories);
+        Sys.println("restCalories2 => "+restCalories);
+        Sys.println("calories => "+ActivityMonitor.getInfo().calories);
+        calories_act ="act_c: " + (ActivityMonitor.getInfo().calories - restCalories);
        
      }
 

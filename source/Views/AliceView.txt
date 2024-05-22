@@ -56,7 +56,6 @@ class AliceView extends Ui.Drawable {
                 value = value == null ? null : value.data;
             }
         }
-        Sys.println("bosyBattery => "+value);
         bosyBattery = value == null ? "--" : value.format("%d");
         return bosyBattery;
     }
