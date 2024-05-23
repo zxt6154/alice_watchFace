@@ -18,6 +18,7 @@ class PresentTimeView extends Ui.Drawable{
             var test = Ui.loadResource(Rez.Fonts.FZSHIGKSK);
             var timer1 = new TimePosition(dc);
             timer1.year_set(timeData.todayYearMonth, test);
+            
             timer1.time_set(timeData.timeString, font); 
             timer1.sec_set(timeData.secString, secFont);
 	}
