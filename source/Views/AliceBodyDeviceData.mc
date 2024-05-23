@@ -26,6 +26,7 @@ class AliceBodyDeviceData {
      var cur_local;
      var cur_temperature;
 
+     var cur_temperature2;
      //心率
      var heartPuls;
      var activityInfo = ActMon.getInfo();
@@ -125,7 +126,6 @@ class AliceBodyDeviceData {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);		
         var profile = UserProfile.getProfile();
         var age = today.year - profile.birthYear;
-        Sys.println("age => "+age);
         var weight = profile.weight / 1000.0;
         var restCalories=0, adj=0.5;
 
@@ -169,27 +169,25 @@ class AliceBodyDeviceData {
 				cur_local = "location: "+location;
 			}
     }
-
-    
-
-
     function temperatureCur() {
-
-       // var TempMetric = System.getDeviceSettings().temperatureUnits;
+// var TempMetric = System.getDeviceSettings().temperatureUnits;
         var TempMetric  = System.UNIT_METRIC;
 		var temp=null, units = "", minTemp=null, maxTemp=null;
 		var weather = Weather.getCurrentConditions();
-        // /Sys.println();
+     
 	    if ((weather.lowTemperature!=null) and (weather.highTemperature!=null)){ // and weather.lowTemperature instanceof Number ;  and weather.highTemperature instanceof Number
 			minTemp = weather.lowTemperature;
+            Sys.println("minTemp - " + minTemp);
 			maxTemp = weather.highTemperature;
+            Sys.println("maxTemp - " + maxTemp);
 		}
-    	if (weather!=null and (weather.feelsLikeTemperature!=null)) { //feels like ;  and weather.feelsLikeTemperature instanceof Number
+    	if (weather!=null and (weather.temperature!=null)) { //feels like ;  and weather.temperature instanceof Number
                 if (TempMetric == System.UNIT_METRIC) { //Celsius or Storage.getValue(16)==true
                     units = "°C";
-                    temp = weather.feelsLikeTemperature;
+                    temp = weather.temperature;
+                    Sys.println("temperature1 - " + temp);
                 }	else {
-                    temp = (weather.feelsLikeTemperature * 9/5) + 32; 
+                    temp = (weather.temperature * 9/5) + 32; 
                     if (minTemp!=null and maxTemp!=null){
                         minTemp = (minTemp* 9/5) + 32;
                         maxTemp = (maxTemp* 9/5) + 32;
