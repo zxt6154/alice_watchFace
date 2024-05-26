@@ -57,6 +57,7 @@ class AliceBodyDeviceData {
         else{
           heartPuls = getHeartRate().toString();
           }
+          Sys.println("XINLV " + heartPuls);
     }
     private function getHeartRate() {// initialize it to null
         var heartRate = null;// Get the activity info if possible
@@ -87,7 +88,7 @@ class AliceBodyDeviceData {
        if (getBodyBattery() == null){
           body_battery = "-";
        }else{
-          body_battery = "bb: " + getBodyBattery().toString();
+          body_battery = getBodyBattery().toString();
        }
     }
 
@@ -177,15 +178,12 @@ class AliceBodyDeviceData {
      
 	    if ((weather.lowTemperature!=null) and (weather.highTemperature!=null)){ // and weather.lowTemperature instanceof Number ;  and weather.highTemperature instanceof Number
 			minTemp = weather.lowTemperature;
-            Sys.println("minTemp - " + minTemp);
 			maxTemp = weather.highTemperature;
-            Sys.println("maxTemp - " + maxTemp);
 		}
     	if (weather!=null and (weather.temperature!=null)) { //feels like ;  and weather.temperature instanceof Number
                 if (TempMetric == System.UNIT_METRIC) { //Celsius or Storage.getValue(16)==true
                     units = "°C";
                     temp = weather.temperature;
-                    Sys.println("temperature1 - " + temp);
                 }	else {
                     temp = (weather.temperature * 9/5) + 32; 
                     if (minTemp!=null and maxTemp!=null){

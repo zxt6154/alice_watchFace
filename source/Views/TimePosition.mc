@@ -27,23 +27,27 @@ class TimePosition extends Ui.Drawable{
 
        //Drawable.initialize(_dc);
     }
-    function year_set(yearMonth,test) {
-        cur_year[0] = 75;
-        cur_year[1] = 153;
-        customDrawTime(dc, cur_year[0], cur_year[1], Gfx.COLOR_WHITE, yearMonth,  test);
+    function month_day_set(monthDayStr,test) {
+        cur_year[0] = 100;
+        cur_year[1] = 32;
+        customDrawTime(dc, cur_year[0], cur_year[1], Gfx.COLOR_WHITE, monthDayStr, test);
     }
+
+    function week_set(weekDayStr,test) {
+        cur_week[0] = 205;
+        cur_week[1] = 122;
+        customDrawTime(dc, cur_week[0], cur_week[1], Gfx.COLOR_WHITE, weekDayStr, test);
+    }
+
     function month_set() {
 
-    }
-    function week_set() {
-        
     }
     function day_set() {
         
     }
     function sec_set(secString, secFont) {
         var x = device_w_h[0]/2;
-        cur_sec[0] = x+x/3 +10;
+        cur_sec[0] = x+x/3 +15;
         var textDim = dc.getTextDimensions(secString, secFont);
         cur_sec[1] = device_w_h[1]/3 - textDim[1] / 2 ;
         customDrawTime(dc, cur_sec[0], cur_sec[1], Gfx.COLOR_DK_GRAY, secString, secFont);
@@ -51,6 +55,9 @@ class TimePosition extends Ui.Drawable{
     function time_set(timeString, font) {
         cur_time[0] = device_w_h[0]/2 - 30;
         var textDim = dc.getTextDimensions(timeString, font);
+
+        var textDim1 = dc.getTextWidthInPixels(timeString, font);
+        Sys.println("textDim[0] - " + textDim1);
         cur_time[1] = device_w_h[1]/3 - textDim[1] / 2;
         customDrawTime(dc, cur_time[0], cur_time[1], Gfx.COLOR_WHITE, timeString, font);
     }

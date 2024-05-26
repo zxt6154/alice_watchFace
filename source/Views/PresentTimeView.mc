@@ -13,15 +13,26 @@ class PresentTimeView extends Ui.Drawable{
         }
      
 	function draw(dc){
+            var time = new TimePosition(dc);
+            drawMonthDay(time);
+            drawSec(time);
             var font = Ui.loadResource(Rez.Fonts.sgks);
-            var secFont = Ui.loadResource(Rez.Fonts.id_font_clock_sec);                
-            var test = Ui.loadResource(Rez.Fonts.FZSHIGKSK);
-            var timer1 = new TimePosition(dc);
-            timer1.year_set(timeData.todayYearMonth, test);
-            
-            timer1.time_set(timeData.timeString, font); 
-            timer1.sec_set(timeData.secString, secFont);
+            time.time_set(timeData.timeString, font); 
 	}
+        //绘制几月几日
+        function drawMonthDay(time) {
+           var test = Ui.loadResource(Rez.Fonts.FZSHIGKSK);
+           time.month_day_set(timeData.monthDay, test);
+           time.week_set(timeData.weekDay,test);
+        }
 
+        function drawSec(time) {
+           var secFont = Ui.loadResource(Rez.Fonts.id_font_clock_sec);  
+           time.sec_set(timeData.secString, secFont);
+        }
+      function drawWeek(time) {
+           var weekFont = Ui.loadResource(Rez.Fonts.FZSHIGKSK);  
+           time.sec_set(timeData.secString, weekFont);
+        }      
       
 }

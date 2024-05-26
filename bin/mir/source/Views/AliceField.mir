@@ -1,39 +1,39 @@
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 1; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 1; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 3; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 3; ]
 class AliceField extends Ui.Drawable{
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 3; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 3; ]
     <init> {
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 3; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 3; ]
     static
     <init> {
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 5; @position = 5; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 5; @position = 5; ]
     var topY = 0;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 6; @position = 5; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 6; @position = 5; ]
     var bottomY = 0;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 7; @position = 5; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 7; @position = 5; ]
     var properties;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 8; @position = 5; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 8; @position = 5; ]
     var dictionary;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 10; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 10; ]
     function initialize(_dictionary, newProperties) as Void {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceField_mc_10_51_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc" 11 5 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceField_mc_10_51_14_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc" 11 5 ]
         %tmp.2 = lgetv %newProperties;
         putv self :properties %tmp.2;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc" 12 5 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc" 12 5 ]
         %tmp.4 = lgetv %_dictionary;
         putv self :dictionary %tmp.4;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc" 13 2 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc" 13 2 ]
         %tmp.6 = getv ? :Drawable;
         %tmp.7 = getv function %tmp.6 :initialize;
         %tmp.9 = lgetv %_dictionary;
         invoke %tmp.6 %tmp.7(%tmp.9);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceField_mc_10_51_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceField_mc_10_51_14_4_stop:
     }
 }
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceField.mc"; @line = 1; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceField.mc"; @line = 1; ]
 <init> {
 }

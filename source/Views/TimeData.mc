@@ -11,14 +11,16 @@ class TimeData {
     public var monthArray = ["Month", "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"] as Array<String>;
     public var monthDayArray = ["MonthDay","1号", "2号", "3号", "4号", "5号", "6号", "7号", "8号", "9号", "10号", "11号", "12号", "13号", "14号", "15号", "16号", "17号", "18号", "19号", "20号", "21号", "22号", "23号", "24号", "25号", "26号", "26号", "27号", "28号", "29号", "30号", "31号"] as Array<String>;
 
-    var todayYearMonth;
+    var monthDay as String;
+    var weekDay;
     var timeString;
     var secString;
 
     function initialize() {
           var today = currentTime();
           var day = today.day;
-          todayYearMonth = Lang.format("$1$ $2$ $3$", [ monthArray[today.month], monthDayArray[day], weekArray[today.day_of_week]]);
+          monthDay = Lang.format("$1$ $2$", [ monthArray[today.month], monthDayArray[day]]);
+          weekDay = weekArray[today.day_of_week];
         // if(witch.equals("monthArrayZhs")) {
         //     str = monthArrayZhs[param];
         // }

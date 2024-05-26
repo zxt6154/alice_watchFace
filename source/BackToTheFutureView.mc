@@ -10,7 +10,7 @@ class BackToTheFutureView extends Ui.WatchFace {
 	
     var mySwirl;
     function initialize() {
-         mySwirl = new WatchUi.AnimationLayer(Rez.Drawables.giphy, {:locX => 190, :locY => 70});
+         mySwirl = new WatchUi.AnimationLayer(Rez.Drawables.giphy, {:locX => 42, :locY => 144});
          View.addLayer(mySwirl);
          WatchFace.initialize(); 
     }

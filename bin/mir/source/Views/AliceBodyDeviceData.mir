@@ -1,84 +1,84 @@
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 1; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 1; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 2; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 2; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 3; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 3; ]
 using Toybox.ActivityMonitor as :ActMon;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 4; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 4; ]
 using Toybox.Lang as :Lang;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 5; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 5; ]
 using Toybox.System as :Sys;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 6; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 6; ]
 using Toybox.Sensor as :Sor;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 7; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 7; ]
 using Toybox.SensorHistory as :Sh;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 8; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 8; ]
 using Toybox.Weather as :CurWeather;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 9; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 9; ]
 using Toybox.Position as :Pos;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 10; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 10; ]
 using Toybox.Time.Gregorian;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 13; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 13; ]
 class AliceBodyDeviceData{
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 13; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 13; ]
     <init> {
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 32 9 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 32 9 ]
         %tmp.1 = getm $.Toybox.ActivityMonitor;
         %tmp.2 = getv function %tmp.1 :getInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :activityInfo %tmp.3;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 34 9 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 34 9 ]
         %tmp.4 = getm $.Toybox.Weather;
         %tmp.5 = getv function %tmp.4 :getCurrentConditions;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         putv self :curCondition %tmp.6;
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 13; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 13; ]
     static
     <init> {
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 15; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 15; @position = 9; ]
     var steps;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 17; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 17; @position = 9; ]
     var device_battery;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 19; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 19; @position = 9; ]
     var body_battery;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 21; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 21; @position = 9; ]
     var calories;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 23; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 23; @position = 9; ]
     var calories_act;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 24; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 24; @position = 9; ]
     var distance;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 25; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 25; @position = 9; ]
     var cur_weather;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 26; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 26; @position = 9; ]
     var cur_local;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 27; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 27; @position = 9; ]
     var cur_temperature;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 29; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 29; @position = 9; ]
     var cur_temperature2;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 31; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 31; @position = 9; ]
     var heartPuls;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 32; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 32; @position = 9; ]
     var activityInfo;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 34; @position = 9; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 34; @position = 9; ]
     var curCondition;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 36; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 36; ]
     function initialize() as Void {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_36_27_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 37 10 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_36_27_48_5_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 37 10 ]
         %tmp.2 = getv ? :activityInfo;
         %tmp.3 = getv %tmp.2 :steps;
         putv self :steps %tmp.3;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 38 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 38 10 ]
         %tmp.5 = getv ? :activityInfo;
         %tmp.6 = getv %tmp.5 :calories;
         putv self :calories %tmp.6;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 39 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 39 10 ]
         %tmp.8 = getv ? :activityInfo;
         %tmp.9 = getv %tmp.8 :distance;
         putv self :distance %tmp.9;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 40 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 40 10 ]
         %tmp.10 = getm $.Toybox.System;
         %tmp.11 = getv function %tmp.10 :getSystemStats;
         %tmp.12 = invoke %tmp.10 %tmp.11();
@@ -89,418 +89,419 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.17 = "%";
         %tmp.18 = add %tmp.16 %tmp.17;
         putv self :device_battery %tmp.18;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 42 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 42 10 ]
         %tmp.20 = getv ? :curCondition;
         %tmp.21 = getv %tmp.20 :condition;
         putv self :cur_weather %tmp.21;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 43 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 43 10 ]
         %tmp.22 = self;
         %tmp.23 = getv function %tmp.22 :heartPulsCur;
         invoke %tmp.22 %tmp.23();
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 44 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 44 10 ]
         %tmp.24 = self;
         %tmp.25 = getv function %tmp.24 :bodyBatteryCur;
         invoke %tmp.24 %tmp.25();
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 45 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 45 10 ]
         %tmp.26 = self;
         %tmp.27 = getv function %tmp.26 :caloriesActCur;
         invoke %tmp.26 %tmp.27();
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 46 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 46 10 ]
         %tmp.28 = self;
         %tmp.29 = getv function %tmp.28 :weatherLocal;
         invoke %tmp.28 %tmp.29();
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 47 10 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 47 10 ]
         %tmp.30 = self;
         %tmp.31 = getv function %tmp.30 :temperatureCur;
         invoke %tmp.30 %tmp.31();
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_36_27_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_36_27_48_5_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 50; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 50; ]
     function heartPulsCur() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_28_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 51 7 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_7_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_50_28_61_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 51 7 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_51_7_59_10_if_stmt:
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getHeartRate;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = null;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_7_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_7_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_34_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 52 10 ]
+        bf %tmp.5 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_51_7_59_10_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_51_7_59_10_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_51_34_53_10_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 52 10 ]
         %tmp.6 = "-";
         putv self :heartPuls %tmp.6;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_34_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_7_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_7_if_false:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 54 13 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_54_13_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_51_34_53_10_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_51_7_59_10_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_51_7_59_10_if_false:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 54 13 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_54_13_59_10_if_stmt:
         %tmp.7 = self;
         %tmp.8 = getv function %tmp.7 :getHeartRate;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = 255;
         %tmp.11 = eq %tmp.9 %tmp.10;
-        bf %tmp.11 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_54_13_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_54_13_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_54_38_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 55 10 ]
+        bf %tmp.11 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_54_13_59_10_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_54_13_59_10_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_54_38_56_10_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 55 10 ]
         %tmp.12 = "-";
         putv self :heartPuls %tmp.12;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_54_38_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_54_13_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_54_13_if_false:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_57_12_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 58 10 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_54_38_56_10_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_54_13_59_10_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_54_13_59_10_if_false:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_57_12_59_10_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 58 10 ]
         %tmp.13 = self;
         %tmp.14 = getv function %tmp.13 :getHeartRate;
         %tmp.15 = invoke %tmp.13 %tmp.14();
         %tmp.16 = getv function %tmp.15 :toString;
         %tmp.17 = invoke %tmp.15 %tmp.16();
         putv self :heartPuls %tmp.17;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_57_12_stop:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_54_13_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_51_7_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_50_28_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_57_12_59_10_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_54_13_59_10_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_51_7_59_10_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 60 10 ]
+        %tmp.18 = getm $.Toybox.System;
+        %tmp.19 = getv function %tmp.18 :println;
+        %tmp.20 = "XINLV ";
+        %tmp.22 = getv ? :heartPuls;
+        %tmp.23 = add %tmp.20 %tmp.22;
+        invoke %tmp.18 %tmp.19(%tmp.23);
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_50_28_61_4_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 61; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 62; ]
     private
     function getHeartRate() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_61_36_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 62 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_61_36_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_61_36_stop" ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_62_36_78_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 63 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_62_36_78_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_62_36_78_4_stop" ]
         %heartRate.1 = local;
         %tmp.1 = null;
         lputv %heartRate.1 %tmp.1;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 63 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_61_36_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_61_36_stop" ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 64 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_62_36_78_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_62_36_78_4_stop" ]
         %value.2 = local;
         %tmp.3 = getv ? :Activity;
         %tmp.4 = getv function %tmp.3 :getActivityInfo;
         %tmp.5 = invoke %tmp.3 %tmp.4();
         lputv %value.2 %tmp.5;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 64 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_stmt:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 65 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_65_8_67_9_if_stmt:
         %tmp.7 = lgetv %value.2;
         %tmp.8 = null;
         %tmp.9 = ne %tmp.7 %tmp.8;
-        bf %tmp.9 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 65 12 ]
+        bf %tmp.9 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_65_8_67_9_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_65_8_67_9_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_65_26_67_9_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 66 12 ]
         %tmp.10 = lgetv %value.2;
         %tmp.11 = as %tmp.10 { (!Null) };
         %tmp.12 = getv %tmp.11 :currentHeartRate;
         lputv %value.2 %tmp.12;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_26_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_64_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 68 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_8_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_65_26_67_9_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_65_8_67_9_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_65_8_67_9_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 69 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_69_8_75_8_if_stmt:
         %tmp.14 = lgetv %value.2;
         %tmp.15 = null;
         %tmp.16 = eq %tmp.14 %tmp.15;
-        bf %tmp.16 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 69 12 ]
+        bf %tmp.16 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_69_8_75_8_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_69_8_75_8_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_69_26_75_8_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 70 12 ]
         %tmp.17 = self;
         %tmp.18 = getv function %tmp.17 :getHeartRateIterator;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         lputv %value.2 %tmp.19;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 70 12 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_70_12_if_stmt:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 71 12 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_71_12_74_12_if_stmt:
         %tmp.21 = lgetv %value.2;
         %tmp.22 = null;
         %tmp.23 = ne %tmp.21 %tmp.22;
-        bf %tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_70_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_70_12_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_70_33_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 71 16 ]
+        bf %tmp.23 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_71_12_74_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_71_12_74_12_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_71_33_74_12_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 72 16 ]
         %tmp.24 = lgetv %value.2;
         %tmp.25 = as %tmp.24 { (!Null) };
         %tmp.26 = getv function %tmp.25 :next;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         lputv %value.2 %tmp.27;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 72 16 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_begin:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 73 16 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_begin:
         %tmp.29 = lgetv %value.2;
         %tmp.30 = null;
         %tmp.31 = eq %tmp.29 %tmp.30;
-        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_true:
+        bf %tmp.31 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_true:
         %tmp.32 = null;
         push %tmp.32;
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_false:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_false:
         %tmp.33 = lgetv %value.2;
         %tmp.34 = as %tmp.33 { (!Null) };
         %tmp.35 = getv %tmp.34 :data;
         push %tmp.35;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_end:
-        %tmp.36 = phi [%tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_begin] [%tmp.32 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_true] [%tmp.35 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_false] [%tmp.36 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_72_24_end];
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_end:
+        %tmp.36 = phi [%tmp.31 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_begin] [%tmp.32 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_true] [%tmp.35 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_false] [%tmp.36 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_73_24_73_53_end];
         lputv %value.2 %tmp.36;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_70_33_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_70_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_70_12_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_26_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_68_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 75 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_begin:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_71_33_74_12_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_71_12_74_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_71_12_74_12_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_69_26_75_8_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_69_8_75_8_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_69_8_75_8_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 76 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_begin:
         %tmp.38 = lgetv %value.2;
         %tmp.39 = null;
         %tmp.40 = eq %tmp.38 %tmp.39;
-        bf %tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_true:
+        bf %tmp.40 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_true:
         %tmp.41 = "--";
         push %tmp.41;
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_false:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_false:
         %tmp.42 = lgetv %value.2;
         %tmp.43 = as %tmp.42 { (!Null) };
         %tmp.44 = getv function %tmp.43 :format;
         %tmp.45 = "%d";
         %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
         push %tmp.46;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_end:
-        %tmp.47 = phi [%tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_begin] [%tmp.41 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_true] [%tmp.46 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_false] [%tmp.47 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_75_20_end];
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_end:
+        %tmp.47 = phi [%tmp.40 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_begin] [%tmp.41 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_true] [%tmp.46 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_false] [%tmp.47 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_76_20_76_60_end];
         lputv %heartRate.1 %tmp.47;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 76 8 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 77 8 ]
         %tmp.49 = lgetv %heartRate.1;
         ret %tmp.49;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_61_36_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_62_36_78_4_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 78; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 79; ]
     function getHeartRateIterator() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_78_36_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 79 5 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_5_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_9_begin:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_79_36_84_1_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 80 5 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_5_82_5_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_9_80_86_begin:
         %tmp.2 = getv ? :Toybox;
         %tmp.4 = const :SensorHistory;
         %tmp.5 = canhazplz %tmp.2 %tmp.4;
-        %tmp.6 = dup %tmp.5;
-        bf %tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_40_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_40_true:
-        %tmp.8 = getv ? :Toybox;
-        %tmp.9 = as %tmp.8 { (interface { var SensorHistory; }) };
-        %tmp.10 = getv %tmp.9 :SensorHistory;
-        %tmp.12 = const :getHeartRateHistory;
-        %tmp.13 = canhazplz %tmp.10 %tmp.12;
-        %tmp.14 = and %tmp.5 %tmp.13;
-        push %tmp.14;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_40_end:
-        %tmp.15 = phi [%tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_9_begin] [%tmp.14 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_40_true] [%tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_40_end];
-        bf %tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_5_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_89_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 80 9 ]
-        %tmp.16 = getm $.Toybox.SensorHistory;
-        %tmp.17 = getv function %tmp.16 :getHeartRateHistory;
-        %tmp.18 = newd 2;
-        %tmp.20 = const :order;
-        %tmp.22 = getv ? :SensorHistory;
-        %tmp.23 = getv %tmp.22 :ORDER_NEWEST_FIRST;
-        %tmp.24 = dup %tmp.18;
-        %tmp.25 = aputv %tmp.24 %tmp.20 %tmp.23;
-        %tmp.27 = const :period;
-        %tmp.28 = 1;
-        %tmp.29 = dup %tmp.25;
-        %tmp.30 = aputv %tmp.29 %tmp.27 %tmp.28;
-        %tmp.31 = invoke %tmp.16 %tmp.17(%tmp.30);
-        ret %tmp.31;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_89_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_79_5_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 82 5 ]
-        %tmp.32 = null;
-        ret %tmp.32;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_78_36_stop:
+        bf %tmp.5 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_5_82_5_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_40_80_86_true:
+        %tmp.7 = getv ? :Toybox;
+        %tmp.8 = as %tmp.7 { (interface { var SensorHistory; }) };
+        %tmp.9 = getv %tmp.8 :SensorHistory;
+        %tmp.11 = const :getHeartRateHistory;
+        %tmp.12 = canhazplz %tmp.9 %tmp.11;
+        push %tmp.12;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_40_80_86_end:
+        %tmp.13 = phi [%tmp.5 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_9_80_86_begin] [%tmp.12 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_40_80_86_true] [%tmp.13 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_40_80_86_end];
+        bf %tmp.13 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_5_82_5_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_5_82_5_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_89_82_5_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 81 9 ]
+        %tmp.14 = getm $.Toybox.SensorHistory;
+        %tmp.15 = getv function %tmp.14 :getHeartRateHistory;
+        %tmp.16 = newd 2;
+        %tmp.18 = const :order;
+        %tmp.20 = getv ? :SensorHistory;
+        %tmp.21 = getv %tmp.20 :ORDER_NEWEST_FIRST;
+        %tmp.22 = dup %tmp.16;
+        %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
+        %tmp.25 = const :period;
+        %tmp.26 = 1;
+        %tmp.27 = dup %tmp.23;
+        %tmp.28 = aputv %tmp.27 %tmp.25 %tmp.26;
+        %tmp.29 = invoke %tmp.14 %tmp.15(%tmp.28);
+        ret %tmp.29;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_89_82_5_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_5_82_5_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_80_5_82_5_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 83 5 ]
+        %tmp.30 = null;
+        ret %tmp.30;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_79_36_84_1_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 86; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 87; ]
     function bodyBatteryCur() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_86_30_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 87 7 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_87_7_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_87_30_93_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 88 7 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_88_7_92_7_if_stmt:
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getBodyBattery;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = null;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_87_7_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_87_7_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_87_36_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 88 10 ]
+        bf %tmp.5 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_88_7_92_7_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_88_7_92_7_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_88_36_90_7_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 89 10 ]
         %tmp.6 = "-";
         putv self :body_battery %tmp.6;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_87_36_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_87_7_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_87_7_if_false:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_89_12_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 90 10 ]
-        %tmp.7 = "bb: ";
-        %tmp.8 = self;
-        %tmp.9 = getv function %tmp.8 :getBodyBattery;
-        %tmp.10 = invoke %tmp.8 %tmp.9();
-        %tmp.11 = getv function %tmp.10 :toString;
-        %tmp.12 = invoke %tmp.10 %tmp.11();
-        %tmp.13 = add %tmp.7 %tmp.12;
-        putv self :body_battery %tmp.13;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_89_12_stop:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_87_7_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_86_30_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_88_36_90_7_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_88_7_92_7_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_88_7_92_7_if_false:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_90_12_92_7_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 91 10 ]
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :getBodyBattery;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = getv function %tmp.9 :toString;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        putv self :body_battery %tmp.11;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_90_12_92_7_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_88_7_92_7_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_87_30_93_4_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 97; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 98; ]
     function getBodyBattery() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_97_30_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 98 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_97_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_97_30_stop" ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_98_30_114_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 99 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_98_30_114_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_98_30_114_4_stop" ]
         %bosyBattery.1 = local;
         %tmp.1 = null;
         lputv %bosyBattery.1 %tmp.1;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 99 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_97_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_97_30_stop" ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 100 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_98_30_114_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_98_30_114_4_stop" ]
         %value.2 = local;
         %tmp.3 = getv ? :Activity;
         %tmp.4 = getv function %tmp.3 :getActivityInfo;
         %tmp.5 = invoke %tmp.3 %tmp.4();
         lputv %value.2 %tmp.5;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 100 7 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_7_if_stmt:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 101 7 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_101_7_103_2_if_stmt:
         %tmp.7 = lgetv %value.2;
         %tmp.8 = null;
         %tmp.9 = ne %tmp.7 %tmp.8;
-        bf %tmp.9 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_7_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_7_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_25_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 101 3 ]
+        bf %tmp.9 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_101_7_103_2_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_101_7_103_2_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_101_25_103_2_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 102 3 ]
         %tmp.10 = lgetv %value.2;
         %tmp.11 = as %tmp.10 { (!Null) };
         %tmp.12 = getv %tmp.11 :currentPower;
         lputv %value.2 %tmp.12;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_25_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_7_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_100_7_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 104 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_8_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_101_25_103_2_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_101_7_103_2_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_101_7_103_2_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 105 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_105_8_111_8_if_stmt:
         %tmp.14 = lgetv %value.2;
         %tmp.15 = null;
         %tmp.16 = eq %tmp.14 %tmp.15;
-        bf %tmp.16 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 105 12 ]
+        bf %tmp.16 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_105_8_111_8_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_105_8_111_8_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_105_26_111_8_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 106 12 ]
         %tmp.17 = self;
         %tmp.18 = getv function %tmp.17 :getIterator;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         lputv %value.2 %tmp.19;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 106 12 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_12_if_stmt:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 107 12 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_107_12_110_12_if_stmt:
         %tmp.21 = lgetv %value.2;
         %tmp.22 = null;
         %tmp.23 = ne %tmp.21 %tmp.22;
-        bf %tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_12_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_33_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 107 16 ]
+        bf %tmp.23 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_107_12_110_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_107_12_110_12_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_107_33_110_12_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 108 16 ]
         %tmp.24 = lgetv %value.2;
         %tmp.25 = as %tmp.24 { (!Null) };
         %tmp.26 = getv function %tmp.25 :next;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         lputv %value.2 %tmp.27;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 108 16 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_begin:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 109 16 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_begin:
         %tmp.29 = lgetv %value.2;
         %tmp.30 = null;
         %tmp.31 = eq %tmp.29 %tmp.30;
-        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_true:
+        bf %tmp.31 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_true:
         %tmp.32 = null;
         push %tmp.32;
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_false:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_false:
         %tmp.33 = lgetv %value.2;
         %tmp.34 = as %tmp.33 { (!Null) };
         %tmp.35 = getv %tmp.34 :data;
         push %tmp.35;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_end:
-        %tmp.36 = phi [%tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_begin] [%tmp.32 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_true] [%tmp.35 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_false] [%tmp.36 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_108_24_end];
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_end:
+        %tmp.36 = phi [%tmp.31 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_begin] [%tmp.32 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_true] [%tmp.35 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_false] [%tmp.36 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_109_24_109_53_end];
         lputv %value.2 %tmp.36;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_33_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_106_12_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_26_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_104_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 111 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_begin:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_107_33_110_12_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_107_12_110_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_107_12_110_12_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_105_26_111_8_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_105_8_111_8_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_105_8_111_8_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 112 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_begin:
         %tmp.38 = lgetv %value.2;
         %tmp.39 = null;
         %tmp.40 = eq %tmp.38 %tmp.39;
-        bf %tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_true:
+        bf %tmp.40 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_true:
         %tmp.41 = "--";
         push %tmp.41;
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_false:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_false:
         %tmp.42 = lgetv %value.2;
         %tmp.43 = as %tmp.42 { (!Null) };
         %tmp.44 = getv function %tmp.43 :format;
         %tmp.45 = "%d";
         %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
         push %tmp.46;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_end:
-        %tmp.47 = phi [%tmp.40 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_begin] [%tmp.41 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_true] [%tmp.46 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_false] [%tmp.47 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_111_22_end];
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_end:
+        %tmp.47 = phi [%tmp.40 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_begin] [%tmp.41 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_true] [%tmp.46 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_false] [%tmp.47 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_112_22_112_62_end];
         lputv %bosyBattery.1 %tmp.47;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 112 8 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 113 8 ]
         %tmp.49 = lgetv %bosyBattery.1;
         ret %tmp.49;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_97_30_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_98_30_114_4_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 115; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 116; ]
     function getIterator() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_115_27_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 117 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_8_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_12_begin:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_116_27_123_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 118 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_8_121_8_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_12_118_91_begin:
         %tmp.2 = getv ? :Toybox;
         %tmp.4 = const :SensorHistory;
         %tmp.5 = canhazplz %tmp.2 %tmp.4;
-        %tmp.6 = dup %tmp.5;
-        bf %tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_43_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_43_true:
-        %tmp.8 = getv ? :Toybox;
-        %tmp.9 = as %tmp.8 { (interface { var SensorHistory; }) };
-        %tmp.10 = getv %tmp.9 :SensorHistory;
-        %tmp.12 = const :getBodyBatteryHistory;
-        %tmp.13 = canhazplz %tmp.10 %tmp.12;
-        %tmp.14 = and %tmp.5 %tmp.13;
-        push %tmp.14;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_43_end:
-        %tmp.15 = phi [%tmp.6 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_12_begin] [%tmp.14 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_43_true] [%tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_43_end];
-        bf %tmp.15 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_94_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 119 12 ]
-        %tmp.16 = getm $.Toybox.SensorHistory;
-        %tmp.17 = getv function %tmp.16 :getBodyBatteryHistory;
-        %tmp.18 = newd 0;
-        %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
-        ret %tmp.19;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_94_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_117_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 121 8 ]
-        %tmp.20 = null;
-        ret %tmp.20;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_115_27_stop:
+        bf %tmp.5 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_8_121_8_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_43_118_91_true:
+        %tmp.7 = getv ? :Toybox;
+        %tmp.8 = as %tmp.7 { (interface { var SensorHistory; }) };
+        %tmp.9 = getv %tmp.8 :SensorHistory;
+        %tmp.11 = const :getBodyBatteryHistory;
+        %tmp.12 = canhazplz %tmp.9 %tmp.11;
+        push %tmp.12;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_43_118_91_end:
+        %tmp.13 = phi [%tmp.5 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_12_118_91_begin] [%tmp.12 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_43_118_91_true] [%tmp.13 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_43_118_91_end];
+        bf %tmp.13 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_8_121_8_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_8_121_8_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_94_121_8_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 120 12 ]
+        %tmp.14 = getm $.Toybox.SensorHistory;
+        %tmp.15 = getv function %tmp.14 :getBodyBatteryHistory;
+        %tmp.16 = newd 0;
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        ret %tmp.17;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_94_121_8_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_8_121_8_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_118_8_121_8_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 122 8 ]
+        %tmp.18 = null;
+        ret %tmp.18;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_116_27_123_4_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 125; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 126; ]
     function caloriesActCur() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 126 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_stop" ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 127 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_stop" ]
         %today.1 = local;
         %tmp.1 = getm $.Toybox.Time.Gregorian;
         %tmp.2 = getv function %tmp.1 :info;
@@ -511,15 +512,15 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.9 = getv %tmp.8 :FORMAT_MEDIUM;
         %tmp.10 = invoke %tmp.1 %tmp.2(%tmp.6, %tmp.9);
         lputv %today.1 %tmp.10;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 127 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_stop" ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 128 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_stop" ]
         %profile.2 = local;
         %tmp.12 = getv ? :UserProfile;
         %tmp.13 = getv function %tmp.12 :getProfile;
         %tmp.14 = invoke %tmp.12 %tmp.13();
         lputv %profile.2 %tmp.14;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 128 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_stop" ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 129 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_stop" ]
         %age.3 = local;
         %tmp.15 = lgetv %today.1;
         %tmp.16 = getv %tmp.15 :year;
@@ -527,34 +528,34 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.18 = getv %tmp.17 :birthYear;
         %tmp.19 = sub %tmp.16 %tmp.18;
         lputv %age.3 %tmp.19;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 129 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_stop" ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 130 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_stop" ]
         %weight.4 = local;
         %tmp.20 = lgetv %profile.2;
         %tmp.21 = getv %tmp.20 :weight;
         %tmp.22 = 1000.0;
         %tmp.23 = div %tmp.21 %tmp.22;
         lputv %weight.4 %tmp.23;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 130 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_stop" ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 131 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_stop" ]
         %restCalories.5 = local;
         %tmp.24 = 0;
         lputv %restCalories.5 %tmp.24;
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_stop" ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_stop" ]
         %adj.6 = local;
         %tmp.25 = 0.5;
         lputv %adj.6 %tmp.25;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 132 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_8_if_stmt:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 133 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_133_8_137_8_if_stmt:
         %tmp.26 = lgetv %profile.2;
         %tmp.27 = getv %tmp.26 :gender;
         %tmp.29 = getv ? :UserProfile;
         %tmp.30 = getv %tmp.29 :GENDER_MALE;
         %tmp.31 = eq %tmp.27 %tmp.30;
-        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_8_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_55_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 133 12 ]
+        bf %tmp.31 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_133_8_137_8_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_133_8_137_8_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_133_55_135_8_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 134 12 ]
         %tmp.32 = 5.2;
         %tmp.33 = 6.116;
         %tmp.35 = lgetv %age.3;
@@ -570,11 +571,11 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.46 = mul %tmp.43 %tmp.45;
         %tmp.47 = add %tmp.42 %tmp.46;
         lputv %restCalories.5 %tmp.47;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_55_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_8_if_false:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_134_15_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 135 12 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_133_55_135_8_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_133_8_137_8_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_133_8_137_8_if_false:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_135_15_137_8_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 136 12 ]
         %tmp.48 = -197.6;
         %tmp.49 = 6.116;
         %tmp.51 = lgetv %age.3;
@@ -590,24 +591,24 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.62 = mul %tmp.59 %tmp.61;
         %tmp.63 = add %tmp.58 %tmp.62;
         lputv %restCalories.5 %tmp.63;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_134_15_stop:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_132_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 138 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_138_8_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_135_15_137_8_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_133_8_137_8_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 139 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_139_8_139_35_if_stmt:
         %tmp.64 = lgetv %today.1;
         %tmp.65 = getv %tmp.64 :hour;
         %tmp.66 = 18;
         %tmp.67 = gte %tmp.65 %tmp.66;
-        bf %tmp.67 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_138_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_138_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_138_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 138 28 ]
+        bf %tmp.67 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_139_8_139_35_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_139_8_139_35_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_139_26_139_35_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 139 28 ]
         %tmp.68 = 0;
         lputv %adj.6 %tmp.68;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_138_26_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_138_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_138_8_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 139 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_139_26_139_35_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_139_8_139_35_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_139_8_139_35_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 140 8 ]
         %tmp.70 = getv ? :Math;
         %tmp.71 = getv function %tmp.70 :round;
         %tmp.72 = lgetv %today.1;
@@ -627,7 +628,7 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.88 = getv function %tmp.87 :toNumber;
         %tmp.89 = invoke %tmp.87 %tmp.88();
         lputv %restCalories.5 %tmp.89;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 140 8 ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 141 8 ]
         %tmp.91 = getv ? :ActivityMonitor;
         %tmp.92 = getv function %tmp.91 :getInfo;
         %tmp.93 = invoke %tmp.91 %tmp.92();
@@ -635,516 +636,479 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_m
         %tmp.96 = lgetv %restCalories.5;
         %tmp.97 = sub %tmp.94 %tmp.96;
         putv self :calories_act %tmp.97;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_125_30_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_126_30_143_4_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 145; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 146; ]
     function weatherLocal() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_145_28_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 147 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_8_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_11_begin:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_146_28_172_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 148 8 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_8_171_3_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_11_148_72_begin:
         %tmp.2 = getv ? :curCondition;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        %tmp.5 = dup %tmp.4;
-        bf %tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_34_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_34_true:
-        %tmp.7 = getv ? :curCondition;
-        %tmp.8 = as %tmp.7 { (!Null) };
-        %tmp.9 = getv %tmp.8 :observationLocationName;
-        %tmp.10 = null;
-        %tmp.11 = ne %tmp.9 %tmp.10;
-        %tmp.12 = and %tmp.4 %tmp.11;
-        push %tmp.12;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_34_end:
-        %tmp.13 = phi [%tmp.5 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_11_begin] [%tmp.12 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_34_true] [%tmp.13 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_34_end];
-        bf %tmp.13 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_78_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 148 12 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_78_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_78_stop" ]
+        bf %tmp.4 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_8_171_3_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_34_148_72_true:
+        %tmp.6 = getv ? :curCondition;
+        %tmp.7 = as %tmp.6 { (!Null) };
+        %tmp.8 = getv %tmp.7 :observationLocationName;
+        %tmp.9 = null;
+        %tmp.10 = ne %tmp.8 %tmp.9;
+        push %tmp.10;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_34_148_72_end:
+        %tmp.11 = phi [%tmp.4 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_11_148_72_begin] [%tmp.10 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_34_148_72_true] [%tmp.11 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_34_148_72_end];
+        bf %tmp.11 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_8_171_3_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_8_171_3_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_78_171_3_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 149 12 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_78_171_3_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_78_171_3_stop" ]
         %location.1 = local;
-        %tmp.15 = getv ? :curCondition;
-        %tmp.16 = as %tmp.15 { (!Null) };
-        %tmp.17 = getv %tmp.16 :observationLocationName;
-        lputv %location.1 %tmp.17;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 149 12 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_12_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_16_begin:
-        %tmp.18 = lgetv %location.1;
-        %tmp.19 = getv function %tmp.18 :length;
-        %tmp.20 = invoke %tmp.18 %tmp.19();
-        %tmp.21 = 15;
-        %tmp.22 = gt %tmp.20 %tmp.21;
-        %tmp.23 = dup %tmp.22;
-        bf %tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_41_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_41_true:
-        %tmp.24 = lgetv %location.1;
-        %tmp.25 = getv function %tmp.24 :find;
-        %tmp.26 = ",";
-        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
-        %tmp.28 = null;
-        %tmp.29 = ne %tmp.27 %tmp.28;
-        %tmp.30 = and %tmp.22 %tmp.29;
-        push %tmp.30;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_41_end:
-        %tmp.31 = phi [%tmp.23 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_16_begin] [%tmp.30 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_41_true] [%tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_41_end];
-        bf %tmp.31 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_12_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_66_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 150 16 ]
-        %tmp.32 = lgetv %location.1;
-        %tmp.33 = getv function %tmp.32 :substring;
-        %tmp.34 = 0;
-        %tmp.35 = lgetv %location.1;
-        %tmp.36 = getv function %tmp.35 :find;
-        %tmp.37 = ",";
-        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
-        %tmp.39 = invoke %tmp.32 %tmp.33(%tmp.34, %tmp.38);
-        lputv %location.1 %tmp.39;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_66_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_149_12_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 152 12 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_152_12_if_stmt:
-        %tmp.40 = lgetv %location.1;
-        %tmp.41 = getv function %tmp.40 :find;
-        %tmp.42 = "location[";
-        %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
-        %tmp.44 = null;
-        %tmp.45 = ne %tmp.43 %tmp.44;
-        bf %tmp.45 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_152_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_152_12_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_152_49_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 153 16 ]
-        %tmp.46 = "null";
-        lputv %location.1 %tmp.46;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_152_49_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_152_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_152_12_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 155 12 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_12_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_16_begin:
-        %tmp.47 = lgetv %location.1;
-        %tmp.48 = getv function %tmp.47 :find;
-        %tmp.49 = "null";
-        %tmp.50 = invoke %tmp.47 %tmp.48(%tmp.49);
-        %tmp.51 = null;
-        %tmp.52 = ne %tmp.50 %tmp.51;
-        %tmp.53 = dup %tmp.52;
-        bf %tmp.53 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_48_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_48_true:
-        %tmp.54 = lgetv %location.1;
-        %tmp.55 = getv function %tmp.54 :find;
-        %tmp.56 = ",";
-        %tmp.57 = invoke %tmp.54 %tmp.55(%tmp.56);
-        %tmp.58 = null;
-        %tmp.59 = ne %tmp.57 %tmp.58;
-        %tmp.60 = and %tmp.52 %tmp.59;
-        push %tmp.60;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_48_end:
-        %tmp.61 = phi [%tmp.53 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_16_begin] [%tmp.60 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_48_true] [%tmp.61 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_48_end];
-        bf %tmp.61 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_12_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_12_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_74_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 156 16 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_74_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_74_stop" ]
+        %tmp.13 = getv ? :curCondition;
+        %tmp.14 = as %tmp.13 { (!Null) };
+        %tmp.15 = getv %tmp.14 :observationLocationName;
+        lputv %location.1 %tmp.15;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 150 12 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_12_152_12_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_16_150_61_begin:
+        %tmp.16 = lgetv %location.1;
+        %tmp.17 = getv function %tmp.16 :length;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        %tmp.19 = 15;
+        %tmp.20 = gt %tmp.18 %tmp.19;
+        bf %tmp.20 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_12_152_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_41_150_61_true:
+        %tmp.21 = lgetv %location.1;
+        %tmp.22 = getv function %tmp.21 :find;
+        %tmp.23 = ",";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        %tmp.25 = null;
+        %tmp.26 = ne %tmp.24 %tmp.25;
+        push %tmp.26;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_41_150_61_end:
+        %tmp.27 = phi [%tmp.20 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_16_150_61_begin] [%tmp.26 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_41_150_61_true] [%tmp.27 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_41_150_61_end];
+        bf %tmp.27 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_12_152_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_12_152_12_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_66_152_12_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 151 16 ]
+        %tmp.28 = lgetv %location.1;
+        %tmp.29 = getv function %tmp.28 :substring;
+        %tmp.30 = 0;
+        %tmp.31 = lgetv %location.1;
+        %tmp.32 = getv function %tmp.31 :find;
+        %tmp.33 = ",";
+        %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
+        %tmp.35 = invoke %tmp.28 %tmp.29(%tmp.30, %tmp.34);
+        lputv %location.1 %tmp.35;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_66_152_12_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_12_152_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_150_12_152_12_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 153 12 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_153_12_155_12_if_stmt:
+        %tmp.36 = lgetv %location.1;
+        %tmp.37 = getv function %tmp.36 :find;
+        %tmp.38 = "location[";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = null;
+        %tmp.41 = ne %tmp.39 %tmp.40;
+        bf %tmp.41 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_153_12_155_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_153_12_155_12_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_153_49_155_12_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 154 16 ]
+        %tmp.42 = "null";
+        lputv %location.1 %tmp.42;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_153_49_155_12_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_153_12_155_12_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_153_12_155_12_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 156 12 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_12_168_4_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_16_156_68_begin:
+        %tmp.43 = lgetv %location.1;
+        %tmp.44 = getv function %tmp.43 :find;
+        %tmp.45 = "null";
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        %tmp.47 = null;
+        %tmp.48 = ne %tmp.46 %tmp.47;
+        bf %tmp.48 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_12_168_4_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_48_156_68_true:
+        %tmp.49 = lgetv %location.1;
+        %tmp.50 = getv function %tmp.49 :find;
+        %tmp.51 = ",";
+        %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
+        %tmp.53 = null;
+        %tmp.54 = ne %tmp.52 %tmp.53;
+        push %tmp.54;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_48_156_68_end:
+        %tmp.55 = phi [%tmp.48 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_16_156_68_begin] [%tmp.54 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_48_156_68_true] [%tmp.55 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_48_156_68_end];
+        bf %tmp.55 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_12_168_4_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_12_168_4_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_74_165_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 157 16 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_74_165_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_74_165_4_stop" ]
         %location2.2 = local;
-        %tmp.62 = lgetv %location.1;
-        %tmp.63 = getv function %tmp.62 :substring;
-        %tmp.64 = 0;
-        %tmp.65 = lgetv %location.1;
-        %tmp.66 = getv function %tmp.65 :find;
-        %tmp.67 = ",";
-        %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
-        %tmp.69 = invoke %tmp.62 %tmp.63(%tmp.64, %tmp.68);
-        lputv %location2.2 %tmp.69;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 157 16 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_157_16_if_stmt:
-        %tmp.70 = lgetv %location2.2;
-        %tmp.71 = getv function %tmp.70 :find;
-        %tmp.72 = "null";
-        %tmp.73 = invoke %tmp.70 %tmp.71(%tmp.72);
-        %tmp.74 = null;
-        %tmp.75 = ne %tmp.73 %tmp.74;
-        bf %tmp.75 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_157_16_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_157_16_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_157_50_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 158 20 ]
-        %tmp.76 = lgetv %location.1;
-        %tmp.77 = getv function %tmp.76 :substring;
+        %tmp.56 = lgetv %location.1;
+        %tmp.57 = getv function %tmp.56 :substring;
+        %tmp.58 = 0;
+        %tmp.59 = lgetv %location.1;
+        %tmp.60 = getv function %tmp.59 :find;
+        %tmp.61 = ",";
+        %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
+        %tmp.63 = invoke %tmp.56 %tmp.57(%tmp.58, %tmp.62);
+        lputv %location2.2 %tmp.63;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 158 16 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_158_16_163_5_if_stmt:
+        %tmp.64 = lgetv %location2.2;
+        %tmp.65 = getv function %tmp.64 :find;
+        %tmp.66 = "null";
+        %tmp.67 = invoke %tmp.64 %tmp.65(%tmp.66);
+        %tmp.68 = null;
+        %tmp.69 = ne %tmp.67 %tmp.68;
+        bf %tmp.69 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_158_16_163_5_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_158_16_163_5_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_158_50_163_5_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 159 20 ]
+        %tmp.70 = lgetv %location.1;
+        %tmp.71 = getv function %tmp.70 :substring;
+        %tmp.72 = lgetv %location.1;
+        %tmp.73 = getv function %tmp.72 :find;
+        %tmp.74 = ",";
+        %tmp.75 = invoke %tmp.72 %tmp.73(%tmp.74);
+        %tmp.76 = 2;
+        %tmp.77 = add %tmp.75 %tmp.76;
         %tmp.78 = lgetv %location.1;
-        %tmp.79 = getv function %tmp.78 :find;
-        %tmp.80 = ",";
-        %tmp.81 = invoke %tmp.78 %tmp.79(%tmp.80);
-        %tmp.82 = 2;
-        %tmp.83 = add %tmp.81 %tmp.82;
-        %tmp.84 = lgetv %location.1;
-        %tmp.85 = getv function %tmp.84 :length;
-        %tmp.86 = invoke %tmp.84 %tmp.85();
-        %tmp.87 = invoke %tmp.76 %tmp.77(%tmp.83, %tmp.86);
-        lputv %location2.2 %tmp.87;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 159 20 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_159_20_if_stmt:
-        %tmp.88 = lgetv %location2.2;
-        %tmp.89 = getv function %tmp.88 :find;
-        %tmp.90 = "null";
-        %tmp.91 = invoke %tmp.88 %tmp.89(%tmp.90);
-        %tmp.92 = null;
-        %tmp.93 = ne %tmp.91 %tmp.92;
-        bf %tmp.93 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_159_20_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_159_20_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_159_53_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 160 24 ]
-        %tmp.94 = "";
-        lputv %location2.2 %tmp.94;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_159_53_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_159_20_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_159_20_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_157_50_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_157_16_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_157_16_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 163 5 ]
-        %tmp.96 = lgetv %location2.2;
-        lputv %location.1 %tmp.96;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_74_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_12_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_12_if_false:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 165 9 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_165_9_if_stmt:
-        %tmp.97 = lgetv %location.1;
-        %tmp.98 = getv function %tmp.97 :find;
-        %tmp.99 = "null";
-        %tmp.100 = invoke %tmp.97 %tmp.98(%tmp.99);
-        %tmp.101 = null;
-        %tmp.102 = ne %tmp.100 %tmp.101;
-        bf %tmp.102 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_165_9_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_165_9_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_165_42_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 166 5 ]
-        %tmp.103 = "";
-        lputv %location.1 %tmp.103;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_165_42_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_165_9_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_165_9_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_155_12_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 169 4 ]
-        %tmp.104 = "location: ";
-        %tmp.106 = lgetv %location.1;
-        %tmp.107 = add %tmp.104 %tmp.106;
-        putv self :cur_local %tmp.107;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_78_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_147_8_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_145_28_stop:
+        %tmp.79 = getv function %tmp.78 :length;
+        %tmp.80 = invoke %tmp.78 %tmp.79();
+        %tmp.81 = invoke %tmp.70 %tmp.71(%tmp.77, %tmp.80);
+        lputv %location2.2 %tmp.81;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 160 20 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_160_20_162_6_if_stmt:
+        %tmp.82 = lgetv %location2.2;
+        %tmp.83 = getv function %tmp.82 :find;
+        %tmp.84 = "null";
+        %tmp.85 = invoke %tmp.82 %tmp.83(%tmp.84);
+        %tmp.86 = null;
+        %tmp.87 = ne %tmp.85 %tmp.86;
+        bf %tmp.87 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_160_20_162_6_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_160_20_162_6_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_160_53_162_6_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 161 24 ]
+        %tmp.88 = "";
+        lputv %location2.2 %tmp.88;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_160_53_162_6_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_160_20_162_6_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_160_20_162_6_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_158_50_163_5_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_158_16_163_5_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_158_16_163_5_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 164 5 ]
+        %tmp.90 = lgetv %location2.2;
+        lputv %location.1 %tmp.90;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_74_165_4_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_12_168_4_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_12_168_4_if_false:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 166 9 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_166_9_168_4_if_stmt:
+        %tmp.91 = lgetv %location.1;
+        %tmp.92 = getv function %tmp.91 :find;
+        %tmp.93 = "null";
+        %tmp.94 = invoke %tmp.91 %tmp.92(%tmp.93);
+        %tmp.95 = null;
+        %tmp.96 = ne %tmp.94 %tmp.95;
+        bf %tmp.96 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_166_9_168_4_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_166_9_168_4_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_166_42_168_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 167 5 ]
+        %tmp.97 = "";
+        lputv %location.1 %tmp.97;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_166_42_168_4_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_166_9_168_4_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_166_9_168_4_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_156_12_168_4_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 170 4 ]
+        %tmp.98 = "location: ";
+        %tmp.100 = lgetv %location.1;
+        %tmp.101 = add %tmp.98 %tmp.100;
+        putv self :cur_local %tmp.101;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_78_171_3_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_8_171_3_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_148_8_171_3_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_146_28_172_4_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 172; ]
+    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 173; ]
     function temperatureCur() {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 174 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_stop" ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 175 8 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_stop" ]
         %TempMetric.1 = local;
         %tmp.2 = getv ? :System;
         %tmp.3 = getv %tmp.2 :UNIT_METRIC;
         lputv %TempMetric.1 %tmp.3;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 175 2 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_stop" ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 176 2 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_stop" ]
         %temp.2 = local;
         %tmp.4 = null;
         lputv %temp.2 %tmp.4;
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_stop" ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_stop" ]
         %units.3 = local;
         %tmp.5 = "";
         lputv %units.3 %tmp.5;
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_stop" ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_stop" ]
         %minTemp.4 = local;
         %tmp.6 = null;
         lputv %minTemp.4 %tmp.6;
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_stop" ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_stop" ]
         %maxTemp.5 = local;
         %tmp.7 = null;
         lputv %maxTemp.5 %tmp.7;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 176 2 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_stop" ]
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 177 2 ]
+        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_stop" ]
         %weather.6 = local;
         %tmp.9 = getv ? :Weather;
         %tmp.10 = getv function %tmp.9 :getCurrentConditions;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         lputv %weather.6 %tmp.11;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 178 5 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_5_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_9_begin:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 179 5 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_5_182_2_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_9_179_74_begin:
         %tmp.12 = lgetv %weather.6;
         %tmp.13 = getv %tmp.12 :lowTemperature;
         %tmp.14 = null;
         %tmp.15 = ne %tmp.13 %tmp.14;
-        %tmp.16 = dup %tmp.15;
-        bf %tmp.16 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_44_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_44_true:
-        %tmp.17 = lgetv %weather.6;
-        %tmp.18 = getv %tmp.17 :highTemperature;
-        %tmp.19 = null;
-        %tmp.20 = ne %tmp.18 %tmp.19;
-        %tmp.21 = and %tmp.15 %tmp.20;
-        push %tmp.21;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_44_end:
-        %tmp.22 = phi [%tmp.16 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_9_begin] [%tmp.21 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_44_true] [%tmp.22 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_44_end];
-        bf %tmp.22 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_5_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_76_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 179 3 ]
+        bf %tmp.15 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_5_182_2_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_44_179_74_true:
+        %tmp.16 = lgetv %weather.6;
+        %tmp.17 = getv %tmp.16 :highTemperature;
+        %tmp.18 = null;
+        %tmp.19 = ne %tmp.17 %tmp.18;
+        push %tmp.19;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_44_179_74_end:
+        %tmp.20 = phi [%tmp.15 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_9_179_74_begin] [%tmp.19 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_44_179_74_true] [%tmp.20 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_44_179_74_end];
+        bf %tmp.20 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_5_182_2_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_5_182_2_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_76_182_2_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 180 3 ]
+        %tmp.21 = lgetv %weather.6;
+        %tmp.22 = getv %tmp.21 :lowTemperature;
+        lputv %minTemp.4 %tmp.22;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 181 3 ]
         %tmp.23 = lgetv %weather.6;
-        %tmp.24 = getv %tmp.23 :lowTemperature;
-        lputv %minTemp.4 %tmp.24;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 180 12 ]
-        %tmp.25 = getm $.Toybox.System;
-        %tmp.26 = getv function %tmp.25 :println;
-        %tmp.27 = "minTemp - ";
-        %tmp.29 = lgetv %minTemp.4;
-        %tmp.30 = add %tmp.27 %tmp.29;
-        invoke %tmp.25 %tmp.26(%tmp.30);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 181 3 ]
-        %tmp.31 = lgetv %weather.6;
-        %tmp.32 = getv %tmp.31 :highTemperature;
-        lputv %maxTemp.5 %tmp.32;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 182 12 ]
-        %tmp.33 = getm $.Toybox.System;
-        %tmp.34 = getv function %tmp.33 :println;
-        %tmp.35 = "maxTemp - ";
-        %tmp.37 = lgetv %maxTemp.5;
-        %tmp.38 = add %tmp.35 %tmp.37;
-        invoke %tmp.33 %tmp.34(%tmp.38);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_76_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_178_5_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 184 5 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_5_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_9_begin:
-        %tmp.40 = lgetv %weather.6;
-        %tmp.41 = null;
-        %tmp.42 = ne %tmp.40 %tmp.41;
-        %tmp.43 = dup %tmp.42;
-        bf %tmp.43 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_27_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_27_true:
-        %tmp.44 = lgetv %weather.6;
-        %tmp.45 = as %tmp.44 { (!Null) };
-        %tmp.46 = getv %tmp.45 :temperature;
-        %tmp.47 = null;
-        %tmp.48 = ne %tmp.46 %tmp.47;
-        %tmp.49 = and %tmp.42 %tmp.48;
-        push %tmp.49;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_27_end:
-        %tmp.50 = phi [%tmp.43 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_9_begin] [%tmp.49 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_27_true] [%tmp.50 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_27_end];
-        bf %tmp.50 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_5_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_5_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_56_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 185 16 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_185_16_if_stmt:
-        %tmp.52 = lgetv %TempMetric.1;
-        %tmp.54 = getv ? :System;
-        %tmp.55 = getv %tmp.54 :UNIT_METRIC;
-        %tmp.56 = eq %tmp.52 %tmp.55;
-        bf %tmp.56 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_185_16_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_185_16_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_185_54_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 186 20 ]
-        %tmp.57 = "°C";
-        lputv %units.3 %tmp.57;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 187 20 ]
-        %tmp.58 = lgetv %weather.6;
-        %tmp.59 = as %tmp.58 { (!Null) };
-        %tmp.60 = getv %tmp.59 :temperature;
-        lputv %temp.2 %tmp.60;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 188 20 ]
-        %tmp.61 = getm $.Toybox.System;
-        %tmp.62 = getv function %tmp.61 :println;
-        %tmp.63 = "temperature1 - ";
-        %tmp.65 = lgetv %temp.2;
-        %tmp.66 = add %tmp.63 %tmp.65;
-        invoke %tmp.61 %tmp.62(%tmp.66);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_185_54_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_185_16_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_185_16_if_false:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_189_23_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 190 20 ]
-        %tmp.67 = lgetv %weather.6;
-        %tmp.68 = as %tmp.67 { (!Null) };
-        %tmp.69 = getv %tmp.68 :temperature;
-        %tmp.70 = 9;
-        %tmp.71 = mul %tmp.69 %tmp.70;
-        %tmp.72 = 5;
-        %tmp.73 = div %tmp.71 %tmp.72;
-        %tmp.74 = 32;
-        %tmp.75 = add %tmp.73 %tmp.74;
-        lputv %temp.2 %tmp.75;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 191 20 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_20_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_24_begin:
-        %tmp.77 = lgetv %minTemp.4;
-        %tmp.78 = null;
-        %tmp.79 = ne %tmp.77 %tmp.78;
-        %tmp.80 = dup %tmp.79;
-        bf %tmp.80 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_42_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_42_true:
-        %tmp.82 = lgetv %maxTemp.5;
-        %tmp.83 = null;
-        %tmp.84 = ne %tmp.82 %tmp.83;
-        %tmp.85 = and %tmp.79 %tmp.84;
-        push %tmp.85;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_42_end:
-        %tmp.86 = phi [%tmp.80 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_24_begin] [%tmp.85 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_42_true] [%tmp.86 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_42_end];
-        bf %tmp.86 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_20_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_20_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_56_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 192 24 ]
-        %tmp.88 = lgetv %minTemp.4;
-        %tmp.89 = as %tmp.88 { (!Null) };
-        %tmp.90 = 9;
-        %tmp.91 = mul %tmp.89 %tmp.90;
-        %tmp.92 = 5;
-        %tmp.93 = div %tmp.91 %tmp.92;
-        %tmp.94 = 32;
-        %tmp.95 = add %tmp.93 %tmp.94;
-        lputv %minTemp.4 %tmp.95;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 193 24 ]
-        %tmp.97 = lgetv %maxTemp.5;
-        %tmp.98 = as %tmp.97 { (!Null) };
-        %tmp.99 = 9;
-        %tmp.100 = mul %tmp.98 %tmp.99;
-        %tmp.101 = 5;
-        %tmp.102 = div %tmp.100 %tmp.101;
-        %tmp.103 = 32;
-        %tmp.104 = add %tmp.102 %tmp.103;
-        lputv %maxTemp.5 %tmp.104;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_56_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_20_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_191_20_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 196 20 ]
-        %tmp.105 = "°F";
-        lputv %units.3 %tmp.105;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_189_23_stop:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_185_16_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_56_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_5_if_false:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 198 13 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_13_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_16_begin:
-        %tmp.107 = lgetv %weather.6;
-        %tmp.108 = null;
-        %tmp.109 = ne %tmp.107 %tmp.108;
-        %tmp.110 = dup %tmp.109;
-        bf %tmp.110 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_34_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_34_true:
-        %tmp.111 = lgetv %weather.6;
-        %tmp.112 = as %tmp.111 { (!Null) };
-        %tmp.113 = getv %tmp.112 :temperature;
-        %tmp.114 = null;
-        %tmp.115 = ne %tmp.113 %tmp.114;
-        %tmp.116 = and %tmp.109 %tmp.115;
-        push %tmp.116;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_34_end:
-        %tmp.117 = phi [%tmp.110 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_16_begin] [%tmp.116 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_34_true] [%tmp.117 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_34_end];
-        bf %tmp.117 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_13_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_13_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_63_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 199 4 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_199_4_if_stmt:
-        %tmp.119 = lgetv %TempMetric.1;
-        %tmp.121 = getv ? :System;
-        %tmp.122 = getv %tmp.121 :UNIT_METRIC;
-        %tmp.123 = eq %tmp.119 %tmp.122;
-        bf %tmp.123 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_199_4_if_false;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_199_4_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_199_43_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 200 5 ]
-        %tmp.124 = "°C";
-        lputv %units.3 %tmp.124;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 201 5 ]
-        %tmp.125 = lgetv %weather.6;
-        %tmp.126 = as %tmp.125 { (!(!Null)) && (!Null) };
-        %tmp.127 = getv %tmp.126 :temperature;
-        lputv %temp.2 %tmp.127;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_199_43_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_199_4_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_199_4_if_false:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_202_11_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 203 5 ]
-        %tmp.128 = lgetv %weather.6;
-        %tmp.129 = as %tmp.128 { (!(!Null)) && (!Null) };
-        %tmp.130 = getv %tmp.129 :temperature;
-        %tmp.131 = 9;
-        %tmp.132 = mul %tmp.130 %tmp.131;
-        %tmp.133 = 5;
-        %tmp.134 = div %tmp.132 %tmp.133;
-        %tmp.135 = 32;
-        %tmp.136 = add %tmp.134 %tmp.135;
-        lputv %temp.2 %tmp.136;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 204 5 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_5_if_stmt:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_9_begin:
-        %tmp.138 = lgetv %minTemp.4;
-        %tmp.139 = null;
-        %tmp.140 = ne %tmp.138 %tmp.139;
-        %tmp.141 = dup %tmp.140;
-        bf %tmp.141 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_27_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_27_true:
-        %tmp.143 = lgetv %maxTemp.5;
-        %tmp.144 = null;
-        %tmp.145 = ne %tmp.143 %tmp.144;
-        %tmp.146 = and %tmp.140 %tmp.145;
-        push %tmp.146;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_27_end:
-        %tmp.147 = phi [%tmp.141 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_9_begin] [%tmp.146 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_27_true] [%tmp.147 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_27_end];
-        bf %tmp.147 @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_5_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_41_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 205 6 ]
-        %tmp.149 = lgetv %minTemp.4;
-        %tmp.150 = as %tmp.149 { (!Null) };
-        %tmp.151 = 9;
-        %tmp.152 = mul %tmp.150 %tmp.151;
-        %tmp.153 = 5;
-        %tmp.154 = div %tmp.152 %tmp.153;
-        %tmp.155 = 32;
-        %tmp.156 = add %tmp.154 %tmp.155;
-        lputv %minTemp.4 %tmp.156;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 206 6 ]
-        %tmp.158 = lgetv %maxTemp.5;
-        %tmp.159 = as %tmp.158 { (!Null) };
-        %tmp.160 = 9;
-        %tmp.161 = mul %tmp.159 %tmp.160;
-        %tmp.162 = 5;
-        %tmp.163 = div %tmp.161 %tmp.162;
-        %tmp.164 = 32;
-        %tmp.165 = add %tmp.163 %tmp.164;
-        lputv %maxTemp.5 %tmp.165;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_41_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_5_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_204_5_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 209 5 ]
-        %tmp.166 = "°F";
-        lputv %units.3 %tmp.166;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_202_11_stop:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_199_4_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_63_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_13_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_198_13_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_184_5_if_end:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 212 8 ]
-        %tmp.167 = lgetv %temp.2;
-        %tmp.168 = getv function %tmp.167 :format;
-        %tmp.169 = "%d";
-        %tmp.170 = invoke %tmp.167 %tmp.168(%tmp.169);
-        %tmp.172 = lgetv %units.3;
-        %tmp.173 = add %tmp.170 %tmp.172;
-        lputv %temp.2 %tmp.173;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc" 213 8 ]
-        %tmp.175 = lgetv %temp.2;
-        putv self :cur_temperature %tmp.175;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceBodyDeviceData_mc_172_30_stop:
+        %tmp.24 = getv %tmp.23 :highTemperature;
+        lputv %maxTemp.5 %tmp.24;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_76_182_2_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_5_182_2_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_179_5_182_2_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 183 5 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_5_209_6_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_9_183_53_begin:
+        %tmp.26 = lgetv %weather.6;
+        %tmp.27 = null;
+        %tmp.28 = ne %tmp.26 %tmp.27;
+        bf %tmp.28 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_5_209_6_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_27_183_53_true:
+        %tmp.29 = lgetv %weather.6;
+        %tmp.30 = as %tmp.29 { (!Null) };
+        %tmp.31 = getv %tmp.30 :temperature;
+        %tmp.32 = null;
+        %tmp.33 = ne %tmp.31 %tmp.32;
+        push %tmp.33;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_27_183_53_end:
+        %tmp.34 = phi [%tmp.28 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_9_183_53_begin] [%tmp.33 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_27_183_53_true] [%tmp.34 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_27_183_53_end];
+        bf %tmp.34 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_5_209_6_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_5_209_6_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_56_196_6_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 184 16 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_184_16_195_16_if_stmt:
+        %tmp.36 = lgetv %TempMetric.1;
+        %tmp.38 = getv ? :System;
+        %tmp.39 = getv %tmp.38 :UNIT_METRIC;
+        %tmp.40 = eq %tmp.36 %tmp.39;
+        bf %tmp.40 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_184_16_195_16_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_184_16_195_16_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_184_54_187_16_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 185 20 ]
+        %tmp.41 = "°C";
+        lputv %units.3 %tmp.41;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 186 20 ]
+        %tmp.42 = lgetv %weather.6;
+        %tmp.43 = as %tmp.42 { (!Null) };
+        %tmp.44 = getv %tmp.43 :temperature;
+        lputv %temp.2 %tmp.44;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_184_54_187_16_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_184_16_195_16_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_184_16_195_16_if_false:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_187_23_195_16_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 188 20 ]
+        %tmp.45 = lgetv %weather.6;
+        %tmp.46 = as %tmp.45 { (!Null) };
+        %tmp.47 = getv %tmp.46 :temperature;
+        %tmp.48 = 9;
+        %tmp.49 = mul %tmp.47 %tmp.48;
+        %tmp.50 = 5;
+        %tmp.51 = div %tmp.49 %tmp.50;
+        %tmp.52 = 32;
+        %tmp.53 = add %tmp.51 %tmp.52;
+        lputv %temp.2 %tmp.53;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 189 20 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_20_192_20_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_24_189_51_begin:
+        %tmp.55 = lgetv %minTemp.4;
+        %tmp.56 = null;
+        %tmp.57 = ne %tmp.55 %tmp.56;
+        bf %tmp.57 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_20_192_20_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_42_189_51_true:
+        %tmp.59 = lgetv %maxTemp.5;
+        %tmp.60 = null;
+        %tmp.61 = ne %tmp.59 %tmp.60;
+        push %tmp.61;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_42_189_51_end:
+        %tmp.62 = phi [%tmp.57 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_24_189_51_begin] [%tmp.61 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_42_189_51_true] [%tmp.62 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_42_189_51_end];
+        bf %tmp.62 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_20_192_20_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_20_192_20_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_56_192_20_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 190 24 ]
+        %tmp.64 = lgetv %minTemp.4;
+        %tmp.65 = as %tmp.64 { (!Null) };
+        %tmp.66 = 9;
+        %tmp.67 = mul %tmp.65 %tmp.66;
+        %tmp.68 = 5;
+        %tmp.69 = div %tmp.67 %tmp.68;
+        %tmp.70 = 32;
+        %tmp.71 = add %tmp.69 %tmp.70;
+        lputv %minTemp.4 %tmp.71;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 191 24 ]
+        %tmp.73 = lgetv %maxTemp.5;
+        %tmp.74 = as %tmp.73 { (!Null) };
+        %tmp.75 = 9;
+        %tmp.76 = mul %tmp.74 %tmp.75;
+        %tmp.77 = 5;
+        %tmp.78 = div %tmp.76 %tmp.77;
+        %tmp.79 = 32;
+        %tmp.80 = add %tmp.78 %tmp.79;
+        lputv %maxTemp.5 %tmp.80;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_56_192_20_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_20_192_20_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_189_20_192_20_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 194 20 ]
+        %tmp.81 = "°F";
+        lputv %units.3 %tmp.81;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_187_23_195_16_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_184_16_195_16_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_56_196_6_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_5_209_6_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_5_209_6_if_false:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 196 13 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_13_209_6_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_16_196_60_begin:
+        %tmp.83 = lgetv %weather.6;
+        %tmp.84 = null;
+        %tmp.85 = ne %tmp.83 %tmp.84;
+        bf %tmp.85 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_13_209_6_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_34_196_60_true:
+        %tmp.86 = lgetv %weather.6;
+        %tmp.87 = as %tmp.86 { (!Null) };
+        %tmp.88 = getv %tmp.87 :temperature;
+        %tmp.89 = null;
+        %tmp.90 = ne %tmp.88 %tmp.89;
+        push %tmp.90;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_34_196_60_end:
+        %tmp.91 = phi [%tmp.85 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_16_196_60_begin] [%tmp.90 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_34_196_60_true] [%tmp.91 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_34_196_60_end];
+        bf %tmp.91 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_13_209_6_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_13_209_6_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_63_209_6_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 197 4 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_197_4_208_4_if_stmt:
+        %tmp.93 = lgetv %TempMetric.1;
+        %tmp.95 = getv ? :System;
+        %tmp.96 = getv %tmp.95 :UNIT_METRIC;
+        %tmp.97 = eq %tmp.93 %tmp.96;
+        bf %tmp.97 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_197_4_208_4_if_false;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_197_4_208_4_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_197_43_200_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 198 5 ]
+        %tmp.98 = "°C";
+        lputv %units.3 %tmp.98;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 199 5 ]
+        %tmp.99 = lgetv %weather.6;
+        %tmp.100 = as %tmp.99 { (!(!Null)) && (!Null) };
+        %tmp.101 = getv %tmp.100 :temperature;
+        lputv %temp.2 %tmp.101;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_197_43_200_4_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_197_4_208_4_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_197_4_208_4_if_false:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_200_11_208_4_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 201 5 ]
+        %tmp.102 = lgetv %weather.6;
+        %tmp.103 = as %tmp.102 { (!(!Null)) && (!Null) };
+        %tmp.104 = getv %tmp.103 :temperature;
+        %tmp.105 = 9;
+        %tmp.106 = mul %tmp.104 %tmp.105;
+        %tmp.107 = 5;
+        %tmp.108 = div %tmp.106 %tmp.107;
+        %tmp.109 = 32;
+        %tmp.110 = add %tmp.108 %tmp.109;
+        lputv %temp.2 %tmp.110;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 202 5 ]
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_5_205_5_if_stmt:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_9_202_36_begin:
+        %tmp.112 = lgetv %minTemp.4;
+        %tmp.113 = null;
+        %tmp.114 = ne %tmp.112 %tmp.113;
+        bf %tmp.114 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_5_205_5_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_27_202_36_true:
+        %tmp.116 = lgetv %maxTemp.5;
+        %tmp.117 = null;
+        %tmp.118 = ne %tmp.116 %tmp.117;
+        push %tmp.118;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_27_202_36_end:
+        %tmp.119 = phi [%tmp.114 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_9_202_36_begin] [%tmp.118 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_27_202_36_true] [%tmp.119 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_27_202_36_end];
+        bf %tmp.119 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_5_205_5_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_5_205_5_if_true:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_41_205_5_start:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 203 6 ]
+        %tmp.121 = lgetv %minTemp.4;
+        %tmp.122 = as %tmp.121 { (!Null) };
+        %tmp.123 = 9;
+        %tmp.124 = mul %tmp.122 %tmp.123;
+        %tmp.125 = 5;
+        %tmp.126 = div %tmp.124 %tmp.125;
+        %tmp.127 = 32;
+        %tmp.128 = add %tmp.126 %tmp.127;
+        lputv %minTemp.4 %tmp.128;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 204 6 ]
+        %tmp.130 = lgetv %maxTemp.5;
+        %tmp.131 = as %tmp.130 { (!Null) };
+        %tmp.132 = 9;
+        %tmp.133 = mul %tmp.131 %tmp.132;
+        %tmp.134 = 5;
+        %tmp.135 = div %tmp.133 %tmp.134;
+        %tmp.136 = 32;
+        %tmp.137 = add %tmp.135 %tmp.136;
+        lputv %maxTemp.5 %tmp.137;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_41_205_5_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_5_205_5_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_202_5_205_5_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 207 5 ]
+        %tmp.138 = "°F";
+        lputv %units.3 %tmp.138;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_200_11_208_4_stop:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_197_4_208_4_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_63_209_6_stop:
+        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_13_209_6_if_end;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_196_13_209_6_if_end:
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_183_5_209_6_if_end:
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 210 8 ]
+        %tmp.139 = lgetv %temp.2;
+        %tmp.140 = getv function %tmp.139 :format;
+        %tmp.141 = "%d";
+        %tmp.142 = invoke %tmp.139 %tmp.140(%tmp.141);
+        %tmp.144 = lgetv %units.3;
+        %tmp.145 = add %tmp.142 %tmp.144;
+        lputv %temp.2 %tmp.145;
+[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc" 211 8 ]
+        %tmp.147 = lgetv %temp.2;
+        putv self :cur_temperature %tmp.147;
+D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceBodyDeviceData_mc_173_30_212_4_stop:
     }
 }
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceBodyDeviceData.mc"; @line = 1; ]
+[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceBodyDeviceData.mc"; @line = 1; ]
 <init> {
 }
