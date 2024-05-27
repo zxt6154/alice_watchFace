@@ -79,7 +79,7 @@ class AliceView extends Ui.Drawable {
         var deviceBatteryy = widthDeviceBattery/2;
         dc.drawBitmap(deviceBatteryx, deviceBatteryy, deviceBatterySvg);
         dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
-        dc.drawText(deviceBatteryx+widthDeviceBattery,deviceBatteryy, Gfx.FONT_SYSTEM_TINY, bodyDeviceData.device_battery, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(deviceBatteryx+widthDeviceBattery,deviceBatteryy, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.device_battery, Gfx.TEXT_JUSTIFY_LEFT);
       
     }
 

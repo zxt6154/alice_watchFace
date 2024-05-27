@@ -181,7 +181,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.48 = add %tmp.45 %tmp.47;
         %tmp.50 = lgetv %xinlvy.4;
         %tmp.51 = getm $.Toybox.Graphics;
-        %tmp.52 = getv %tmp.51 :FONT_SYSTEM_XTINY;
+        %tmp.52 = getv %tmp.51 :FONT_SYSTEM_TINY;
         %tmp.54 = getv ? :bodyDeviceData;
         %tmp.55 = getv %tmp.54 :heartPuls;
         %tmp.56 = getm $.Toybox.Graphics;
@@ -330,7 +330,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.41 = add %tmp.38 %tmp.40;
         %tmp.43 = lgetv %actCaly.4;
         %tmp.44 = getm $.Toybox.Graphics;
-        %tmp.45 = getv %tmp.44 :FONT_SYSTEM_XTINY;
+        %tmp.45 = getv %tmp.44 :FONT_SYSTEM_TINY;
         %tmp.47 = getv ? :bodyDeviceData;
         %tmp.48 = getv %tmp.47 :calories_act;
         %tmp.49 = getm $.Toybox.Graphics;
@@ -401,7 +401,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.47 = add %tmp.44 %tmp.46;
         %tmp.49 = lgetv %caloriesy.4;
         %tmp.50 = getm $.Toybox.Graphics;
-        %tmp.51 = getv %tmp.50 :FONT_SYSTEM_XTINY;
+        %tmp.51 = getv %tmp.50 :FONT_SYSTEM_TINY;
         %tmp.53 = getv ? :bodyDeviceData;
         %tmp.54 = getv %tmp.53 :calories;
         %tmp.55 = getm $.Toybox.Graphics;
@@ -472,7 +472,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.47 = add %tmp.44 %tmp.46;
         %tmp.49 = lgetv %bodyBatteryy.4;
         %tmp.50 = getm $.Toybox.Graphics;
-        %tmp.51 = getv %tmp.50 :FONT_SYSTEM_XTINY;
+        %tmp.51 = getv %tmp.50 :FONT_SYSTEM_TINY;
         %tmp.53 = getv ? :bodyDeviceData;
         %tmp.54 = getv %tmp.53 :body_battery;
         %tmp.55 = getm $.Toybox.Graphics;
