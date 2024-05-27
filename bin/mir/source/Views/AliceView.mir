@@ -1,63 +1,63 @@
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 1; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 2; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 2; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 3; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 3; ]
 using Toybox.ActivityMonitor as :ActMon;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 4; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 4; ]
 using Toybox.Lang as :Lang;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 5; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 5; ]
 using Toybox.System as :Sys;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 6; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 6; ]
 using Toybox.Sensor as :Sor;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 7; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 7; ]
 using Toybox.ActivityMonitor as :Monitor;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 8; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 8; ]
 using Toybox.SensorHistory as :Sh;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 11; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 11; ]
 class AliceView extends Ui.Drawable{
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 11; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 11; ]
     <init> {
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 13 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 13 8 ]
         %tmp.1 = getm $.Toybox.ActivityMonitor;
         %tmp.2 = getv function %tmp.1 :getInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :activityInfo %tmp.3;
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 11; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 11; ]
     static
     <init> {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 13; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 13; @position = 8; ]
     var activityInfo;
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 14; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 14; @position = 8; ]
     var bodyDeviceData;
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 16; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 16; ]
     function initialize(params) as Void {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_16_28_19_1_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 17 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_16_28_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 17 8 ]
         %tmp.4 = getv ? :AliceBodyDeviceData;
         %tmp.1 = newc %tmp.4 ();
         putv self :bodyDeviceData %tmp.1;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 18 2 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 18 2 ]
         %tmp.6 = getv ? :Drawable;
         %tmp.7 = getv function %tmp.6 :initialize;
         %tmp.9 = lgetv %params;
         invoke %tmp.6 %tmp.7(%tmp.9);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_16_28_19_1_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_16_28_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 21; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 21; ]
     function draw(dc) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_21_18_60_1_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 43 7 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_21_18_60_1_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_21_18_60_1_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 23 6 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_stop" ]
         %info.1 = local;
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :getDeviceSettings;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %info.1 %tmp.4;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 44 7 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_21_18_60_1_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_21_18_60_1_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 39 7 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_stop" ]
         %widthDc.2 = local;
         %tmp.5 = lgetv %dc;
         %tmp.6 = getv function %tmp.5 :getWidth;
@@ -65,8 +65,8 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.8 = 1;
         %tmp.9 = sub %tmp.7 %tmp.8;
         lputv %widthDc.2 %tmp.9;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 45 7 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_21_18_60_1_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_21_18_60_1_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 40 7 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_stop" ]
         %heightDc.3 = local;
         %tmp.10 = lgetv %dc;
         %tmp.11 = getv function %tmp.10 :getHeight;
@@ -74,55 +74,55 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.13 = 1;
         %tmp.14 = sub %tmp.12 %tmp.13;
         lputv %heightDc.3 %tmp.14;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 54 7 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 49 7 ]
         %tmp.15 = self;
         %tmp.16 = getv function %tmp.15 :drawCalAct;
         %tmp.18 = lgetv %dc;
         %tmp.20 = lgetv %widthDc.2;
         %tmp.22 = lgetv %heightDc.3;
         invoke %tmp.15 %tmp.16(%tmp.18, %tmp.20, %tmp.22);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 55 7 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 50 7 ]
         %tmp.23 = self;
         %tmp.24 = getv function %tmp.23 :drawCal;
         %tmp.26 = lgetv %dc;
         %tmp.28 = lgetv %widthDc.2;
         %tmp.30 = lgetv %heightDc.3;
         invoke %tmp.23 %tmp.24(%tmp.26, %tmp.28, %tmp.30);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 56 7 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 51 7 ]
         %tmp.31 = self;
         %tmp.32 = getv function %tmp.31 :drawDeviceBattery;
         %tmp.34 = lgetv %dc;
         %tmp.36 = lgetv %widthDc.2;
         %tmp.38 = lgetv %heightDc.3;
         invoke %tmp.31 %tmp.32(%tmp.34, %tmp.36, %tmp.38);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 57 7 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 52 7 ]
         %tmp.39 = self;
         %tmp.40 = getv function %tmp.39 :drawHeartPul;
         %tmp.42 = lgetv %dc;
         %tmp.44 = lgetv %widthDc.2;
         %tmp.46 = lgetv %heightDc.3;
         invoke %tmp.39 %tmp.40(%tmp.42, %tmp.44, %tmp.46);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 58 7 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 53 7 ]
         %tmp.47 = self;
         %tmp.48 = getv function %tmp.47 :drawHeartPul;
         %tmp.50 = lgetv %dc;
         %tmp.52 = lgetv %widthDc.2;
         %tmp.54 = lgetv %heightDc.3;
         invoke %tmp.47 %tmp.48(%tmp.50, %tmp.52, %tmp.54);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 59 7 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 54 7 ]
         %tmp.55 = self;
         %tmp.56 = getv function %tmp.55 :drawBodyBattery;
         %tmp.58 = lgetv %dc;
         %tmp.60 = lgetv %widthDc.2;
         %tmp.62 = lgetv %heightDc.3;
         invoke %tmp.55 %tmp.56(%tmp.58, %tmp.60, %tmp.62);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_21_18_60_1_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_21_18_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 63; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 58; ]
     function drawHeartPul(dc, widthDc, heightDc) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 64 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 59 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_stop" ]
         %xinlvSvg.1 = local;
         %tmp.2 = getv ? :Application;
         %tmp.3 = getv function %tmp.2 :loadResource;
@@ -131,15 +131,15 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.7 = getv %tmp.6 :xinlv;
         %tmp.8 = invoke %tmp.2 %tmp.3(%tmp.7);
         lputv %xinlvSvg.1 %tmp.8;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 65 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 60 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_stop" ]
         %widthxinlv.2 = local;
         %tmp.9 = lgetv %xinlvSvg.1;
         %tmp.10 = getv function %tmp.9 :getHeight;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         lputv %widthxinlv.2 %tmp.11;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 66 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 61 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_stop" ]
         %xinlvx.3 = local;
         %tmp.13 = lgetv %widthDc;
         %tmp.14 = 2;
@@ -149,8 +149,8 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.19 = div %tmp.17 %tmp.18;
         %tmp.20 = add %tmp.15 %tmp.19;
         lputv %xinlvx.3 %tmp.20;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 67 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 62 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_stop" ]
         %xinlvy.4 = local;
         %tmp.22 = lgetv %widthxinlv.2;
         %tmp.24 = lgetv %widthxinlv.2;
@@ -158,14 +158,14 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.26 = div %tmp.24 %tmp.25;
         %tmp.27 = sub %tmp.22 %tmp.26;
         lputv %xinlvy.4 %tmp.27;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 68 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 63 8 ]
         %tmp.28 = lgetv %dc;
         %tmp.29 = getv function %tmp.28 :drawBitmap;
         %tmp.31 = lgetv %xinlvx.3;
         %tmp.33 = lgetv %xinlvy.4;
         %tmp.35 = lgetv %xinlvSvg.1;
         invoke %tmp.28 %tmp.29(%tmp.31, %tmp.33, %tmp.35);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 69 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 64 8 ]
         %tmp.36 = lgetv %dc;
         %tmp.37 = getv function %tmp.36 :setColor;
         %tmp.38 = getm $.Toybox.Graphics;
@@ -173,7 +173,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.40 = getm $.Toybox.Graphics;
         %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
         invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 70 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 65 8 ]
         %tmp.42 = lgetv %dc;
         %tmp.43 = getv function %tmp.42 :drawText;
         %tmp.45 = lgetv %xinlvx.3;
@@ -187,7 +187,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.56 = getm $.Toybox.Graphics;
         %tmp.57 = getv %tmp.56 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.42 %tmp.43(%tmp.48, %tmp.50, %tmp.52, %tmp.55, %tmp.57);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 71 9 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 66 9 ]
         %tmp.58 = getm $.Toybox.System;
         %tmp.59 = getv function %tmp.58 :println;
         %tmp.60 = "xinlvX ";
@@ -202,13 +202,13 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.72 = mul %tmp.69 %tmp.71;
         %tmp.73 = add %tmp.68 %tmp.72;
         invoke %tmp.58 %tmp.59(%tmp.73);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_63_49_73_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_58_49_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 75; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 70; ]
     function drawDeviceBattery(dc, widthDc, heightDc) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 76 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 71 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_stop" ]
         %deviceBatterySvg.1 = local;
         %tmp.2 = getv ? :Application;
         %tmp.3 = getv function %tmp.2 :loadResource;
@@ -217,15 +217,15 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.7 = getv %tmp.6 :battery_full;
         %tmp.8 = invoke %tmp.2 %tmp.3(%tmp.7);
         lputv %deviceBatterySvg.1 %tmp.8;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 77 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 72 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_stop" ]
         %widthDeviceBattery.2 = local;
         %tmp.9 = lgetv %deviceBatterySvg.1;
         %tmp.10 = getv function %tmp.9 :getHeight;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         lputv %widthDeviceBattery.2 %tmp.11;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 78 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 73 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_stop" ]
         %deviceBatteryx.3 = local;
         %tmp.13 = lgetv %widthDc;
         %tmp.14 = 2;
@@ -235,21 +235,21 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.19 = mul %tmp.16 %tmp.18;
         %tmp.20 = sub %tmp.15 %tmp.19;
         lputv %deviceBatteryx.3 %tmp.20;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 79 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 74 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_stop" ]
         %deviceBatteryy.4 = local;
         %tmp.22 = lgetv %widthDeviceBattery.2;
         %tmp.23 = 2;
         %tmp.24 = div %tmp.22 %tmp.23;
         lputv %deviceBatteryy.4 %tmp.24;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 80 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 75 8 ]
         %tmp.25 = lgetv %dc;
         %tmp.26 = getv function %tmp.25 :drawBitmap;
         %tmp.28 = lgetv %deviceBatteryx.3;
         %tmp.30 = lgetv %deviceBatteryy.4;
         %tmp.32 = lgetv %deviceBatterySvg.1;
         invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30, %tmp.32);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 81 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 76 8 ]
         %tmp.33 = lgetv %dc;
         %tmp.34 = getv function %tmp.33 :setColor;
         %tmp.35 = getm $.Toybox.Graphics;
@@ -257,7 +257,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.37 = getm $.Toybox.Graphics;
         %tmp.38 = getv %tmp.37 :COLOR_TRANSPARENT;
         invoke %tmp.33 %tmp.34(%tmp.36, %tmp.38);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 82 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 77 8 ]
         %tmp.39 = lgetv %dc;
         %tmp.40 = getv function %tmp.39 :drawText;
         %tmp.42 = lgetv %deviceBatteryx.3;
@@ -271,13 +271,13 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.53 = getm $.Toybox.Graphics;
         %tmp.54 = getv %tmp.53 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.39 %tmp.40(%tmp.45, %tmp.47, %tmp.49, %tmp.52, %tmp.54);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_75_54_84_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_70_54_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 87; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 82; ]
     function drawCalAct(dc, widthDc, heightDc) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 88 9 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 83 9 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_stop" ]
         %actCalSvg.1 = local;
         %tmp.2 = getv ? :Application;
         %tmp.3 = getv function %tmp.2 :loadResource;
@@ -286,35 +286,35 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.7 = getv %tmp.6 :act_cal;
         %tmp.8 = invoke %tmp.2 %tmp.3(%tmp.7);
         lputv %actCalSvg.1 %tmp.8;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 89 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 84 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_stop" ]
         %widthActCal.2 = local;
         %tmp.9 = lgetv %actCalSvg.1;
         %tmp.10 = getv function %tmp.9 :getHeight;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         lputv %widthActCal.2 %tmp.11;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 90 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 85 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_stop" ]
         %actCalx.3 = local;
         %tmp.13 = lgetv %widthDc;
         %tmp.14 = 2;
         %tmp.15 = div %tmp.13 %tmp.14;
         lputv %actCalx.3 %tmp.15;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 91 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 86 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_stop" ]
         %actCaly.4 = local;
         %tmp.17 = lgetv %heightDc;
         %tmp.19 = lgetv %widthActCal.2;
         %tmp.20 = sub %tmp.17 %tmp.19;
         lputv %actCaly.4 %tmp.20;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 92 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 87 8 ]
         %tmp.21 = lgetv %dc;
         %tmp.22 = getv function %tmp.21 :drawBitmap;
         %tmp.24 = lgetv %actCalx.3;
         %tmp.26 = lgetv %actCaly.4;
         %tmp.28 = lgetv %actCalSvg.1;
         invoke %tmp.21 %tmp.22(%tmp.24, %tmp.26, %tmp.28);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 93 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 88 8 ]
         %tmp.29 = lgetv %dc;
         %tmp.30 = getv function %tmp.29 :setColor;
         %tmp.31 = getm $.Toybox.Graphics;
@@ -322,7 +322,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.33 = getm $.Toybox.Graphics;
         %tmp.34 = getv %tmp.33 :COLOR_TRANSPARENT;
         invoke %tmp.29 %tmp.30(%tmp.32, %tmp.34);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 94 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 89 8 ]
         %tmp.35 = lgetv %dc;
         %tmp.36 = getv function %tmp.35 :drawText;
         %tmp.38 = lgetv %actCalx.3;
@@ -336,13 +336,13 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.49 = getm $.Toybox.Graphics;
         %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.35 %tmp.36(%tmp.41, %tmp.43, %tmp.45, %tmp.48, %tmp.50);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_87_47_95_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_82_47_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 97; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 92; ]
     function drawCal(dc, widthDc, heightDc) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 98 9 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 93 9 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_stop" ]
         %caloriesSvg.1 = local;
         %tmp.2 = getv ? :Application;
         %tmp.3 = getv function %tmp.2 :loadResource;
@@ -351,15 +351,15 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.7 = getv %tmp.6 :calories;
         %tmp.8 = invoke %tmp.2 %tmp.3(%tmp.7);
         lputv %caloriesSvg.1 %tmp.8;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 99 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 94 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_stop" ]
         %widthCalories.2 = local;
         %tmp.9 = lgetv %caloriesSvg.1;
         %tmp.10 = getv function %tmp.9 :getHeight;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         lputv %widthCalories.2 %tmp.11;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 100 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 95 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_stop" ]
         %caloriesx.3 = local;
         %tmp.13 = lgetv %widthDc;
         %tmp.14 = 2;
@@ -367,8 +367,8 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.16 = 3;
         %tmp.17 = div %tmp.15 %tmp.16;
         lputv %caloriesx.3 %tmp.17;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 101 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 96 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_stop" ]
         %caloriesy.4 = local;
         %tmp.19 = lgetv %heightDc;
         %tmp.20 = 1;
@@ -378,14 +378,14 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.25 = lgetv %widthCalories.2;
         %tmp.26 = add %tmp.23 %tmp.25;
         lputv %caloriesy.4 %tmp.26;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 102 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 97 8 ]
         %tmp.27 = lgetv %dc;
         %tmp.28 = getv function %tmp.27 :drawBitmap;
         %tmp.30 = lgetv %caloriesx.3;
         %tmp.32 = lgetv %caloriesy.4;
         %tmp.34 = lgetv %caloriesSvg.1;
         invoke %tmp.27 %tmp.28(%tmp.30, %tmp.32, %tmp.34);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 103 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 98 8 ]
         %tmp.35 = lgetv %dc;
         %tmp.36 = getv function %tmp.35 :setColor;
         %tmp.37 = getm $.Toybox.Graphics;
@@ -393,7 +393,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.39 = getm $.Toybox.Graphics;
         %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
         invoke %tmp.35 %tmp.36(%tmp.38, %tmp.40);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 104 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 99 8 ]
         %tmp.41 = lgetv %dc;
         %tmp.42 = getv function %tmp.41 :drawText;
         %tmp.44 = lgetv %caloriesx.3;
@@ -407,13 +407,13 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.55 = getm $.Toybox.Graphics;
         %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.41 %tmp.42(%tmp.47, %tmp.49, %tmp.51, %tmp.54, %tmp.56);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_97_44_105_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_92_44_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 106; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 101; ]
     function drawBodyBattery(dc, widthDc, heightDc) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 107 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 102 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_stop" ]
         %bodyBatterySvg.1 = local;
         %tmp.2 = getv ? :Application;
         %tmp.3 = getv function %tmp.2 :loadResource;
@@ -422,15 +422,15 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.7 = getv %tmp.6 :body_battery;
         %tmp.8 = invoke %tmp.2 %tmp.3(%tmp.7);
         lputv %bodyBatterySvg.1 %tmp.8;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 108 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 103 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_stop" ]
         %widthBodyBattery.2 = local;
         %tmp.9 = lgetv %bodyBatterySvg.1;
         %tmp.10 = getv function %tmp.9 :getHeight;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         lputv %widthBodyBattery.2 %tmp.11;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 109 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 104 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_stop" ]
         %bodyBatteryx.3 = local;
         %tmp.13 = lgetv %widthDc;
         %tmp.14 = 2;
@@ -438,8 +438,8 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.16 = 3;
         %tmp.17 = div %tmp.15 %tmp.16;
         lputv %bodyBatteryx.3 %tmp.17;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 110 8 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 105 8 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_stop" ]
         %bodyBatteryy.4 = local;
         %tmp.19 = lgetv %heightDc;
         %tmp.20 = 4;
@@ -449,14 +449,14 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.25 = lgetv %widthBodyBattery.2;
         %tmp.26 = sub %tmp.23 %tmp.25;
         lputv %bodyBatteryy.4 %tmp.26;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 111 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 106 8 ]
         %tmp.27 = lgetv %dc;
         %tmp.28 = getv function %tmp.27 :drawBitmap;
         %tmp.30 = lgetv %bodyBatteryx.3;
         %tmp.32 = lgetv %bodyBatteryy.4;
         %tmp.34 = lgetv %bodyBatterySvg.1;
         invoke %tmp.27 %tmp.28(%tmp.30, %tmp.32, %tmp.34);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 112 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 107 8 ]
         %tmp.35 = lgetv %dc;
         %tmp.36 = getv function %tmp.35 :setColor;
         %tmp.37 = getm $.Toybox.Graphics;
@@ -464,7 +464,7 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.39 = getm $.Toybox.Graphics;
         %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
         invoke %tmp.35 %tmp.36(%tmp.38, %tmp.40);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc" 113 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc" 108 8 ]
         %tmp.41 = lgetv %dc;
         %tmp.42 = getv function %tmp.41 :drawText;
         %tmp.44 = lgetv %bodyBatteryx.3;
@@ -478,9 +478,9 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceVie
         %tmp.55 = getm $.Toybox.Graphics;
         %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.41 %tmp.42(%tmp.47, %tmp.49, %tmp.51, %tmp.54, %tmp.56);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_AliceView_mc_106_52_115_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_AliceView_mc_101_52_stop:
     }
 }
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\AliceView.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/AliceView.mc"; @line = 1; ]
 <init> {
 }

@@ -1,62 +1,62 @@
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 1; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 2; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 2; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 3; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 3; ]
 using Toybox.System as :Sys;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 4; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 4; ]
 using Toybox.Time.Gregorian as :Calendar;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 5; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 5; ]
 using Toybox.Application as :App;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 6; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 6; ]
 import Toybox.Lang;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 8; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 8; ]
 class PresentTimeView extends Ui.Drawable{
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 9; @position = 12; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 9; @position = 12; ]
     var timeData;
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 10; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 10; ]
     function initialize(params) as Void {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_10_28_13_8_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 11 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_10_28_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 11 12 ]
         %tmp.4 = getv ? :TimeData;
         %tmp.1 = newc %tmp.4 ();
         putv self :timeData %tmp.1;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 12 12 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 12 12 ]
         %tmp.6 = getv ? :Drawable;
         %tmp.7 = getv function %tmp.6 :initialize;
         %tmp.9 = lgetv %params;
         invoke %tmp.6 %tmp.7(%tmp.9);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_10_28_13_8_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_10_28_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 15; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 15; ]
     function draw(dc) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_15_18_21_1_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 16 12 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_15_18_21_1_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_15_18_21_1_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_15_18_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 16 12 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_15_18_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_15_18_stop" ]
         %time.1 = local;
         %tmp.4 = getv ? :TimePosition;
         %tmp.6 = lgetv %dc;
         %tmp.1 = newc %tmp.4 (%tmp.6);
         lputv %time.1 %tmp.1;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 17 12 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 17 12 ]
         %tmp.7 = self;
         %tmp.8 = getv function %tmp.7 :drawMonthDay;
         %tmp.10 = lgetv %time.1;
         invoke %tmp.7 %tmp.8(%tmp.10);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 18 12 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 18 12 ]
         %tmp.11 = self;
         %tmp.12 = getv function %tmp.11 :drawSec;
         %tmp.14 = lgetv %time.1;
         invoke %tmp.11 %tmp.12(%tmp.14);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 19 12 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_15_18_21_1_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_15_18_21_1_stop" ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 19 12 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_15_18_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_15_18_stop" ]
         %font.2 = local;
         %tmp.15 = getm $.Toybox.WatchUi;
         %tmp.16 = getv function %tmp.15 :loadResource;
@@ -65,20 +65,20 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentT
         %tmp.20 = getv %tmp.19 :sgks;
         %tmp.21 = invoke %tmp.15 %tmp.16(%tmp.20);
         lputv %font.2 %tmp.21;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 20 12 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 20 12 ]
         %tmp.22 = lgetv %time.1;
         %tmp.23 = getv function %tmp.22 :time_set;
         %tmp.25 = getv ? :timeData;
         %tmp.26 = getv %tmp.25 :timeString;
         %tmp.28 = lgetv %font.2;
         invoke %tmp.22 %tmp.23(%tmp.26, %tmp.28);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_15_18_21_1_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_15_18_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 23; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 23; ]
     function drawMonthDay(time) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_23_36_27_8_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 24 11 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_23_36_27_8_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_23_36_27_8_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_23_36_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 24 11 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_23_36_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_23_36_stop" ]
         %test.1 = local;
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :loadResource;
@@ -87,27 +87,27 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentT
         %tmp.6 = getv %tmp.5 :FZSHIGKSK;
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
         lputv %test.1 %tmp.7;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 25 11 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 25 11 ]
         %tmp.8 = lgetv %time;
         %tmp.9 = getv function %tmp.8 :month_day_set;
         %tmp.11 = getv ? :timeData;
         %tmp.12 = getv %tmp.11 :monthDay;
         %tmp.14 = lgetv %test.1;
         invoke %tmp.8 %tmp.9(%tmp.12, %tmp.14);
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 26 11 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 26 11 ]
         %tmp.15 = lgetv %time;
         %tmp.16 = getv function %tmp.15 :week_set;
         %tmp.18 = getv ? :timeData;
         %tmp.19 = getv %tmp.18 :weekDay;
         %tmp.21 = lgetv %test.1;
         invoke %tmp.15 %tmp.16(%tmp.19, %tmp.21);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_23_36_27_8_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_23_36_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 29; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 29; ]
     function drawSec(time) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_29_31_32_8_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 30 11 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_29_31_32_8_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_29_31_32_8_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_29_31_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 30 11 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_29_31_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_29_31_stop" ]
         %secFont.1 = local;
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :loadResource;
@@ -116,20 +116,20 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentT
         %tmp.6 = getv %tmp.5 :id_font_clock_sec;
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
         lputv %secFont.1 %tmp.7;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 31 11 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 31 11 ]
         %tmp.8 = lgetv %time;
         %tmp.9 = getv function %tmp.8 :sec_set;
         %tmp.11 = getv ? :timeData;
         %tmp.12 = getv %tmp.11 :secString;
         %tmp.14 = lgetv %secFont.1;
         invoke %tmp.8 %tmp.9(%tmp.12, %tmp.14);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_29_31_32_8_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_29_31_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 33; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 33; ]
     function drawWeek(time) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_33_30_36_8_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 34 11 ]
-        [ "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_33_30_36_8_start" "D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_33_30_36_8_stop" ]
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_33_30_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 34 11 ]
+        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_33_30_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_33_30_stop" ]
         %weekFont.1 = local;
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :loadResource;
@@ -138,16 +138,16 @@ D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentT
         %tmp.6 = getv %tmp.5 :FZSHIGKSK;
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
         lputv %weekFont.1 %tmp.7;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc" 35 11 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc" 35 11 ]
         %tmp.8 = lgetv %time;
         %tmp.9 = getv function %tmp.8 :sec_set;
         %tmp.11 = getv ? :timeData;
         %tmp.12 = getv %tmp.11 :secString;
         %tmp.14 = lgetv %weekFont.1;
         invoke %tmp.8 %tmp.9(%tmp.12, %tmp.14);
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_Views_PresentTimeView_mc_33_30_36_8_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_Views_PresentTimeView_mc_33_30_stop:
     }
 }
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\Views\PresentTimeView.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/PresentTimeView.mc"; @line = 1; ]
 <init> {
 }

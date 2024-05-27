@@ -1,66 +1,64 @@
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc"; @line = 1; ]
 using Toybox.WatchUi;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc"; @line = 3; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc"; @line = 3; ]
 class DanceDanceAnimationDelegate extends WatchUi.AnimationDelegate{
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc"; @line = 3; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc"; @line = 3; ]
     <init> {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc"; @line = 3; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc"; @line = 3; ]
     static
     <init> {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc"; @line = 4; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc"; @line = 4; @position = 8; ]
     var _controller;
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc"; @line = 6; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc"; @line = 6; ]
     function initialize(controller) as Void {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_6_36_9_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc" 7 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_6_36_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc" 7 8 ]
         %tmp.2 = getv ? :AnimationDelegate;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc" 8 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc" 8 8 ]
         %tmp.5 = lgetv %controller;
         putv self :_controller %tmp.5;
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_6_36_9_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_6_36_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc"; @line = 12; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc"; @line = 12; ]
     function onAnimationEvent(event, options) {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_12_46_19_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc" 13 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_12_46_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc" 13 8 ]
         %tmp.2 = lgetv %event;
         push %tmp.2;
-        switch %tmp.2 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_13_8_18_8_switchStmtEnd;
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_13_8_18_8_switchStmtBegin:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc" 14 12 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_13_8_switchStmtBegin:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc" 14 12 ]
         %tmp.3 = dup %tmp.2;
         %tmp.4 = getm $.Toybox.WatchUi;
         %tmp.5 = getv %tmp.4 :ANIMATION_EVENT_COMPLETE;
         %tmp.6 = getv function %tmp.3 :equals;
         %tmp.7 = invoke %tmp.3 %tmp.6 (%tmp.5);
-        bt %tmp.7 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_14_12_14_49_switchCase;
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc" 15 12 ]
+        bt %tmp.7 @_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_14_12_switchCase;
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc" 15 12 ]
         %tmp.8 = dup %tmp.2;
         %tmp.9 = getm $.Toybox.WatchUi;
         %tmp.10 = getv %tmp.9 :ANIMATION_EVENT_CANCELED;
         %tmp.11 = getv function %tmp.8 :equals;
         %tmp.12 = invoke %tmp.8 %tmp.11 (%tmp.10);
-        bt %tmp.12 @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_15_12_17_21_switchCase;
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_13_8_18_8_switchStmtDefault:
-        goto @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_13_8_18_8_defaultCodeBegin;
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_14_12_14_49_switchCase:
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_15_12_17_21_switchCase:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc" 16 16 ]
+        bt %tmp.12 @_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_15_12_switchCase;
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_13_8_defaultCodeBegin;
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_14_12_switchCase:
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_15_12_switchCase:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc" 16 16 ]
         %tmp.14 = getv ? :_controller;
         %tmp.15 = getv function %tmp.14 :stop;
         invoke %tmp.14 %tmp.15();
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc" 17 16 ]
-        goto break @D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_13_8_18_8_switchStmtEnd;
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_13_8_18_8_defaultCodeBegin:
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_13_8_18_8_switchStmtEnd:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc" 17 16 ]
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_13_8_switchStmtEnd;
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_13_8_defaultCodeBegin:
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_13_8_switchStmtEnd:
         pop;
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_DanceDanceAnimationDelegate_mc_12_46_19_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_DanceDanceAnimationDelegate_mc_12_46_stop:
     }
 }
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\DanceDanceAnimationDelegate.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/DanceDanceAnimationDelegate.mc"; @line = 1; ]
 <init> {
 }

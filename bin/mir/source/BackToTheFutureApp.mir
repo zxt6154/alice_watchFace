@@ -1,42 +1,42 @@
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 1; ]
 using Toybox.Application as :App;
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 3; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 3; ]
 class BackToTheFutureApp extends App.AppBase{
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 3; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 3; ]
     <init> {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 3; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 3; ]
     static
     <init> {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 5; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 5; ]
     function initialize() as Void {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_BackToTheFutureApp_mc_5_26_7_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc" 6 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureApp_mc_5_26_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc" 6 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_BackToTheFutureApp_mc_5_26_7_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureApp_mc_5_26_stop:
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 10; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 10; ]
     function onStart(state) {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 14; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 14; ]
     function onStop(state) {
     }
-    [ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 18; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 18; ]
     function getInitialView() {
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_BackToTheFutureApp_mc_18_30_20_4_start:
-[ "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc" 19 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureApp_mc_18_30_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc" 19 8 ]
         %tmp.1 = newa 1;
         %tmp.5 = getv ? :BackToTheFutureView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-D_workspace_monkeyc_space_Garmin_BackToTheFuture_WatchFace_source_BackToTheFutureApp_mc_18_30_20_4_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureApp_mc_18_30_stop:
     }
 }
-[ @file = "D:\workspace\monkeyc_space\Garmin_BackToTheFuture_WatchFace\source\BackToTheFutureApp.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureApp.mc"; @line = 1; ]
 <init> {
 }

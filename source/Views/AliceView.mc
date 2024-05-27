@@ -20,18 +20,13 @@ class AliceView extends Ui.Drawable {
  
 	function draw(dc){
 
-    //     dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-    //     dc.drawText(212,148, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.device_battery, Gfx.TEXT_JUSTIFY_CENTER);
-   
-     
+      var info = System.getDeviceSettings();
     //     dc.setColor(Gfx.COLOR_PINK, Gfx.COLOR_TRANSPARENT);
     //     dc.drawText(57,200, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.steps, Gfx.TEXT_JUSTIFY_CENTER);
 
     //     dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);
     //     dc.drawText(108,222, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.cur_local, Gfx.TEXT_JUSTIFY_CENTER);
 
-    //     dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_TRANSPARENT);
-    //     dc.drawText(151,23, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.body_battery, Gfx.TEXT_JUSTIFY_CENTER);
 
     //     //cur_weather
     //     dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
@@ -40,7 +35,7 @@ class AliceView extends Ui.Drawable {
     //    dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
     //    dc.drawText(118,53, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.cur_temperature, Gfx.TEXT_JUSTIFY_CENTER);
 
-       var info = System.getDeviceSettings();
+      
        var widthDc = dc.getWidth()-1;
        var heightDc = dc.getHeight()-1;
       
