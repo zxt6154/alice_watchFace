@@ -27,6 +27,7 @@ class BackToTheFutureView extends Ui.WatchFace {
     var _playing = false;
     // Update the view
     function onUpdate(dc) {  
+
         onLayout(dc); 
         View.onUpdate(dc);
     }

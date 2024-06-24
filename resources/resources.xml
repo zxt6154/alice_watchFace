@@ -19,4 +19,5 @@
    <bitmap id = "battery_full" filename="layouts/battery_full.svg" />
    <bitmap id = "act_cal" filename="layouts/consume_cal.svg" />
    <bitmap id="body_battery" filename="layouts/body_battery.svg" />
+   <bitmap id="stars" filename="layouts/star.svg" />
 </resources>

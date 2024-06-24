@@ -12,6 +12,7 @@ module Rez {
         (:initialized) var battery_full as Symbol;
         (:initialized) var act_cal as Symbol;
         (:initialized) var body_battery as Symbol;
+        (:initialized) var stars as Symbol;
         (:initialized) var LauncherIcon as Symbol;
 
         class MainBackground extends WatchUi.Drawable {

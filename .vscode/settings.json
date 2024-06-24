@@ -1,4 +1,6 @@
 {
     "files.autoSave": "onFocusChange",
-    "accessibility.signals.sounds.volume": 0
+    "accessibility.signalOptions": {
+        "volume": 0
+    }
 }

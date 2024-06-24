@@ -115,29 +115,29 @@ _Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_18_2
     [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 29; ]
     function onUpdate(dc) {
 _Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_29_26_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 30 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 31 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :onLayout;
         %tmp.4 = lgetv %dc;
         invoke %tmp.1 %tmp.2(%tmp.4);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 31 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 32 8 ]
         %tmp.6 = getv ? :View;
         %tmp.7 = getv function %tmp.6 :onUpdate;
         %tmp.9 = lgetv %dc;
         invoke %tmp.6 %tmp.7(%tmp.9);
 _Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_29_26_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 34; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 35; ]
     function play() {
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_34_22_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 35 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_8_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_22_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 36 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_36_8_if_stmt:
         %tmp.2 = getv ? :_playing;
         %tmp.3 = not %tmp.2;
-        bf %tmp.3 @_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_22_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 36 12 ]
+        bf %tmp.3 @_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_36_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_36_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_36_22_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 37 12 ]
         %tmp.5 = getv ? :mySwirl;
         %tmp.6 = getv function %tmp.5 :play;
         %tmp.7 = newd 1;
@@ -148,68 +148,68 @@ _Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_2
         %tmp.16 = dup %tmp.7;
         %tmp.17 = aputv %tmp.16 %tmp.9 %tmp.10;
         invoke %tmp.5 %tmp.6(%tmp.17);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 38 12 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 39 12 ]
         %tmp.18 = true;
         putv self :_playing %tmp.18;
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_36_22_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_36_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_36_8_if_end:
 _Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_22_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_35_8_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_34_22_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 42; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 43; ]
     function stop() {
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_42_20_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 43 8 ]
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_8_if_stmt:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_20_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 44 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_44_8_if_stmt:
         %tmp.2 = getv ? :_playing;
-        bf %tmp.2 @_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_8_if_true:
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_21_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 44 12 ]
+        bf %tmp.2 @_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_44_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_44_8_if_true:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_44_21_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 45 12 ]
         %tmp.4 = getv ? :mySwirl;
         %tmp.5 = getv function %tmp.4 :stop;
         invoke %tmp.4 %tmp.5();
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 45 12 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 46 12 ]
         %tmp.6 = false;
         putv self :_playing %tmp.6;
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_21_stop:
-        goto @_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_8_if_end;
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_8_if_end:
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_42_20_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_44_21_stop:
+        goto @_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_44_8_if_end;
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_44_8_if_end:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_43_20_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 49; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 50; ]
     function onShow() {
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_49_23_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 50 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_50_23_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 51 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :play;
         invoke %tmp.1 %tmp.2();
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 51 8 ]
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 52 8 ]
         %tmp.3 = getm $.Toybox.WatchUi;
         %tmp.4 = getv function %tmp.3 :requestUpdate;
         invoke %tmp.3 %tmp.4();
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_49_23_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_50_23_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 58; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 59; ]
     function onHide() {
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 62; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 63; ]
     function onExitSleep() {
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_62_27_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 63 9 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_63_27_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 64 9 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_62_27_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_63_27_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 67; ]
+    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 68; ]
     function onEnterSleep() {
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_67_28_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 68 8 ]
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_68_28_start:
+[ "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc" 69 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_67_28_stop:
+_Users_alice_vscode_workspace_alice_watchFace_source_BackToTheFutureView_mc_68_28_stop:
     }
 }
 [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/BackToTheFutureView.mc"; @line = 1; ]

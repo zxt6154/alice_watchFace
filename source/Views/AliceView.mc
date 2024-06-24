@@ -19,7 +19,7 @@ class AliceView extends Ui.Drawable {
 	}
  
 	function draw(dc){
-
+        // dc.drawScaledBitmap(120,120,20,20, stars);
       var info = System.getDeviceSettings();
     //     dc.setColor(Gfx.COLOR_PINK, Gfx.COLOR_TRANSPARENT);
     //     dc.drawText(57,200, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.steps, Gfx.TEXT_JUSTIFY_CENTER);
@@ -34,23 +34,14 @@ class AliceView extends Ui.Drawable {
     //    //cur_temp
     //    dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
     //    dc.drawText(118,53, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.cur_temperature, Gfx.TEXT_JUSTIFY_CENTER);
-
       
        var widthDc = dc.getWidth()-1;
        var heightDc = dc.getHeight()-1;
-      
-    //    var options = {
-    //         :locX => 0,
-    //         :locY => 0,
-    //         :width => 0,
-    //         :height => 0,
-    //         :tintColor => Gfx.COLOR_TRANSPARENT
-    //     };
        drawCalAct(dc, widthDc, heightDc);
        drawCal(dc, widthDc, heightDc);
        drawDeviceBattery(dc, widthDc, heightDc);
        drawHeartPul(dc, widthDc, heightDc);
-       drawHeartPul(dc, widthDc, heightDc);
+    //    drawHeartPul(dc, widthDc, heightDc);
        drawBodyBattery(dc, widthDc, heightDc);
 	}
 
@@ -63,11 +54,13 @@ class AliceView extends Ui.Drawable {
         dc.drawBitmap(xinlvx, xinlvy, xinlvSvg);
         dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
         dc.drawText(xinlvx+widthxinlv, xinlvy, Gfx.FONT_SYSTEM_TINY, bodyDeviceData.heartPuls, Gfx.TEXT_JUSTIFY_LEFT);
-         Sys.println("xinlvX " + xinlvx+widthxinlv + " 2*xinlvy "+2*xinlvy);
+        Sys.println("xinlvX " + xinlvx+widthxinlv + " 2*xinlvy "+2*xinlvy);
       
     }
 
     function drawDeviceBattery(dc, widthDc, heightDc) {
+        //  var stars = Application.loadResource( Rez.Drawables.stars);
+        // dc.drawBitmap(140, 55, stars);
         var deviceBatterySvg = Application.loadResource( Rez.Drawables.battery_full);
         var widthDeviceBattery = deviceBatterySvg.getHeight();
         var deviceBatteryx = widthDc/2-2*widthDeviceBattery;
@@ -86,11 +79,11 @@ class AliceView extends Ui.Drawable {
         var actCaly = heightDc-widthActCal;
         dc.drawBitmap(actCalx, actCaly, actCalSvg);
         dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
-        dc.drawText(actCalx+widthActCal,actCaly, Gfx.FONT_SYSTEM_TINY, bodyDeviceData.calories_act, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(actCalx+widthActCal,actCaly, Gfx.FONT_SYSTEM_XTINY, bodyDeviceData.calories_act, Gfx.TEXT_JUSTIFY_LEFT);
     }
 
     function drawCal(dc, widthDc, heightDc) {
-         var caloriesSvg = Application.loadResource( Rez.Drawables.calories);
+        var caloriesSvg = Application.loadResource( Rez.Drawables.calories);
         var widthCalories = caloriesSvg.getHeight();
         var caloriesx = widthDc*2/3;
         var caloriesy = heightDc*1/2 + widthCalories;
