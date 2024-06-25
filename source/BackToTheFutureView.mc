@@ -16,18 +16,28 @@ class BackToTheFutureView extends Ui.WatchFace {
     }
     // Load your resources here
     function onLayout(dc) {
-    	var layoutMode = App.getApp().getProperty("LayoutType");
-    	if (layoutMode == 0){
-            setLayout(Rez.Layouts.NormalModeLayout(dc));     
-        } else if (layoutMode == 1){
-            setLayout(Rez.Layouts.BlackModeLayout(dc));     
+    	//var layoutMode = App.getApp().getProperty("LayoutType");
+        var layoutMode;
+        if ( Toybox.Application has :Storage ) {
+    // use Application.Storage and Application.Properties methods
+               layoutMode = App.Properties.getValue("LayoutType");
+               var test = App.Properties.getValue("CaloriesBarGraphsOn");
+               Sys.println("测试 - " + test);
+            } else {
+            // use Application.AppBase methods
         }
+
+    	//if (layoutMode == 0){
+         setLayout(Rez.Layouts.NormalModeLayout(dc));     
+         setLayout(Rez.Layouts.BlackModeLayout(dc));     
+       
+       // } else if (layoutMode == 1){
+        //}
     }
 
     var _playing = false;
     // Update the view
     function onUpdate(dc) {  
-
         onLayout(dc); 
         View.onUpdate(dc);
     }
@@ -47,7 +57,7 @@ class BackToTheFutureView extends Ui.WatchFace {
         }
     }
 
-     function onShow() { 
+    function onShow() { 
         play();
         Ui.requestUpdate();
     }
@@ -56,8 +66,7 @@ class BackToTheFutureView extends Ui.WatchFace {
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
     // memory.
-    function onHide() {
-    }
+    function onHide() {}
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {

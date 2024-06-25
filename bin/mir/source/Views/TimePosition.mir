@@ -1,104 +1,104 @@
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 1; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 2; ]
+[ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 2; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 3; ]
+[ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 3; ]
 using Toybox.System as :Sys;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 4; ]
+[ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 4; ]
 using Toybox.Time.Gregorian as :Calendar;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 5; ]
+[ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 5; ]
 using Toybox.Application as :App;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 6; ]
+[ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 6; ]
 import Toybox.Lang;
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 9; ]
+[ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 9; ]
 class TimePosition extends Ui.Drawable{
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 9; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 9; ]
     <init> {
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 13 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 13 8 ]
         %tmp.2 = 2;
         %tmp.1 = newa Array<Number> %tmp.2;
         putv self :device_w_h %tmp.1;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 15 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 15 8 ]
         %tmp.4 = 2;
         %tmp.3 = newa Array<Number> %tmp.4;
         putv self :cur_year %tmp.3;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 16 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 16 8 ]
         %tmp.6 = 2;
         %tmp.5 = newa Array<Number> %tmp.6;
         putv self :cur_month %tmp.5;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 17 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 17 8 ]
         %tmp.8 = 2;
         %tmp.7 = newa Array<Number> %tmp.8;
         putv self :cur_week %tmp.7;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 18 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 18 8 ]
         %tmp.10 = 2;
         %tmp.9 = newa Array<Number> %tmp.10;
         putv self :cur_day %tmp.9;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 19 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 19 8 ]
         %tmp.12 = 2;
         %tmp.11 = newa Array<Number> %tmp.12;
         putv self :cur_time %tmp.11;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 20 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 20 8 ]
         %tmp.14 = 2;
         %tmp.13 = newa Array<Number> %tmp.14;
         putv self :cur_sec %tmp.13;
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 9; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 9; ]
     static
     <init> {
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 11; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 11; @position = 8; ]
     var dc;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 13; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 13; @position = 8; ]
     var device_w_h;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 15; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 15; @position = 8; ]
     var cur_year;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 16; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 16; @position = 8; ]
     var cur_month;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 17; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 17; @position = 8; ]
     var cur_week;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 18; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 18; @position = 8; ]
     var cur_day;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 19; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 19; @position = 8; ]
     var cur_time;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 20; @position = 8; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 20; @position = 8; ]
     var cur_sec;
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 22; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 22; ]
     function initialize(_dc) as Void {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_22_28_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 23 8 ]
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_22_28_start:
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 23 8 ]
         %tmp.2 = lgetv %_dc;
         putv self :dc %tmp.2;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 25 7 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 25 7 ]
         %tmp.3 = getv self :device_w_h;
         %tmp.5 = getv ? :dc;
         %tmp.6 = getv function %tmp.5 :getWidth;
         %tmp.7 = invoke %tmp.5 %tmp.6();
         %tmp.8 = 0;
         aputv %tmp.3 %tmp.8 %tmp.7;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 26 7 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 26 7 ]
         %tmp.9 = getv self :device_w_h;
         %tmp.11 = getv ? :dc;
         %tmp.12 = getv function %tmp.11 :getHeight;
         %tmp.13 = invoke %tmp.11 %tmp.12();
         %tmp.14 = 1;
         aputv %tmp.9 %tmp.14 %tmp.13;
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_22_28_stop:
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_22_28_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 30; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 30; ]
     function month_day_set(monthDayStr, test) {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_30_45_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 31 8 ]
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_30_45_start:
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 31 8 ]
         %tmp.1 = getv self :cur_year;
         %tmp.2 = 100;
         %tmp.3 = 0;
         aputv %tmp.1 %tmp.3 %tmp.2;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 32 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 32 8 ]
         %tmp.4 = getv self :cur_year;
         %tmp.5 = 32;
         %tmp.6 = 1;
         aputv %tmp.4 %tmp.6 %tmp.5;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 33 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 33 8 ]
         %tmp.7 = self;
         %tmp.8 = getv function %tmp.7 :customDrawTime;
         %tmp.10 = getv ? :dc;
@@ -113,22 +113,22 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_30_45
         %tmp.22 = lgetv %monthDayStr;
         %tmp.24 = lgetv %test;
         invoke %tmp.7 %tmp.8(%tmp.10, %tmp.14, %tmp.18, %tmp.20, %tmp.22, %tmp.24);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_30_45_stop:
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_30_45_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 36; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 36; ]
     function week_set(weekDayStr, test) {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_36_39_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 37 8 ]
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_36_39_start:
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 37 8 ]
         %tmp.1 = getv self :cur_week;
         %tmp.2 = 205;
         %tmp.3 = 0;
         aputv %tmp.1 %tmp.3 %tmp.2;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 38 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 38 8 ]
         %tmp.4 = getv self :cur_week;
         %tmp.5 = 122;
         %tmp.6 = 1;
         aputv %tmp.4 %tmp.6 %tmp.5;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 39 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 39 8 ]
         %tmp.7 = self;
         %tmp.8 = getv function %tmp.7 :customDrawTime;
         %tmp.10 = getv ? :dc;
@@ -143,19 +143,19 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_36_39
         %tmp.22 = lgetv %weekDayStr;
         %tmp.24 = lgetv %test;
         invoke %tmp.7 %tmp.8(%tmp.10, %tmp.14, %tmp.18, %tmp.20, %tmp.22, %tmp.24);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_36_39_stop:
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_36_39_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 42; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 42; ]
     function month_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 45; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 45; ]
     function day_set() {
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 48; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 48; ]
     function sec_set(secString, secFont) {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 49 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41_stop" ]
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_48_41_start:
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 49 8 ]
+        [ "_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_48_41_start" "_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_48_41_stop" ]
         %x.1 = local;
         %tmp.2 = getv ? :device_w_h;
         %tmp.3 = 0;
@@ -163,7 +163,7 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41
         %tmp.5 = 2;
         %tmp.6 = div %tmp.4 %tmp.5;
         lputv %x.1 %tmp.6;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 50 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 50 8 ]
         %tmp.7 = getv self :cur_sec;
         %tmp.9 = lgetv %x.1;
         %tmp.11 = lgetv %x.1;
@@ -174,8 +174,8 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41
         %tmp.16 = add %tmp.14 %tmp.15;
         %tmp.17 = 0;
         aputv %tmp.7 %tmp.17 %tmp.16;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 51 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41_stop" ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 51 8 ]
+        [ "_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_48_41_start" "_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_48_41_stop" ]
         %textDim.2 = local;
         %tmp.19 = getv ? :dc;
         %tmp.20 = getv function %tmp.19 :getTextDimensions;
@@ -183,7 +183,7 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41
         %tmp.24 = lgetv %secFont;
         %tmp.25 = invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24);
         lputv %textDim.2 %tmp.25;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 52 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 52 8 ]
         %tmp.26 = getv self :cur_sec;
         %tmp.28 = getv ? :device_w_h;
         %tmp.29 = 1;
@@ -198,7 +198,7 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41
         %tmp.39 = sub %tmp.32 %tmp.38;
         %tmp.40 = 1;
         aputv %tmp.26 %tmp.40 %tmp.39;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 53 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 53 8 ]
         %tmp.41 = self;
         %tmp.42 = getv function %tmp.41 :customDrawTime;
         %tmp.44 = getv ? :dc;
@@ -213,12 +213,12 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41
         %tmp.56 = lgetv %secString;
         %tmp.58 = lgetv %secFont;
         invoke %tmp.41 %tmp.42(%tmp.44, %tmp.48, %tmp.52, %tmp.54, %tmp.56, %tmp.58);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_48_41_stop:
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_48_41_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 55; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 55; ]
     function time_set(timeString, font) {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 56 8 ]
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_55_40_start:
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 56 8 ]
         %tmp.1 = getv self :cur_time;
         %tmp.3 = getv ? :device_w_h;
         %tmp.4 = 0;
@@ -229,8 +229,8 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40
         %tmp.9 = sub %tmp.7 %tmp.8;
         %tmp.10 = 0;
         aputv %tmp.1 %tmp.10 %tmp.9;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 57 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40_stop" ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 57 8 ]
+        [ "_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_55_40_start" "_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_55_40_stop" ]
         %textDim.1 = local;
         %tmp.12 = getv ? :dc;
         %tmp.13 = getv function %tmp.12 :getTextDimensions;
@@ -238,8 +238,8 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40
         %tmp.17 = lgetv %font;
         %tmp.18 = invoke %tmp.12 %tmp.13(%tmp.15, %tmp.17);
         lputv %textDim.1 %tmp.18;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 59 8 ]
-        [ "_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40_start" "_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40_stop" ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 59 8 ]
+        [ "_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_55_40_start" "_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_55_40_stop" ]
         %textDim1.2 = local;
         %tmp.20 = getv ? :dc;
         %tmp.21 = getv function %tmp.20 :getTextWidthInPixels;
@@ -247,14 +247,14 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40
         %tmp.25 = lgetv %font;
         %tmp.26 = invoke %tmp.20 %tmp.21(%tmp.23, %tmp.25);
         lputv %textDim1.2 %tmp.26;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 60 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 60 8 ]
         %tmp.27 = getm $.Toybox.System;
         %tmp.28 = getv function %tmp.27 :println;
         %tmp.29 = "textDim[0] - ";
         %tmp.31 = lgetv %textDim1.2;
         %tmp.32 = add %tmp.29 %tmp.31;
         invoke %tmp.27 %tmp.28(%tmp.32);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 61 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 61 8 ]
         %tmp.33 = getv self :cur_time;
         %tmp.35 = getv ? :device_w_h;
         %tmp.36 = 1;
@@ -269,7 +269,7 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40
         %tmp.46 = sub %tmp.39 %tmp.45;
         %tmp.47 = 1;
         aputv %tmp.33 %tmp.47 %tmp.46;
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 62 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 62 8 ]
         %tmp.48 = self;
         %tmp.49 = getv function %tmp.48 :customDrawTime;
         %tmp.51 = getv ? :dc;
@@ -284,19 +284,19 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40
         %tmp.63 = lgetv %timeString;
         %tmp.65 = lgetv %font;
         invoke %tmp.48 %tmp.49(%tmp.51, %tmp.55, %tmp.59, %tmp.61, %tmp.63, %tmp.65);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_55_40_stop:
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_55_40_stop:
     }
-    [ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 65; ]
+    [ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 65; ]
     function customDrawTime(dc, x, y, colour, data, font) {
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_65_57_start:
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 66 8 ]
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_65_57_start:
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 66 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.4 = lgetv %colour;
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_BLACK;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc" 67 8 ]
+[ "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc" 67 8 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :drawText;
         %tmp.10 = lgetv %x;
@@ -306,9 +306,9 @@ _Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_65_57
         %tmp.17 = getm $.Toybox.Graphics;
         %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14, %tmp.16, %tmp.18);
-_Users_alice_vscode_workspace_alice_watchFace_source_Views_TimePosition_mc_65_57_stop:
+_Users_alice_vscode_workspace_test_frame_source_Views_TimePosition_mc_65_57_stop:
     }
 }
-[ @file = "/Users/alice/vscode/workspace/alice_watchFace/source/Views/TimePosition.mc"; @line = 1; ]
+[ @file = "/Users/alice/vscode/workspace/test_frame/source/Views/TimePosition.mc"; @line = 1; ]
 <init> {
 }

@@ -54,20 +54,16 @@ module Rez {
     } // JsonData
 
     module Layouts {
-        function BlackModeLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_presentView = new PresentTimeView({:identifier=>"presentView"});
-
-            var rez_cmp_local_custom_drawable_aliceView = new AliceView({:identifier=>"aliceView"});
-
-            return [rez_cmp_local_custom_drawable_presentView, rez_cmp_local_custom_drawable_aliceView] as Array<WatchUi.Drawable>;
-        }
-
         function NormalModeLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_custom_drawable_presentView = new PresentTimeView({:identifier=>"presentView"});
 
+            return [rez_cmp_local_custom_drawable_presentView] as Array<WatchUi.Drawable>;
+        }
+
+        function BlackModeLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_custom_drawable_aliceView = new AliceView({:identifier=>"aliceView"});
 
-            return [rez_cmp_local_custom_drawable_presentView, rez_cmp_local_custom_drawable_aliceView] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_aliceView] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

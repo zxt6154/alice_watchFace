@@ -1,6 +1,9 @@
 <resources>
 	<layout id="NormalModeLayout">
 		<drawable id="presentView" class="PresentTimeView" />
+	</layout>
+	<layout id="BlackModeLayout">
 		<drawable id="aliceView" class="AliceView" />
 	</layout>
+	
 </resources>
